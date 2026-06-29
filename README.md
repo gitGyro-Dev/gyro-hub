@@ -1,20 +1,60 @@
 # Gyro Hub
 
-Official hub and portfolio dashboard for the Gyro project.
+> The official gateway to the Gyro Ecosystem.
 
-## Projects
-- Gyro Logic
-- GyroOS
-- GyroAuth
+Gyro is a research and development ecosystem exploring how stable behavior emerges from structured observation rather than exact matching.
+
+Instead of asking:
+
+> Are these two things identical?
+
+Gyro asks:
+
+> Does the structure remain stable despite deviation?
+
+---
+
+# Gyro Ecosystem
+
+```
+                 Gyro Hub
+                     |
+   +-----------------+-----------------+
+   |                 |                 |
+Gyro Logic       GyroOS          GyroAuth
+   |                 |                 |
+   +-----------------+-----------------+
+                     |
+         Gyro Developer Tools
+                     |
+ Papers • DOI • Releases • Demos • X
+```
+
+## Core Projects
+
+- **Gyro Logic** — The theoretical foundation.
+- **GyroOS** — Runtime architecture.
+- **GyroAuth** — Stability-based authentication.
+- **Gyro Developer Tools** — Development and automation toolkit.
 
 ## Research
-- Papers
-- DOI
-- Releases
 
-## Development
-- GitHub Repositories
-- Issues
+- Publications
+- DOI
+- Zenodo
+- jxiv
+- Release Notes
 - Roadmap
 
-This repository serves as the central entry point for all Gyro projects.
+## Current Status
+
+| Project | Status |
+|---------|--------|
+| Gyro Logic | Released |
+| GyroOS | In Design |
+| GyroAuth | PoC Available |
+| Gyro Hub | Under Construction |
+
+---
+
+This repository is the central entry point for the Gyro project, connecting theory, runtime, applications, research, and development.
