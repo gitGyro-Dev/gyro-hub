@@ -32,10 +32,22 @@ Gyro Logic       GyroOS          GyroAuth
 
 ## Core Projects
 
-- **Gyro Logic** — The theoretical foundation.
-- **GyroOS** — Runtime architecture.
-- **GyroAuth** — Stability-based authentication.
-- **Gyro Developer Tools** — Development and automation toolkit.
+| Project | Role | Repository |
+|---------|------|------------|
+| Gyro Logic | The theoretical foundation | [gitGyro-Dev/gyrologic](https://github.com/gitGyro-Dev/gyrologic) |
+| GyroOS | Runtime architecture | [gitGyro-Dev/gyroos](https://github.com/gitGyro-Dev/gyroos) |
+| GyroAuth | Stability-based authentication | [gitGyro-Dev/gyroauth](https://github.com/gitGyro-Dev/gyroauth) |
+| Gyro Developer Tools | GitHub operation and development toolkit | [gitGyro-Dev/gyro-dev-tools](https://github.com/gitGyro-Dev/gyro-dev-tools) |
+
+## Project Layers
+
+| Layer | Project | Description |
+|-------|---------|-------------|
+| Theory | Gyro Logic | Defines the conceptual and mathematical foundation of Gyro. |
+| Runtime | GyroOS | Implements Gyro concepts as runtime architecture. |
+| Application | GyroAuth | Applies stability-based selection to authentication. |
+| Development | Gyro Developer Tools | Provides tooling for GitHub operations, releases, and development workflows. |
+| Hub | Gyro Hub | Connects the ecosystem as the public entry point and portfolio dashboard. |
 
 ## Research
 
@@ -53,6 +65,7 @@ Gyro Logic       GyroOS          GyroAuth
 | Gyro Logic | Released |
 | GyroOS | In Design |
 | GyroAuth | PoC Available |
+| Gyro Developer Tools | In Development |
 | Gyro Hub | Under Construction |
 
 ---
