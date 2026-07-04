@@ -1,1 +1,140 @@
-{"generated_by":"manual","version":"0.1","projects":[{"name":"Gyro Logic","version":"v3.0","status":"Released","next":"Theory Expansion"},{"name":"GyroOS","version":"v4.0","status":"In Design","next":"Runtime"},{"name":"GyroAuth","version":"v2.0","status":"PoC Available","next":"Paper"},{"name":"Gyro Developer Tools","version":"In Development","status":"Active","next":"CLI / Toolkit"},{"name":"Gyro Hub","version":"v1.0","status":"Under Construction","next":"Dashboard"}]}
+{
+  "generated_by": "manual",
+  "schema_version": "0.1",
+  "generated_at": "2026-07-04",
+  "project": {
+    "name": "Gyro Project",
+    "hub": "gyro-hub",
+    "current_focus": "Gyro Project Cycle setup",
+    "status": "Project Hub under construction"
+  },
+  "cycle": {
+    "name": "Gyro Project Cycle",
+    "stages": [
+      "Brainstorm",
+      "Hypothesis / Idea",
+      "X / Communication",
+      "GitHub Documentation",
+      "PoC / Prototype",
+      "Paper / Release",
+      "Feedback",
+      "Refinement",
+      "Brainstorm"
+    ]
+  },
+  "projects": [
+    {
+      "name": "Gyro Logic",
+      "layer": "Theory",
+      "version": "v3.0",
+      "status": "Released",
+      "next": "Theory expansion / Boundary refinement",
+      "repository": "https://github.com/gitGyro-Dev/gyrologic"
+    },
+    {
+      "name": "GyroOS",
+      "layer": "Runtime",
+      "version": "v4.0",
+      "status": "In Design",
+      "next": "Runtime architecture / Boundary-aware runtime",
+      "repository": "https://github.com/gitGyro-Dev/gyroos"
+    },
+    {
+      "name": "GyroAuth",
+      "layer": "Application",
+      "version": "v2.0",
+      "status": "PoC Available / Publication Track",
+      "next": "Paper and application refinement",
+      "repository": "https://github.com/gitGyro-Dev/gyroauth"
+    },
+    {
+      "name": "Gyro Developer Tools",
+      "layer": "Development",
+      "version": "In Development",
+      "status": "Active",
+      "next": "CLI / Toolkit / JSON generation",
+      "repository": "https://github.com/gitGyro-Dev/gyro-dev-tools"
+    },
+    {
+      "name": "Gyro Hub",
+      "layer": "Hub",
+      "version": "v0.1",
+      "status": "Project Cycle Setup",
+      "next": "Hub pages and dashboard schema",
+      "repository": "https://github.com/gitGyro-Dev/gyro-hub"
+    }
+  ],
+  "publications": [
+    {
+      "project": "Gyro Logic",
+      "medium": "Jxiv English",
+      "doi": "10.51094/jxiv.4159",
+      "url": "https://doi.org/10.51094/jxiv.4159",
+      "status": "Published"
+    },
+    {
+      "project": "Gyro Logic",
+      "medium": "Jxiv Japanese",
+      "doi": "10.51094/jxiv.4597",
+      "url": "https://doi.org/10.51094/jxiv.4597",
+      "status": "Published"
+    },
+    {
+      "project": "Gyro Logic",
+      "medium": "Zenodo v2.4",
+      "doi": "10.5281/zenodo.19674375",
+      "url": "https://doi.org/10.5281/zenodo.19674375",
+      "status": "Published"
+    }
+  ],
+  "hub_pages": [
+    "README.md",
+    "projects.md",
+    "papers.md",
+    "roadmap.md",
+    "dashboard.md",
+    "dashboard.json",
+    "research_cycle.md",
+    "artifacts.md",
+    "weekly.md",
+    "links.md"
+  ],
+  "artifacts": [
+    {
+      "name": "Gyro Project Cycle",
+      "stage": "Documentation",
+      "status": "Active",
+      "source": "research_cycle.md",
+      "next": "Integrate with dashboard generation"
+    },
+    {
+      "name": "Dashboard JSON Schema",
+      "stage": "Documentation",
+      "status": "Draft",
+      "source": "dashboard.json",
+      "next": "Automate generation from Gyro Developer Tools"
+    },
+    {
+      "name": "Gyro Weekly",
+      "stage": "Documentation",
+      "status": "Draft",
+      "source": "weekly.md",
+      "next": "Create first weekly report"
+    }
+  ],
+  "next_actions": [
+    "Create first weekly report under weekly/",
+    "Add data/ directory for generated JSON files",
+    "Connect Gyro Developer Tools to dashboard generation",
+    "Add publication sync flow for Jxiv / Zenodo / DOI",
+    "Refine artifact tracking schema"
+  ],
+  "links": {
+    "github_org": "https://github.com/gitGyro-Dev",
+    "hub": "https://github.com/gitGyro-Dev/gyro-hub",
+    "logic": "https://github.com/gitGyro-Dev/gyrologic",
+    "os": "https://github.com/gitGyro-Dev/gyroos",
+    "auth": "https://github.com/gitGyro-Dev/gyroauth",
+    "developer_tools": "https://github.com/gitGyro-Dev/gyro-dev-tools"
+  }
+}
