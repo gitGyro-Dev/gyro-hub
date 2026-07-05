@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1",
+  "generated_by": "manual",
+  "generated_at": "2026-07-05",
+  "links": {
+    "github": {
+      "organization": "https://github.com/gitGyro-Dev",
+      "hub": "https://github.com/gitGyro-Dev/gyro-hub",
+      "logic": "https://github.com/gitGyro-Dev/gyrologic",
+      "os": "https://github.com/gitGyro-Dev/gyroos",
+      "auth": "https://github.com/gitGyro-Dev/gyroauth",
+      "developer_tools": "https://github.com/gitGyro-Dev/gyro-dev-tools"
+    },
+    "publications": {
+      "gyro_logic_jxiv_en": "https://doi.org/10.51094/jxiv.4159",
+      "gyro_logic_jxiv_jp": "https://doi.org/10.51094/jxiv.4597",
+      "gyro_logic_zenodo_v2_4": "https://doi.org/10.5281/zenodo.19674375"
+    },
+    "operations": {
+      "dashboard": "dashboard.md",
+      "weekly": "weekly.md",
+      "research_cycle": "research_cycle.md",
+      "artifacts": "artifacts.md",
+      "data": "data/README.md"
+    },
+    "knowledge_storage": {
+      "google_drive": "External source",
+      "notebooklm": "External knowledge hub"
+    },
+    "communication": {
+      "x": "External communication channel",
+      "github_issues": "Repository issues",
+      "github_discussions": "Repository discussions"
+    }
+  }
+}
