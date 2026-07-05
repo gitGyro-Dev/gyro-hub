@@ -20,7 +20,7 @@ Roadmap   = future direction
 | GyroOS | v4.0 | In Design | Runtime architecture / Boundary-aware runtime |
 | GyroAuth | v2.0 | PoC Available / Publication Track | Paper and application refinement |
 | Gyro Developer Tools | In Development | Active | CLI / Toolkit / JSON generation |
-| Gyro Hub | v0.1 | Project Cycle Setup | Hub pages and dashboard schema |
+| Gyro Hub | v0.1 | Project Cycle Setup | Data-driven dashboard preparation |
 
 ---
 
@@ -30,9 +30,10 @@ Roadmap   = future direction
 - Research Lifecycle
 - Artifact Lifecycle
 - Project Hub structure
+- Data directory
 - Dashboard JSON structure
-- Developer Toolkit integration
 - Weekly operations
+- Developer Toolkit integration
 
 ---
 
@@ -78,6 +79,7 @@ See: [Research Cycle](research_cycle.md)
 | Page | Status |
 |---|---|
 | README.md | Active |
+| README_jp.md | Added |
 | projects.md | Active |
 | papers.md | Active |
 | roadmap.md | Active |
@@ -90,14 +92,35 @@ See: [Research Cycle](research_cycle.md)
 
 ---
 
-## Next Actions
+## Data Files
 
-1. Expand `dashboard.json` into a stable initial schema.
-2. Add `data/` directory when automated generation begins.
-3. Connect Gyro Developer Tools to dashboard JSON generation.
-4. Create first weekly report under `weekly/`.
-5. Add publication sync flow for Jxiv / Zenodo / DOI.
+| File | Status |
+|---|---|
+| data/README.md | Added |
+| data/projects.json | Added |
+| data/publications.json | Added |
+| data/artifacts.json | Added |
+| data/weekly_index.json | Added |
 
 ---
 
-This page should eventually be generated automatically from `dashboard.json` by Gyro Developer Tools / Gyro Commands.
+## Weekly Reports
+
+| Week | Report | Status |
+|---|---|---|
+| 2026-W27 | [Gyro Weekly 2026-W27](weekly/2026-W27.md) | Created |
+
+---
+
+## Next Actions
+
+1. Connect root `dashboard.json` with `data/*.json` structure.
+2. Add or refine `data/roadmap.json`.
+3. Add `data/links.json` if needed.
+4. Connect Gyro Developer Tools to dashboard JSON generation.
+5. Add publication sync flow for Jxiv / Zenodo / DOI.
+6. Continue weekly reports.
+
+---
+
+This page should eventually be generated automatically from `dashboard.json` and `data/*.json` by Gyro Developer Tools / Gyro Commands.
