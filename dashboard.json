@@ -1,11 +1,26 @@
 {
   "generated_by": "manual",
-  "schema_version": "0.1",
-  "generated_at": "2026-07-04",
+  "schema_version": "0.2",
+  "generated_at": "2026-07-05",
+  "role": "root_dashboard_summary",
+  "description": "Root dashboard.json is the aggregated summary consumed by dashboard.md, GitHub Pages, future Web Dashboard, and GyroOS Dashboard. Detailed source data is stored under data/*.json.",
+  "data_sources": {
+    "projects": "data/projects.json",
+    "publications": "data/publications.json",
+    "artifacts": "data/artifacts.json",
+    "roadmap": "data/roadmap.json",
+    "links": "data/links.json",
+    "weekly_index": "data/weekly_index.json"
+  },
+  "generation_policy": {
+    "current": "manual",
+    "future": "generated_by_gyro_developer_tools",
+    "principle": "data/*.json contains structured source data; root dashboard.json contains display-ready aggregate summary. dashboard.md should be generated from root dashboard.json."
+  },
   "project": {
     "name": "Gyro Project",
     "hub": "gyro-hub",
-    "current_focus": "Gyro Project Cycle setup",
+    "current_focus": "Gyro Project Cycle setup and data-driven dashboard preparation",
     "status": "Project Hub under construction"
   },
   "cycle": {
@@ -22,73 +37,26 @@
       "Brainstorm"
     ]
   },
-  "projects": [
-    {
-      "name": "Gyro Logic",
-      "layer": "Theory",
-      "version": "v3.0",
-      "status": "Released",
-      "next": "Theory expansion / Boundary refinement",
-      "repository": "https://github.com/gitGyro-Dev/gyrologic"
-    },
-    {
-      "name": "GyroOS",
-      "layer": "Runtime",
-      "version": "v4.0",
-      "status": "In Design",
-      "next": "Runtime architecture / Boundary-aware runtime",
-      "repository": "https://github.com/gitGyro-Dev/gyroos"
-    },
-    {
-      "name": "GyroAuth",
-      "layer": "Application",
-      "version": "v2.0",
-      "status": "PoC Available / Publication Track",
-      "next": "Paper and application refinement",
-      "repository": "https://github.com/gitGyro-Dev/gyroauth"
-    },
-    {
-      "name": "Gyro Developer Tools",
-      "layer": "Development",
-      "version": "In Development",
-      "status": "Active",
-      "next": "CLI / Toolkit / JSON generation",
-      "repository": "https://github.com/gitGyro-Dev/gyro-dev-tools"
-    },
-    {
-      "name": "Gyro Hub",
-      "layer": "Hub",
-      "version": "v0.1",
-      "status": "Project Cycle Setup",
-      "next": "Hub pages and dashboard schema",
-      "repository": "https://github.com/gitGyro-Dev/gyro-hub"
-    }
-  ],
-  "publications": [
-    {
-      "project": "Gyro Logic",
-      "medium": "Jxiv English",
-      "doi": "10.51094/jxiv.4159",
-      "url": "https://doi.org/10.51094/jxiv.4159",
-      "status": "Published"
-    },
-    {
-      "project": "Gyro Logic",
-      "medium": "Jxiv Japanese",
-      "doi": "10.51094/jxiv.4597",
-      "url": "https://doi.org/10.51094/jxiv.4597",
-      "status": "Published"
-    },
-    {
-      "project": "Gyro Logic",
-      "medium": "Zenodo v2.4",
-      "doi": "10.5281/zenodo.19674375",
-      "url": "https://doi.org/10.5281/zenodo.19674375",
-      "status": "Published"
-    }
+  "current_status": {
+    "gyro_logic": "Released",
+    "gyro_os": "In Design",
+    "gyro_auth": "PoC Available / Publication Track",
+    "gyro_developer_tools": "Active / In Development",
+    "gyro_hub": "Project Cycle Setup"
+  },
+  "current_focus": [
+    "Gyro Project Cycle",
+    "Research Lifecycle",
+    "Artifact Lifecycle",
+    "Project Hub structure",
+    "Data directory",
+    "Dashboard JSON structure",
+    "Weekly operations",
+    "Developer Toolkit integration"
   ],
   "hub_pages": [
     "README.md",
+    "README_jp.md",
     "projects.md",
     "papers.md",
     "roadmap.md",
@@ -97,44 +65,27 @@
     "research_cycle.md",
     "artifacts.md",
     "weekly.md",
-    "links.md"
+    "links.md",
+    "data/README.md"
   ],
-  "artifacts": [
-    {
-      "name": "Gyro Project Cycle",
-      "stage": "Documentation",
-      "status": "Active",
-      "source": "research_cycle.md",
-      "next": "Integrate with dashboard generation"
-    },
-    {
-      "name": "Dashboard JSON Schema",
-      "stage": "Documentation",
-      "status": "Draft",
-      "source": "dashboard.json",
-      "next": "Automate generation from Gyro Developer Tools"
-    },
-    {
-      "name": "Gyro Weekly",
-      "stage": "Documentation",
-      "status": "Draft",
-      "source": "weekly.md",
-      "next": "Create first weekly report"
-    }
+  "data_files": [
+    "data/projects.json",
+    "data/publications.json",
+    "data/artifacts.json",
+    "data/roadmap.json",
+    "data/links.json",
+    "data/weekly_index.json"
   ],
+  "latest_weekly": {
+    "week": "2026-W27",
+    "path": "weekly/2026-W27.md",
+    "status": "Created"
+  },
   "next_actions": [
-    "Create first weekly report under weekly/",
-    "Add data/ directory for generated JSON files",
-    "Connect Gyro Developer Tools to dashboard generation",
-    "Add publication sync flow for Jxiv / Zenodo / DOI",
+    "Design Gyro Developer Tools dashboard generation command",
+    "Create dashboard generation implementation plan",
+    "Decide whether dashboard.md should be generated from root dashboard.json",
+    "Continue weekly reports",
     "Refine artifact tracking schema"
-  ],
-  "links": {
-    "github_org": "https://github.com/gitGyro-Dev",
-    "hub": "https://github.com/gitGyro-Dev/gyro-hub",
-    "logic": "https://github.com/gitGyro-Dev/gyrologic",
-    "os": "https://github.com/gitGyro-Dev/gyroos",
-    "auth": "https://github.com/gitGyro-Dev/gyroauth",
-    "developer_tools": "https://github.com/gitGyro-Dev/gyro-dev-tools"
-  }
+  ]
 }
