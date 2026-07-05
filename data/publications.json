@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.1",
+  "generated_by": "manual",
+  "generated_at": "2026-07-05",
+  "publications": [
+    {
+      "project": "Gyro Logic",
+      "medium": "Jxiv English",
+      "doi": "10.51094/jxiv.4159",
+      "url": "https://doi.org/10.51094/jxiv.4159",
+      "status": "Published"
+    },
+    {
+      "project": "Gyro Logic",
+      "medium": "Jxiv Japanese",
+      "doi": "10.51094/jxiv.4597",
+      "url": "https://doi.org/10.51094/jxiv.4597",
+      "status": "Published"
+    },
+    {
+      "project": "Gyro Logic",
+      "medium": "Zenodo v2.4",
+      "doi": "10.5281/zenodo.19674375",
+      "url": "https://doi.org/10.5281/zenodo.19674375",
+      "status": "Published"
+    }
+  ]
+}
