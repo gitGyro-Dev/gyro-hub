@@ -1,0 +1,72 @@
+{
+  "schema_version": "0.1",
+  "generated_by": "manual",
+  "generated_at": "2026-07-05",
+  "roadmap": {
+    "vision": "Build the Gyro ecosystem from theory to runtime, application, project operations, and research platform.",
+    "phases": [
+      {
+        "phase": 1,
+        "name": "Theory",
+        "status": "Completed / Expanding",
+        "items": [
+          "Gyro Logic",
+          "Core concepts",
+          "Publications",
+          "DOI"
+        ],
+        "next": "Boundary and related theoretical expansion"
+      },
+      {
+        "phase": 2,
+        "name": "Runtime",
+        "status": "In Progress",
+        "items": [
+          "GyroOS architecture",
+          "Context loop",
+          "Boundary-aware runtime",
+          "Dynamic equivalence runtime"
+        ],
+        "next": "Runtime documentation and PoC refinement"
+      },
+      {
+        "phase": 3,
+        "name": "Application",
+        "status": "In Progress",
+        "items": [
+          "GyroAuth",
+          "Stability-based authentication",
+          "API evolution",
+          "Authentication PoC"
+        ],
+        "next": "Publication and application refinement"
+      },
+      {
+        "phase": 4,
+        "name": "Ecosystem",
+        "status": "Started",
+        "items": [
+          "Gyro Hub",
+          "Dashboard",
+          "Project Cycle",
+          "Weekly operations",
+          "Data directory"
+        ],
+        "next": "Data-driven dashboard and Developer Toolkit integration"
+      },
+      {
+        "phase": 5,
+        "name": "Automation",
+        "status": "Planned",
+        "items": [
+          "Gyro Developer Tools",
+          "Gyro Commands",
+          "dashboard.json generation",
+          "weekly report generation",
+          "publication sync"
+        ],
+        "next": "Design dashboard generation command"
+      }
+    ]
+  }
+}
