@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.1",
+  "generated_by": "manual",
+  "generated_at": "2026-07-05",
+  "artifacts": [
+    {
+      "name": "Gyro Project Cycle",
+      "layer": "Hub",
+      "stage": "Documentation",
+      "status": "Active",
+      "source": "research_cycle.md",
+      "next": "Use in weekly operations"
+    },
+    {
+      "name": "Dashboard JSON Schema",
+      "layer": "Hub",
+      "stage": "Data Model",
+      "status": "Draft",
+      "source": "dashboard.json",
+      "next": "Connect to data/*.json"
+    },
+    {
+      "name": "Gyro Weekly",
+      "layer": "Operations",
+      "stage": "First Log",
+      "status": "Started",
+      "source": "weekly/2026-W27.md",
+      "next": "Continue weekly reports"
+    },
+    {
+      "name": "Artifact Lifecycle",
+      "layer": "Hub",
+      "stage": "Documentation",
+      "status": "Active",
+      "source": "artifacts.md",
+      "next": "Expand tracking schema"
+    }
+  ]
+}
