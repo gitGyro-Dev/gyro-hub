@@ -19,7 +19,7 @@ Roadmap   = future direction
 | Gyro Logic | v3.0 | Released | Theory expansion / Boundary refinement |
 | GyroOS | v4.0 | In Design | Runtime architecture / Boundary-aware runtime |
 | GyroAuth | v2.0 | PoC Available / Publication Track | Paper and application refinement |
-| Gyro Developer Tools | In Development | Active | CLI / Toolkit / JSON generation |
+| Gyro Developer Tools | In Development | Active | Dashboard generation command design |
 | Gyro Hub | v0.1 | Project Cycle Setup | Data-driven dashboard preparation |
 
 ---
@@ -31,9 +31,9 @@ Roadmap   = future direction
 - Artifact Lifecycle
 - Project Hub structure
 - Data directory
-- Dashboard JSON structure
+- Root dashboard aggregation
 - Weekly operations
-- Developer Toolkit integration
+- Developer Toolkit dashboard generation design
 
 ---
 
@@ -63,6 +63,27 @@ See: [Research Cycle](research_cycle.md)
 
 ---
 
+## Data Relationship
+
+```text
+data/projects.json
++ data/publications.json
++ data/artifacts.json
++ data/roadmap.json
++ data/links.json
++ data/weekly_index.json
+↓
+dashboard.json
+↓
+dashboard.md
+```
+
+Root `dashboard.json` is the aggregated display-ready summary.
+
+`data/*.json` contains structured working data that can later be generated or synchronized by Gyro Developer Tools.
+
+---
+
 ## Latest Releases / Publications
 
 - Gyro Logic v3.0
@@ -84,7 +105,7 @@ See: [Research Cycle](research_cycle.md)
 | papers.md | Active |
 | roadmap.md | Active |
 | dashboard.md | Active |
-| dashboard.json | Manual v0.1 |
+| dashboard.json | Manual v0.2 |
 | research_cycle.md | Added |
 | artifacts.md | Added |
 | weekly.md | Added |
@@ -100,7 +121,9 @@ See: [Research Cycle](research_cycle.md)
 | data/projects.json | Added |
 | data/publications.json | Added |
 | data/artifacts.json | Added |
-| data/weekly_index.json | Added |
+| data/roadmap.json | Added |
+| data/links.json | Added |
+| data/weekly_index.json | Updated |
 
 ---
 
@@ -109,17 +132,27 @@ See: [Research Cycle](research_cycle.md)
 | Week | Report | Status |
 |---|---|---|
 | 2026-W27 | [Gyro Weekly 2026-W27](weekly/2026-W27.md) | Created |
+| 2026-W28 | [Weekly Template](weekly/_template.md) | Planned |
+
+---
+
+## Developer Toolkit Integration
+
+Dashboard generation command design:
+
+- Repository: `gitGyro-Dev/gyro-dev-tools`
+- Design: `docs/gyro_dashboard_generation.md`
+- Proposed command: `python tools/gyro/dashboard.py --repo gyro-hub`
 
 ---
 
 ## Next Actions
 
-1. Connect root `dashboard.json` with `data/*.json` structure.
-2. Add or refine `data/roadmap.json`.
-3. Add `data/links.json` if needed.
-4. Connect Gyro Developer Tools to dashboard JSON generation.
-5. Add publication sync flow for Jxiv / Zenodo / DOI.
-6. Continue weekly reports.
+1. Implement local dashboard generation prototype in Gyro Developer Tools.
+2. Generate root `dashboard.json` from `data/*.json`.
+3. Generate `dashboard.md` from root `dashboard.json`.
+4. Continue weekly reports.
+5. Refine artifact tracking schema.
 
 ---
 
