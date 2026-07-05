@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1",
+  "generated_by": "manual",
+  "generated_at": "2026-07-05",
+  "projects": [
+    {
+      "name": "Gyro Logic",
+      "layer": "Theory",
+      "status": "Released",
+      "version": "v3.0",
+      "repository": "https://github.com/gitGyro-Dev/gyrologic",
+      "next": "Theory expansion / Boundary refinement"
+    },
+    {
+      "name": "GyroOS",
+      "layer": "Runtime",
+      "status": "In Design",
+      "version": "v4.0",
+      "repository": "https://github.com/gitGyro-Dev/gyroos",
+      "next": "Runtime architecture / Boundary-aware runtime"
+    },
+    {
+      "name": "GyroAuth",
+      "layer": "Application",
+      "status": "PoC Available / Publication Track",
+      "version": "v2.0",
+      "repository": "https://github.com/gitGyro-Dev/gyroauth",
+      "next": "Paper and application refinement"
+    },
+    {
+      "name": "Gyro Developer Tools",
+      "layer": "Development",
+      "status": "Active",
+      "version": "In Development",
+      "repository": "https://github.com/gitGyro-Dev/gyro-dev-tools",
+      "next": "CLI / Toolkit / JSON generation"
+    },
+    {
+      "name": "Gyro Hub",
+      "layer": "Hub",
+      "status": "Project Cycle Setup",
+      "version": "v0.1",
+      "repository": "https://github.com/gitGyro-Dev/gyro-hub",
+      "next": "Data directory and weekly operations"
+    }
+  ]
+}
