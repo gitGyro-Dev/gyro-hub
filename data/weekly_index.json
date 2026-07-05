@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1",
+  "generated_by": "manual",
+  "generated_at": "2026-07-05",
+  "weekly_reports": [
+    {
+      "week": "2026-W27",
+      "title": "Gyro Weekly 2026-W27",
+      "path": "weekly/2026-W27.md",
+      "status": "Created",
+      "focus": [
+        "Gyro Project Cycle",
+        "Gyro Hub",
+        "Data directory",
+        "Weekly operations"
+      ]
+    }
+  ]
+}
