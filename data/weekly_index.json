@@ -1,7 +1,8 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.2",
   "generated_by": "manual",
   "generated_at": "2026-07-05",
+  "template": "weekly/_template.md",
   "weekly_reports": [
     {
       "week": "2026-W27",
@@ -15,5 +16,11 @@
         "Weekly operations"
       ]
     }
-  ]
+  ],
+  "next_week": {
+    "week": "2026-W28",
+    "status": "Planned",
+    "template": "weekly/_template.md",
+    "note": "Create this report when the next weekly cycle is ready. Do not pre-fill future results."
+  }
 }
