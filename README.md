@@ -2,6 +2,8 @@
 
 > The official gateway to the Gyro Ecosystem and Gyro Project Cycle.
 
+[日本語版はこちら](README_jp.md)
+
 Gyro Hub is the public and operational entry point for the Gyro project.
 
 Gyro is a research and development ecosystem exploring how stable behavior emerges from structured observation rather than exact matching.
