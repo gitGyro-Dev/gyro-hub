@@ -10,6 +10,12 @@ Weekly    = weekly flow
 Roadmap   = future direction
 ```
 
+## Reports
+
+| Week | Report | Focus |
+|---|---|---|
+| 2026-W27 | [Gyro Weekly 2026-W27](weekly/2026-W27.md) | Gyro Hub, Project Cycle, data directory, first weekly log |
+
 ## Purpose
 
 Gyro Weekly records the movement of the project over time.
