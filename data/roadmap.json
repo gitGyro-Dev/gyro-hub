@@ -1,21 +1,38 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.2",
   "generated_by": "manual",
-  "generated_at": "2026-07-05",
+  "generated_at": "2026-07-10",
   "roadmap": {
     "vision": "Build the Gyro ecosystem from theory to runtime, application, project operations, and research platform.",
     "phases": [
       {
         "phase": 1,
         "name": "Theory",
-        "status": "Completed / Expanding",
+        "status": "v3.1 In Progress",
         "items": [
           "Gyro Logic",
-          "Core concepts",
+          "Core Definitions refinement",
+          "Boundary integration",
+          "Boundary State integration",
           "Publications",
           "DOI"
         ],
-        "next": "Boundary and related theoretical expansion"
+        "completed": [
+          "Core Definitions",
+          "README",
+          "README Japanese",
+          "Boundary",
+          "Boundary State",
+          "Documentation Index"
+        ],
+        "in_progress": [
+          "v3.1 Paper English",
+          "v3.1 Paper Japanese",
+          "Figures",
+          "Jxiv preparation",
+          "Release notes"
+        ],
+        "next": "Complete and release Gyro Logic v3.1"
       },
       {
         "phase": 2,
@@ -44,7 +61,7 @@
       {
         "phase": 4,
         "name": "Ecosystem",
-        "status": "Started",
+        "status": "Active",
         "items": [
           "Gyro Hub",
           "Dashboard",
@@ -52,20 +69,23 @@
           "Weekly operations",
           "Data directory"
         ],
-        "next": "Data-driven dashboard and Developer Toolkit integration"
+        "next": "Reflect project updates and maintain weekly continuity"
       },
       {
         "phase": 5,
         "name": "Automation",
-        "status": "Planned",
+        "status": "Started",
         "items": [
           "Gyro Developer Tools",
           "Gyro Commands",
-          "dashboard.json generation",
+          "dashboard generation",
           "weekly report generation",
-          "publication sync"
+          "publication sync",
+          "document consistency checks",
+          "documentation index generation",
+          "release checklist generation"
         ],
-        "next": "Design dashboard generation command"
+        "next": "Evaluate document consistency and synchronization features"
       }
     ]
   }
