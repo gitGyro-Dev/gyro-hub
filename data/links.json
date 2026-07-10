@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.2",
   "generated_by": "manual",
-  "generated_at": "2026-07-05",
+  "generated_at": "2026-07-10",
   "links": {
     "github": {
       "organization": "https://github.com/gitGyro-Dev",
@@ -22,6 +22,19 @@
       "research_cycle": "research_cycle.md",
       "artifacts": "artifacts.md",
       "data": "data/README.md"
+    },
+    "document_relationships": {
+      "gyro_logic_v3_1": {
+        "order": [
+          "Core Definitions",
+          "Boundary",
+          "Boundary State"
+        ],
+        "core_definitions": "https://github.com/gitGyro-Dev/gyrologic/blob/main/docs/01_Core_Definitions.md",
+        "boundary": "https://github.com/gitGyro-Dev/gyrologic/blob/main/docs/15_Boundary_20260610.md",
+        "boundary_state": "https://github.com/gitGyro-Dev/gyrologic/blob/main/docs/16_Boundary_State_20260610.md",
+        "principle": "Core Definitions provides the base reference; Boundary refines Slice-relative distinction; Boundary State classifies the resulting relational state."
+      }
     },
     "knowledge_storage": {
       "google_drive": "External source",
