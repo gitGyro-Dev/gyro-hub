@@ -1,15 +1,30 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.2",
   "generated_by": "manual",
-  "generated_at": "2026-07-05",
+  "generated_at": "2026-07-10",
   "projects": [
     {
       "name": "Gyro Logic",
       "layer": "Theory",
-      "status": "Released",
-      "version": "v3.0",
+      "status": "v3.1 In Progress",
+      "version": "v3.1",
       "repository": "https://github.com/gitGyro-Dev/gyrologic",
-      "next": "Theory expansion / Boundary refinement"
+      "current_focus": "Core Definition Refinement",
+      "completed": [
+        "Core Definitions",
+        "README",
+        "README Japanese",
+        "Boundary Integration",
+        "Boundary State Integration",
+        "Documentation Index"
+      ],
+      "in_progress": [
+        "Paper",
+        "Jxiv preparation",
+        "Figures",
+        "Release notes"
+      ],
+      "next": "Complete v3.1 paper, figures, publication preparation, and release plan"
     },
     {
       "name": "GyroOS",
@@ -33,15 +48,15 @@
       "status": "Active",
       "version": "In Development",
       "repository": "https://github.com/gitGyro-Dev/gyro-dev-tools",
-      "next": "CLI / Toolkit / JSON generation"
+      "next": "Document consistency and synchronization tooling candidates"
     },
     {
       "name": "Gyro Hub",
       "layer": "Hub",
-      "status": "Project Cycle Setup",
+      "status": "Project Cycle Active",
       "version": "v0.1",
       "repository": "https://github.com/gitGyro-Dev/gyro-hub",
-      "next": "Data directory and weekly operations"
+      "next": "Reflect Gyro Logic v3.1 and continue weekly operations"
     }
   ]
 }
