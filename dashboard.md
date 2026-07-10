@@ -2,8 +2,6 @@
 
 > Current overview of the Gyro Ecosystem and Gyro Project Cycle.
 
-Dashboard is a display layer of Gyro Hub. It summarizes the current position of the project, while source information remains in GitHub, papers, releases, Google Drive, NotebookLM, X, and other external sources.
-
 ```text
 Dashboard = current position
 Weekly    = weekly flow
@@ -16,50 +14,61 @@ Roadmap   = future direction
 
 | Project | Version / Track | Status | Next |
 |---|---|---|---|
-| Gyro Logic | v3.0 | Released | Theory expansion / Boundary refinement |
-| GyroOS | v4.0 | In Design | Runtime architecture / Boundary-aware runtime |
-| GyroAuth | v2.0 | PoC Available / Publication Track | Paper and application refinement |
-| Gyro Developer Tools | In Development | Active | Dashboard generation command design |
-| Gyro Hub | v0.1 | Project Cycle Setup | Data-driven dashboard preparation |
+| Gyro Logic | v3.1 | In Progress | Paper, figures, Jxiv preparation, release planning |
+| GyroOS | v4.0 | No change / In Design | Runtime architecture / Boundary-aware runtime |
+| GyroAuth | v2.0 | No change / PoC Available | Paper and application refinement |
+| Gyro Developer Tools | In Development | Issue #2 opened | Document consistency and synchronization checks |
+| Gyro Hub | v0.1 | Project Cycle Active | Continue weekly and dashboard reflection |
 
 ---
 
 ## Current Focus
 
-- Gyro Project Cycle
-- Research Lifecycle
-- Artifact Lifecycle
-- Project Hub structure
-- Data directory
-- Root dashboard aggregation
-- Weekly operations
-- Developer Toolkit dashboard generation design
+- Gyro Logic v3.1
+- Core Definition Refinement
+- Boundary Integration
+- Boundary State Integration
+- Paper preparation
+- Jxiv preparation
+- Release v3.1 planning
+- Document consistency tooling
 
 ---
 
-## Project Cycle
+## Gyro Logic v3.1 Progress
+
+### Completed
+
+- Core Definitions
+- README
+- README Japanese
+- Boundary
+- Boundary State
+- Documentation Index
+
+### In Progress
+
+- Paper English
+- Paper Japanese
+- Figures
+- Jxiv preparation
+- Release notes
+
+### Document Relationship
 
 ```text
-Brainstorm
+Core Definitions
 ↓
-Hypothesis / Idea
+Boundary
 ↓
-X / Communication
-↓
-GitHub Documentation
-↓
-PoC / Prototype
-↓
-Paper / Release
-↓
-Feedback
-↓
-Refinement
-↓
-Brainstorm
+Boundary State
 ```
 
-See: [Research Cycle](research_cycle.md)
+The invariant core remains:
+
+```text
+Structure → Slice → Stability
+```
 
 ---
 
@@ -78,53 +87,6 @@ dashboard.json
 dashboard.md
 ```
 
-Root `dashboard.json` is the aggregated display-ready summary.
-
-`data/*.json` contains structured working data that can later be generated or synchronized by Gyro Developer Tools.
-
----
-
-## Latest Releases / Publications
-
-- Gyro Logic v3.0
-- GyroOS v3.1
-- GyroAuth v2.0.0
-- Gyro Logic Jxiv English DOI: 10.51094/jxiv.4159
-- Gyro Logic Jxiv Japanese DOI: 10.51094/jxiv.4597
-- Gyro Logic Zenodo v2.4 DOI: 10.5281/zenodo.19674375
-
----
-
-## Hub Pages
-
-| Page | Status |
-|---|---|
-| README.md | Active |
-| README_jp.md | Added |
-| projects.md | Active |
-| papers.md | Active |
-| roadmap.md | Active |
-| dashboard.md | Active |
-| dashboard.json | Manual v0.2 |
-| research_cycle.md | Added |
-| artifacts.md | Added |
-| weekly.md | Added |
-| links.md | Added |
-
----
-
-## Data Files
-
-| File | Status |
-|---|---|
-| data/README.md | Added |
-| data/projects.json | Added |
-| data/publications.json | Added |
-| data/artifacts.json | Added |
-| data/roadmap.json | Added |
-| data/links.json | Added |
-| data/weekly_index.json | Updated |
-
 ---
 
 ## Weekly Reports
@@ -132,28 +94,35 @@ Root `dashboard.json` is the aggregated display-ready summary.
 | Week | Report | Status |
 |---|---|---|
 | 2026-W27 | [Gyro Weekly 2026-W27](weekly/2026-W27.md) | Created |
-| 2026-W28 | [Weekly Template](weekly/_template.md) | Planned |
+| 2026-W28 | [Gyro Weekly 2026-W28](weekly/2026-W28.md) | Created |
 
 ---
 
 ## Developer Toolkit Integration
 
-Dashboard generation command design:
+- Dashboard generator: `tools/gyro/dashboard.py`
+- Dashboard generation design: `docs/gyro_dashboard_generation.md`
+- Document consistency proposal: `gyro-dev-tools` Issue #2
 
-- Repository: `gitGyro-Dev/gyro-dev-tools`
-- Design: `docs/gyro_dashboard_generation.md`
-- Proposed command: `python tools/gyro/dashboard.py --repo gyro-hub`
+Candidate functions:
+
+- Core Definitions-based consistency checks
+- README / paper / docs synchronization checks
+- `docs_index` automatic generation
+- Document dependency visualization
+- Release checklist generation
 
 ---
 
 ## Next Actions
 
-1. Implement local dashboard generation prototype in Gyro Developer Tools.
-2. Generate root `dashboard.json` from `data/*.json`.
-3. Generate `dashboard.md` from root `dashboard.json`.
-4. Continue weekly reports.
-5. Refine artifact tracking schema.
+1. Continue Gyro Logic v3.1 paper work.
+2. Prepare Jxiv submission.
+3. Prepare X communication.
+4. Plan Gyro Logic v3.1 release.
+5. Evaluate Developer Toolkit Issue #2.
+6. Confirm final repository paths for v3.1 paper files.
 
 ---
 
-This page should eventually be generated automatically from `dashboard.json` and `data/*.json` by Gyro Developer Tools / Gyro Commands.
+This page reflects the latest accepted Project Cycle Update.
