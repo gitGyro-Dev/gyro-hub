@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "generated_by": "manual",
-  "generated_at": "2026-07-05",
+  "generated_at": "2026-07-10",
   "template": "weekly/_template.md",
   "weekly_reports": [
     {
@@ -15,10 +15,23 @@
         "Data directory",
         "Weekly operations"
       ]
+    },
+    {
+      "week": "2026-W28",
+      "title": "Gyro Weekly 2026-W28",
+      "path": "weekly/2026-W28.md",
+      "status": "Created",
+      "focus": [
+        "Gyro Logic v3.1",
+        "Core Definition Refinement",
+        "Boundary Integration",
+        "Paper preparation",
+        "Document consistency tooling"
+      ]
     }
   ],
   "next_week": {
-    "week": "2026-W28",
+    "week": "2026-W29",
     "status": "Planned",
     "template": "weekly/_template.md",
     "note": "Create this report when the next weekly cycle is ready. Do not pre-fill future results."
