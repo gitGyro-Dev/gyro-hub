@@ -1,7 +1,7 @@
 {
   "generated_by": "manual",
-  "schema_version": "0.2",
-  "generated_at": "2026-07-05",
+  "schema_version": "0.3",
+  "generated_at": "2026-07-10",
   "role": "root_dashboard_summary",
   "description": "Root dashboard.json is the aggregated summary consumed by dashboard.md, GitHub Pages, future Web Dashboard, and GyroOS Dashboard. Detailed source data is stored under data/*.json.",
   "data_sources": {
@@ -13,79 +13,49 @@
     "weekly_index": "data/weekly_index.json"
   },
   "generation_policy": {
-    "current": "manual",
+    "current": "manual_after_project_cycle_reflection",
     "future": "generated_by_gyro_developer_tools",
-    "principle": "data/*.json contains structured source data; root dashboard.json contains display-ready aggregate summary. dashboard.md should be generated from root dashboard.json."
+    "principle": "data/*.json contains structured source data; root dashboard.json contains display-ready aggregate summary."
   },
   "project": {
     "name": "Gyro Project",
     "hub": "gyro-hub",
-    "current_focus": "Gyro Project Cycle setup and data-driven dashboard preparation",
-    "status": "Project Hub under construction"
-  },
-  "cycle": {
-    "name": "Gyro Project Cycle",
-    "stages": [
-      "Brainstorm",
-      "Hypothesis / Idea",
-      "X / Communication",
-      "GitHub Documentation",
-      "PoC / Prototype",
-      "Paper / Release",
-      "Feedback",
-      "Refinement",
-      "Brainstorm"
-    ]
+    "current_focus": "Gyro Logic v3.1 Core Definition Refinement",
+    "status": "Project Cycle Active"
   },
   "current_status": {
-    "gyro_logic": "Released",
-    "gyro_os": "In Design",
-    "gyro_auth": "PoC Available / Publication Track",
-    "gyro_developer_tools": "Active / In Development",
-    "gyro_hub": "Project Cycle Setup"
+    "gyro_logic": "v3.1 In Progress",
+    "gyro_os": "No change / In Design",
+    "gyro_auth": "No change / PoC Available",
+    "gyro_developer_tools": "Consistency tooling candidate opened as Issue #2",
+    "gyro_hub": "Dashboard, Weekly, Roadmap, Artifacts, and Links updated"
   },
   "current_focus": [
-    "Gyro Project Cycle",
-    "Research Lifecycle",
-    "Artifact Lifecycle",
-    "Project Hub structure",
-    "Data directory",
-    "Dashboard JSON structure",
-    "Weekly operations",
-    "Developer Toolkit integration"
-  ],
-  "hub_pages": [
-    "README.md",
-    "README_jp.md",
-    "projects.md",
-    "papers.md",
-    "roadmap.md",
-    "dashboard.md",
-    "dashboard.json",
-    "research_cycle.md",
-    "artifacts.md",
-    "weekly.md",
-    "links.md",
-    "data/README.md"
-  ],
-  "data_files": [
-    "data/projects.json",
-    "data/publications.json",
-    "data/artifacts.json",
-    "data/roadmap.json",
-    "data/links.json",
-    "data/weekly_index.json"
+    "Gyro Logic v3.1",
+    "Core Definition Refinement",
+    "Boundary Integration",
+    "Boundary State Integration",
+    "Paper preparation",
+    "Jxiv preparation",
+    "Release v3.1 planning",
+    "Document consistency tooling"
   ],
   "latest_weekly": {
-    "week": "2026-W27",
-    "path": "weekly/2026-W27.md",
+    "week": "2026-W28",
+    "path": "weekly/2026-W28.md",
     "status": "Created"
   },
+  "document_relationship": [
+    "Core Definitions",
+    "Boundary",
+    "Boundary State"
+  ],
   "next_actions": [
-    "Design Gyro Developer Tools dashboard generation command",
-    "Create dashboard generation implementation plan",
-    "Decide whether dashboard.md should be generated from root dashboard.json",
-    "Continue weekly reports",
-    "Refine artifact tracking schema"
+    "Continue Gyro Logic v3.1 paper work",
+    "Prepare Jxiv submission",
+    "Prepare X communication",
+    "Plan Gyro Logic v3.1 release",
+    "Evaluate Developer Toolkit Issue #2",
+    "Confirm final repository paths for v3.1 paper files"
   ]
 }
