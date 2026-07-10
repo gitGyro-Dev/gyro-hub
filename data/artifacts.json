@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.2",
   "generated_by": "manual",
-  "generated_at": "2026-07-05",
+  "generated_at": "2026-07-10",
   "artifacts": [
     {
       "name": "Gyro Project Cycle",
@@ -22,9 +22,9 @@
     {
       "name": "Gyro Weekly",
       "layer": "Operations",
-      "stage": "First Log",
-      "status": "Started",
-      "source": "weekly/2026-W27.md",
+      "stage": "Active Log",
+      "status": "Active",
+      "source": "weekly/",
       "next": "Continue weekly reports"
     },
     {
@@ -34,6 +34,48 @@
       "status": "Active",
       "source": "artifacts.md",
       "next": "Expand tracking schema"
+    },
+    {
+      "name": "Gyro Logic Core Definitions",
+      "layer": "Gyro Logic",
+      "stage": "Documentation",
+      "status": "Completed for v3.1",
+      "source": "gyrologic/docs/01_Core_Definitions.md",
+      "next": "Maintain consistency with README, papers, Boundary, and Boundary State"
+    },
+    {
+      "name": "Gyro Logic Boundary Integration",
+      "layer": "Gyro Logic",
+      "stage": "Documentation",
+      "status": "Completed for v3.1",
+      "source": "gyrologic/docs/15_Boundary_20260610.md",
+      "next": "Maintain reference from Core Definitions and to Boundary State"
+    },
+    {
+      "name": "Gyro Logic Boundary State Integration",
+      "layer": "Gyro Logic",
+      "stage": "Documentation",
+      "status": "Completed for v3.1",
+      "source": "gyrologic/docs/16_Boundary_State_20260610.md",
+      "next": "Maintain dependency consistency"
+    },
+    {
+      "name": "Gyro Logic v3.1 Paper English",
+      "layer": "Gyro Logic",
+      "stage": "Paper",
+      "status": "In Progress",
+      "source": "Reported by Gyro Logic Project Cycle Reflection",
+      "reported_filename": "paper_final_v3_1.md",
+      "next": "Complete paper and confirm repository path"
+    },
+    {
+      "name": "Gyro Logic v3.1 Paper Japanese",
+      "layer": "Gyro Logic",
+      "stage": "Paper",
+      "status": "In Progress",
+      "source": "Reported by Gyro Logic Project Cycle Reflection",
+      "reported_filename": "paper_final_jp_v3_1.md",
+      "next": "Complete paper and confirm repository path"
     }
   ]
 }
