@@ -133,7 +133,7 @@ Boundary and Boundary State are derivative concepts. They are not inserted into 
 docs/01_Core_Definitions.md
 paper/paper_final_v3_1.md
 paper/paper_final_jp_v3_1.md
-release_candidates/gyrologic_v3.1.md
+release_candidates/gyrologic/v3.1/rc1.md
 ```
 
 ### Updated
@@ -247,7 +247,9 @@ paper/
     └── paper_final_jp_v3_1.md
 
 release_candidates/
-    └── gyrologic_v3.1.md
+    └── gyrologic/
+        └── v3.1/
+            └── rc1.md
 ```
 
 Theory dependency:
@@ -407,7 +409,7 @@ docs/15_Boundary_20260610.md
 docs/16_Boundary_State_20260610.md
 paper/paper_final_v3_1.md
 paper/paper_final_jp_v3_1.md
-release_candidates/gyrologic_v3.1.md
+release_candidates/gyrologic/v3.1/rc1.md
 ```
 
 ### Links
