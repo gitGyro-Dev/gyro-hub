@@ -14,24 +14,73 @@ Roadmap   = future direction
 
 | Project | Version / Track | Status | Next |
 |---|---|---|---|
-| Gyro Logic | v3.1 | In Progress | Paper, figures, Jxiv preparation, release planning |
+| Gyro Logic | v3.1 | In Progress / Release Candidate Draft | Final review, figures, release notes, release decision |
 | GyroOS | v4.0 | No change / In Design | Runtime architecture / Boundary-aware runtime |
-| GyroAuth | v2.0 | No change / PoC Available | Paper and application refinement |
-| Gyro Developer Tools | In Development | Issue #2 opened | Document consistency and synchronization checks |
-| Gyro Hub | v0.1 | Project Cycle Active | Continue weekly and dashboard reflection |
+| GyroAuth | v2.0 / Applied Research | Jxiv English and Japanese publications completed / PoC available | DOI resolution recheck, real-world dataset evaluation |
+| Gyro Developer Tools | In Development | Publication automation candidates added | DOI checks and publication synchronization |
+| Gyro Hub | v0.1 | Project Cycle Active | Continue weekly, dashboard, and release review operations |
+
+---
+
+## Recent Publications
+
+### GyroAuth Applied Research — English
+
+**Trajectory-Based Vulnerability Response: A GyroAuth Applied Model for Post-Login Security Monitoring**
+
+- Jxiv: Published
+- DOI: [10.51094/jxiv.5416](https://doi.org/10.51094/jxiv.5416)
+
+### GyroAuth Applied Research — Japanese
+
+**Trajectoryに基づく脆弱性対応：ログイン後セキュリティ監視のためのGyroAuth応用モデル**
+
+- Jxiv: Published
+- DOI: [10.51094/jxiv.5440](https://doi.org/10.51094/jxiv.5440)
+
+DOI resolution may lag behind Jxiv publication. The DOI metadata is registered as confirmed, while link resolution remains subject to recheck.
 
 ---
 
 ## Current Focus
 
-- Gyro Logic v3.1
-- Core Definition Refinement
-- Boundary Integration
-- Boundary State Integration
-- Paper preparation
-- Jxiv preparation
-- Release v3.1 planning
-- Document consistency tooling
+- Gyro Logic v3.1 release review
+- GyroAuth Trajectory-Based Vulnerability Response publication reflection
+- English/Japanese publication linkage
+- DOI resolution recheck
+- Real-world dataset evaluation planning
+- DOI and publication synchronization tooling
+
+---
+
+## GyroAuth Applied Model
+
+```text
+Boundary / Negative Definition
+↓
+Trajectory Detection
+↓
+Stability Response
+```
+
+Central proposition:
+
+```text
+valid events != stable trajectory
+```
+
+Individually valid events may still form an unstable or impermissible post-login operation Trajectory.
+
+### Publication and PoC Status
+
+| Item | Status |
+|---|---|
+| Conceptual model | Completed |
+| Minimal PoC | Completed |
+| English Jxiv publication | Completed |
+| Japanese Jxiv publication | Completed |
+| Real-world dataset evaluation | Future work |
+| Production integration | Future work |
 
 ---
 
@@ -45,14 +94,15 @@ Roadmap   = future direction
 - Boundary
 - Boundary State
 - Documentation Index
+- Release Candidate rc1
 
 ### In Progress
 
-- Paper English
-- Paper Japanese
-- Figures
-- Jxiv preparation
+- Paper final review
+- Figures decision
 - Release notes
+- Jxiv preparation
+- Release decision
 
 ### Document Relationship
 
@@ -95,6 +145,7 @@ dashboard.md
 |---|---|---|
 | 2026-W27 | [Gyro Weekly 2026-W27](weekly/2026-W27.md) | Created |
 | 2026-W28 | [Gyro Weekly 2026-W28](weekly/2026-W28.md) | Created |
+| 2026-W29 | [Gyro Weekly 2026-W29](weekly/2026-W29.md) | Created |
 
 ---
 
@@ -104,24 +155,25 @@ dashboard.md
 - Dashboard generation design: `docs/gyro_dashboard_generation.md`
 - Document consistency proposal: `gyro-dev-tools` Issue #2
 
-Candidate functions:
+Publication automation candidates:
 
-- Core Definitions-based consistency checks
-- README / paper / docs synchronization checks
-- `docs_index` automatic generation
-- Document dependency visualization
-- Release checklist generation
+- DOI publication verification
+- Jxiv DOI resolution-state checks
+- Publications JSON synchronization
+- English/Japanese publication linkage
+- Translation DOI linkage
+- Weekly publication reflection
+- X publication-status tracking
 
 ---
 
 ## Next Actions
 
-1. Continue Gyro Logic v3.1 paper work.
-2. Prepare Jxiv submission.
-3. Prepare X communication.
-4. Plan Gyro Logic v3.1 release.
-5. Evaluate Developer Toolkit Issue #2.
-6. Confirm final repository paths for v3.1 paper files.
+1. Recheck DOI resolution for `10.51094/jxiv.5416` and `10.51094/jxiv.5440`.
+2. Continue Gyro Logic v3.1 release review.
+3. Record Japanese publication communication when posted.
+4. Evaluate real-world datasets for the GyroAuth applied model.
+5. Evaluate DOI and publication synchronization tooling.
 
 ---
 
