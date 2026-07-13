@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.4",
   "generated_by": "manual_project_cycle_reflection",
   "generated_at": "2026-07-13",
   "roadmap": {
@@ -49,7 +49,7 @@
       {
         "phase": 3,
         "name": "Application",
-        "status": "Publication Milestone Completed / Future Evaluation",
+        "status": "Primary and Applied Publication Milestones Completed / Future Evaluation",
         "items": [
           "GyroAuth",
           "Stability-based authentication",
@@ -58,16 +58,19 @@
           "Trajectory-Based Vulnerability Response"
         ],
         "completed": [
+          "GyroAuth primary English Jxiv publication 10.51094/jxiv.4600",
+          "GyroAuth primary Japanese Jxiv publication 10.51094/jxiv.5341",
           "Trajectory-Based Vulnerability Response conceptual model",
           "Trajectory-Based Vulnerability Response minimal PoC",
-          "English Jxiv publication 10.51094/jxiv.5416",
-          "Japanese Jxiv publication 10.51094/jxiv.5440"
+          "Applied English Jxiv publication 10.51094/jxiv.5416",
+          "Applied Japanese Jxiv publication 10.51094/jxiv.5440"
         ],
         "future_work": [
           "Real-world dataset evaluation",
-          "Production integration"
+          "Production integration",
+          "Next GyroAuth applied research"
         ],
-        "next": "Recheck DOI resolution and connect the published applied model to future GyroAuth research"
+        "next": "Maintain publication metadata and move GyroAuth into post-publication evaluation and integration"
       },
       {
         "phase": 4,
@@ -97,6 +100,7 @@
           "release checklist generation",
           "DOI resolution checks",
           "translation DOI linkage",
+          "publication duplicate and missing-DOI checks",
           "X publication status tracking"
         ],
         "next": "Evaluate DOI and publication synchronization tooling"
