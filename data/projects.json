@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.4",
   "generated_by": "manual_project_cycle_reflection",
   "generated_at": "2026-07-13",
   "projects": [
@@ -37,21 +37,24 @@
     {
       "name": "GyroAuth",
       "layer": "Application",
-      "status": "Applied Paper Published / PoC Available",
+      "status": "Primary and Applied Papers Published / PoC Available",
       "version": "v2.0",
       "repository": "https://github.com/gitGyro-Dev/gyroauth",
-      "current_focus": "Trajectory-Based Vulnerability Response publication and follow-up",
+      "current_focus": "Publication consolidation and post-publication research",
       "completed": [
-        "Conceptual three-layer model",
-        "Minimal PoC",
-        "English Jxiv publication 10.51094/jxiv.5416",
-        "Japanese Jxiv publication 10.51094/jxiv.5440"
+        "Primary English Jxiv publication 10.51094/jxiv.4600",
+        "Primary Japanese Jxiv publication 10.51094/jxiv.5341",
+        "Trajectory-Based Vulnerability Response conceptual model",
+        "Trajectory-Based Vulnerability Response minimal PoC",
+        "Applied English Jxiv publication 10.51094/jxiv.5416",
+        "Applied Japanese Jxiv publication 10.51094/jxiv.5440"
       ],
       "future_work": [
         "Real-world dataset evaluation",
-        "Production integration"
+        "Production integration",
+        "Next GyroAuth applied research"
       ],
-      "next": "Recheck DOI resolution and connect the applied model to future GyroAuth research"
+      "next": "Maintain publication links and move to post-publication evaluation and integration"
     },
     {
       "name": "Gyro Developer Tools",
@@ -59,7 +62,7 @@
       "status": "Active",
       "version": "In Development",
       "repository": "https://github.com/gitGyro-Dev/gyro-dev-tools",
-      "next": "Document consistency, DOI resolution, and publication synchronization tooling"
+      "next": "Document consistency, DOI resolution, publication synchronization, duplicate detection, and translation linkage tooling"
     },
     {
       "name": "Gyro Hub",
@@ -67,7 +70,7 @@
       "status": "Project Cycle Active",
       "version": "v0.1",
       "repository": "https://github.com/gitGyro-Dev/gyro-hub",
-      "next": "Reflect Gyro Logic v3.1 and GyroAuth publication milestones while continuing weekly operations"
+      "next": "Maintain Gyro Logic release review and GyroAuth publication records while continuing weekly operations"
     }
   ]
 }
