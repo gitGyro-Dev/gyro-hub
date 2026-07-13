@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.5",
   "generated_by": "manual_project_cycle_reflection",
   "generated_at": "2026-07-13",
   "roadmap": {
@@ -104,6 +104,76 @@
           "X publication status tracking"
         ],
         "next": "Evaluate DOI and publication synchronization tooling"
+      }
+    ],
+    "future_research_themes": [
+      {
+        "id": "mathematical_foundations",
+        "name": "Mathematical Foundations",
+        "status": "Planned",
+        "objective": "Establish rigorous mathematical objects and relations for Gyro Logic concepts without changing the invariant Core.",
+        "topics": [
+          "Mathematical definition of Structure",
+          "Mathematical definition of Slice",
+          "Mathematical representation of Stability",
+          "Relations among Structure, Slice, Stability, Difference, and Trajectory",
+          "Potential relationships with information geometry",
+          "Potential relationships with topology and topological data analysis",
+          "Potential relationships with category theory",
+          "Formal proof and falsification framework"
+        ],
+        "boundary": "Candidate mathematical frameworks are research directions, not adopted foundations. Any formalization must preserve Structure → Slice → Stability unless Gyro Logic itself explicitly revises its theory."
+      },
+      {
+        "id": "gyro_runtime_architecture",
+        "name": "Gyro Runtime Architecture",
+        "status": "Planned",
+        "objective": "Clarify GyroOS as a runtime for executing and evaluating state-transition processes rather than as a replacement for a conventional operating-system kernel.",
+        "topics": [
+          "Runtime abstraction",
+          "Loop Runtime",
+          "Context Runtime",
+          "Boundary-aware Runtime",
+          "Execution and resource boundary model",
+          "Relationship with Linux, microkernels, workflow runtimes, and AI runtimes",
+          "Measurable safety, continuity, and operational advantages",
+          "Naming and positioning of GyroOS versus Gyro Runtime"
+        ],
+        "boundary": "This theme does not rename GyroOS or change its current architecture. It records the need to demonstrate the necessary interface between Gyro Logic and runtime execution."
+      },
+      {
+        "id": "trajectory_based_authentication",
+        "name": "Trajectory-Based Authentication",
+        "status": "Ongoing",
+        "objective": "Strengthen the formal and practical distinction between GyroAuth and existing location-based, continuous, adaptive, risk-based, and multi-factor authentication models.",
+        "topics": [
+          "Trajectory Authentication",
+          "Stability-based Selection over State Convergence",
+          "Continuous and post-login evaluation",
+          "Comparison with WebAuthn, MFA, Zero Trust, behavioral biometrics, and risk-based authentication",
+          "Security properties that cannot be reduced to individual context signals",
+          "Relay, drift, sequence, scope, and transition attack models",
+          "Formal security claims and measurable evaluation criteria",
+          "Real-world dataset and production-boundary evaluation"
+        ],
+        "boundary": "GyroAuth is not defined as GPS or Bluetooth authentication. Location and proximity may be input factors, but the core application evaluates convergence, deviation, stability, selection, and trajectory continuity."
+      },
+      {
+        "id": "theory_identity",
+        "name": "Theory Identity",
+        "status": "Research",
+        "objective": "Clarify the primary object and explanatory scope of Gyro Logic.",
+        "research_question": "What is the primary mathematical and theoretical object of Gyro Logic?",
+        "candidate_viewpoints": [
+          "State",
+          "State transition",
+          "Trajectory",
+          "Structure",
+          "Difference",
+          "Stability",
+          "Establishment and continuation"
+        ],
+        "boundary": "Candidate viewpoints are not new Core elements. This theme must distinguish the invariant Core from interpretations, derived concepts, temporal descriptions, and implementation models."
       }
     ]
   }
