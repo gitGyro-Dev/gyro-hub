@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.5",
+  "schema_version": "0.6",
   "generated_by": "manual_project_cycle_reflection",
   "generated_at": "2026-07-13",
   "roadmap": {
@@ -8,12 +8,14 @@
       {
         "phase": 1,
         "name": "Theory",
-        "status": "v3.1 In Progress",
+        "status": "v3.1 Release Review / Mathematical Formalization Study Active",
         "items": [
           "Gyro Logic",
           "Core Definitions refinement",
           "Boundary integration",
           "Boundary State integration",
+          "Mathematical Object Candidate Table v0",
+          "Minimal Formal Model v0",
           "Publications",
           "DOI"
         ],
@@ -23,16 +25,19 @@
           "README Japanese",
           "Boundary",
           "Boundary State",
-          "Documentation Index"
+          "Documentation Index",
+          "Mathematical Object Candidate Table v0"
         ],
         "in_progress": [
-          "v3.1 Paper English",
-          "v3.1 Paper Japanese",
-          "Figures",
-          "Jxiv preparation",
-          "Release notes"
+          "v3.1 release review",
+          "v3.1 Paper English final review",
+          "v3.1 Paper Japanese final review",
+          "Figures decision",
+          "Release notes",
+          "Mathematical Formalization Study",
+          "Minimal Formal Model v0 candidate selection"
         ],
-        "next": "Complete and release Gyro Logic v3.1"
+        "next": "Keep v3.1 release review separate from the next mathematical formalization research track"
       },
       {
         "phase": 2,
@@ -96,6 +101,8 @@
           "weekly report generation",
           "publication sync",
           "document consistency checks",
+          "Core invariant checks",
+          "mathematical symbol and definition-state tracking",
           "documentation index generation",
           "release checklist generation",
           "DOI resolution checks",
@@ -103,15 +110,27 @@
           "publication duplicate and missing-DOI checks",
           "X publication status tracking"
         ],
-        "next": "Evaluate DOI and publication synchronization tooling"
+        "next": "Evaluate document consistency, Core invariant, and publication synchronization tooling"
       }
     ],
     "future_research_themes": [
       {
         "id": "mathematical_foundations",
         "name": "Mathematical Foundations",
-        "status": "Planned",
+        "status": "Active",
         "objective": "Establish rigorous mathematical objects and relations for Gyro Logic concepts without changing the invariant Core.",
+        "current_artifact": "gyrologic/docs/17_Mathematical_Object_Candidate_Table_20260713.md",
+        "completed_milestones": [
+          "Mathematical Object Candidate Table v0",
+          "Initial candidate families for Structure, Slice, Stability, Difference, and Trajectory",
+          "Immediate failure warnings and non-decisions recorded"
+        ],
+        "next_milestones": [
+          "Minimal Formal Model v0",
+          "Concrete examples",
+          "Failure cases and counterexamples",
+          "Decision on docs_index registration after content stabilization"
+        ],
         "topics": [
           "Mathematical definition of Structure",
           "Mathematical definition of Slice",
@@ -122,12 +141,12 @@
           "Potential relationships with category theory",
           "Formal proof and falsification framework"
         ],
-        "boundary": "Candidate mathematical frameworks are research directions, not adopted foundations. Any formalization must preserve Structure → Slice → Stability unless Gyro Logic itself explicitly revises its theory."
+        "boundary": "This is a next-research-track artifact, not part of the v3.1 release candidate unless Gyro Logic explicitly decides otherwise. Candidate mathematical frameworks are not adopted foundations. Structure → Slice → Stability remains unchanged."
       },
       {
         "id": "gyro_runtime_architecture",
         "name": "Gyro Runtime Architecture",
-        "status": "Planned",
+        "status": "Deferred while GyroOS v4.0 PoC is active",
         "objective": "Clarify GyroOS as a runtime for executing and evaluating state-transition processes rather than as a replacement for a conventional operating-system kernel.",
         "topics": [
           "Runtime abstraction",
@@ -139,7 +158,7 @@
           "Measurable safety, continuity, and operational advantages",
           "Naming and positioning of GyroOS versus Gyro Runtime"
         ],
-        "boundary": "This theme does not rename GyroOS or change its current architecture. It records the need to demonstrate the necessary interface between Gyro Logic and runtime execution."
+        "boundary": "Do not introduce this theme into the current GyroOS v4.0 PoC unless the GyroOS project explicitly reopens it."
       },
       {
         "id": "trajectory_based_authentication",
