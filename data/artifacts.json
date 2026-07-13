@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.5",
   "generated_by": "manual_project_cycle_reflection",
   "generated_at": "2026-07-13",
   "artifacts": [
@@ -58,6 +58,16 @@
       "status": "Completed for v3.1",
       "source": "gyrologic/docs/16_Boundary_State_20260610.md",
       "next": "Maintain dependency consistency"
+    },
+    {
+      "name": "Gyro Logic Mathematical Object Candidate Table v0",
+      "layer": "Gyro Logic",
+      "stage": "Research Artifact",
+      "status": "Active Study / Non-final",
+      "source": "gyrologic/docs/17_Mathematical_Object_Candidate_Table_20260713.md",
+      "depends_on": "gyrologic/docs/01_Core_Definitions.md",
+      "release_relationship": "Separate from Gyro Logic v3.1 Release Candidate unless explicitly adopted by Gyro Logic",
+      "next": "Develop Minimal Formal Model v0, examples, and failure cases; update docs_index after content stabilization"
     },
     {
       "name": "Gyro Logic v3.1 Paper English",
