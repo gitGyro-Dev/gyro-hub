@@ -1,6 +1,6 @@
 {
   "generated_by": "manual_project_cycle_reflection",
-  "schema_version": "0.4",
+  "schema_version": "0.5",
   "generated_at": "2026-07-13",
   "role": "root_dashboard_summary",
   "description": "Root dashboard.json is the aggregated summary consumed by dashboard.md, GitHub Pages, future Web Dashboard, and GyroOS Dashboard. Detailed source data is stored under data/*.json.",
@@ -20,28 +20,45 @@
   "project": {
     "name": "Gyro Project",
     "hub": "gyro-hub",
-    "current_focus": "Gyro Logic v3.1 release planning and GyroAuth applied publication milestone",
+    "current_focus": "Gyro Logic v3.1 release planning and GyroAuth publication consolidation",
     "status": "Project Cycle Active"
   },
   "current_status": {
     "gyro_logic": "v3.1 In Progress / Release Candidate Draft",
     "gyro_os": "No change / In Design",
-    "gyro_auth": "Applied Paper Published on Jxiv / PoC Available",
-    "gyro_developer_tools": "Consistency and DOI publication tooling candidates",
+    "gyro_auth": "Primary and Applied Papers Published on Jxiv / PoC Available",
+    "gyro_developer_tools": "Consistency and publication synchronization tooling candidates",
     "gyro_hub": "Dashboard, Weekly, Publications, Roadmap, Artifacts, and Links updated"
   },
   "current_focus": [
     "Gyro Logic v3.1 release planning",
-    "GyroAuth Trajectory-Based Vulnerability Response",
-    "English Jxiv DOI 10.51094/jxiv.5416",
-    "Japanese Jxiv DOI 10.51094/jxiv.5440",
-    "DOI resolution recheck",
-    "Publication synchronization tooling"
+    "GyroAuth primary English and Japanese Jxiv publications",
+    "GyroAuth applied English and Japanese Jxiv publications",
+    "English/Japanese publication linkage",
+    "Publication duplicate and missing-DOI checks",
+    "Post-publication evaluation planning"
   ],
   "recent_publications": [
     {
       "project": "GyroAuth",
       "language": "en",
+      "role": "primary-manuscript",
+      "title": "GyroAuth: Authentication as Stability-Based Selection over State Convergence",
+      "doi": "10.51094/jxiv.4600",
+      "status": "Published on Jxiv"
+    },
+    {
+      "project": "GyroAuth",
+      "language": "ja",
+      "role": "japanese-translation",
+      "title": "GyroAuth：状態収束に対する安定性に基づく認証",
+      "doi": "10.51094/jxiv.5341",
+      "status": "Published on Jxiv"
+    },
+    {
+      "project": "GyroAuth",
+      "language": "en",
+      "role": "applied-paper",
       "title": "Trajectory-Based Vulnerability Response: A GyroAuth Applied Model for Post-Login Security Monitoring",
       "doi": "10.51094/jxiv.5416",
       "status": "Published on Jxiv"
@@ -49,6 +66,7 @@
     {
       "project": "GyroAuth",
       "language": "ja",
+      "role": "applied-paper-translation",
       "title": "Trajectoryに基づく脆弱性対応：ログイン後セキュリティ監視のためのGyroAuth応用モデル",
       "doi": "10.51094/jxiv.5440",
       "status": "Published on Jxiv"
@@ -57,12 +75,17 @@
   "latest_weekly": {
     "week": "2026-W29",
     "path": "weekly/2026-W29.md",
-    "status": "Created"
+    "status": "Updated"
   },
   "document_relationship": [
     "Core Definitions",
     "Boundary",
     "Boundary State"
+  ],
+  "layer_relationship": [
+    "Gyro Logic",
+    "GyroOS",
+    "GyroAuth"
   ],
   "applied_model_relationship": [
     "Boundary / Negative Definition",
@@ -70,10 +93,10 @@
     "Stability Response"
   ],
   "next_actions": [
-    "Recheck DOI resolution for 10.51094/jxiv.5416 and 10.51094/jxiv.5440",
     "Continue Gyro Logic v3.1 release review",
-    "Record Japanese publication communication when posted",
-    "Evaluate real-world datasets for the GyroAuth applied model",
-    "Evaluate DOI and publication synchronization tooling"
+    "Maintain GyroAuth English/Japanese publication linkage",
+    "Record X publication communication when available",
+    "Evaluate real-world datasets and production integration boundaries",
+    "Evaluate DOI, duplicate, and missing-publication synchronization tooling"
   ]
 }
