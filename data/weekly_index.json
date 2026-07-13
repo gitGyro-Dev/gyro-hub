@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.5",
   "generated_by": "manual_project_cycle_reflection",
   "generated_at": "2026-07-13",
   "template": "weekly/_template.md",
@@ -33,13 +33,13 @@
       "week": "2026-W29",
       "title": "Gyro Weekly 2026-W29",
       "path": "weekly/2026-W29.md",
-      "status": "Created",
+      "status": "Updated",
       "focus": [
-        "GyroAuth applied publication",
+        "GyroAuth primary Jxiv English and Japanese publications",
+        "GyroAuth applied Jxiv English and Japanese publications",
         "Trajectory-Based Vulnerability Response",
-        "Jxiv English and Japanese publication",
         "Minimal PoC",
-        "DOI synchronization tooling"
+        "Publication and DOI synchronization tooling"
       ]
     }
   ],
