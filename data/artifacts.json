@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.2",
-  "generated_by": "manual",
-  "generated_at": "2026-07-10",
+  "schema_version": "0.3",
+  "generated_by": "manual_project_cycle_reflection",
+  "generated_at": "2026-07-13",
   "artifacts": [
     {
       "name": "Gyro Project Cycle",
@@ -63,19 +63,60 @@
       "name": "Gyro Logic v3.1 Paper English",
       "layer": "Gyro Logic",
       "stage": "Paper",
-      "status": "In Progress",
-      "source": "Reported by Gyro Logic Project Cycle Reflection",
-      "reported_filename": "paper_final_v3_1.md",
-      "next": "Complete paper and confirm repository path"
+      "status": "Draft",
+      "source": "gyrologic/paper/paper_final_v3_1.md",
+      "next": "Final review and release planning"
     },
     {
       "name": "Gyro Logic v3.1 Paper Japanese",
       "layer": "Gyro Logic",
       "stage": "Paper",
-      "status": "In Progress",
-      "source": "Reported by Gyro Logic Project Cycle Reflection",
-      "reported_filename": "paper_final_jp_v3_1.md",
-      "next": "Complete paper and confirm repository path"
+      "status": "Draft",
+      "source": "gyrologic/paper/paper_final_jp_v3_1.md",
+      "next": "Final review and release planning"
+    },
+    {
+      "name": "Trajectory-Based Vulnerability Response English Paper",
+      "layer": "GyroAuth",
+      "stage": "Published Paper",
+      "status": "Published on Jxiv",
+      "source": "https://doi.org/10.51094/jxiv.5416",
+      "repository_source": "gyroauth/examples/trajectory_vulnerability_response/paper.md",
+      "next": "Recheck DOI resolution and maintain publication metadata"
+    },
+    {
+      "name": "Trajectory-Based Vulnerability Response Japanese Paper",
+      "layer": "GyroAuth",
+      "stage": "Published Translation",
+      "status": "Published on Jxiv",
+      "source": "https://doi.org/10.51094/jxiv.5440",
+      "repository_source": "gyroauth/examples/trajectory_vulnerability_response/paper_jp.md",
+      "next": "Recheck DOI resolution and maintain translation linkage"
+    },
+    {
+      "name": "Trajectory Vulnerability Response Minimal PoC",
+      "layer": "GyroAuth",
+      "stage": "PoC",
+      "status": "Completed",
+      "source": "gyroauth/examples/trajectory_vulnerability_response/demo.py",
+      "supporting_files": [
+        "gyroauth/examples/trajectory_vulnerability_response/sample_events.jsonl",
+        "gyroauth/examples/trajectory_vulnerability_response/README.md"
+      ],
+      "next": "Evaluate with real-world datasets"
+    },
+    {
+      "name": "Trajectory Vulnerability Response Figures",
+      "layer": "GyroAuth",
+      "stage": "Figures",
+      "status": "Published Artifact",
+      "source": "gyroauth/examples/trajectory_vulnerability_response/figures/",
+      "files": [
+        "figure1_three_layer_model.svg",
+        "figure2_architecture.svg",
+        "figure3_poc_results.svg"
+      ],
+      "next": "Reuse in future applied research and presentations"
     }
   ]
 }
