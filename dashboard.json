@@ -1,7 +1,7 @@
 {
-  "generated_by": "manual",
-  "schema_version": "0.3",
-  "generated_at": "2026-07-10",
+  "generated_by": "manual_project_cycle_reflection",
+  "schema_version": "0.4",
+  "generated_at": "2026-07-13",
   "role": "root_dashboard_summary",
   "description": "Root dashboard.json is the aggregated summary consumed by dashboard.md, GitHub Pages, future Web Dashboard, and GyroOS Dashboard. Detailed source data is stored under data/*.json.",
   "data_sources": {
@@ -20,29 +20,43 @@
   "project": {
     "name": "Gyro Project",
     "hub": "gyro-hub",
-    "current_focus": "Gyro Logic v3.1 Core Definition Refinement",
+    "current_focus": "Gyro Logic v3.1 release planning and GyroAuth applied publication milestone",
     "status": "Project Cycle Active"
   },
   "current_status": {
-    "gyro_logic": "v3.1 In Progress",
+    "gyro_logic": "v3.1 In Progress / Release Candidate Draft",
     "gyro_os": "No change / In Design",
-    "gyro_auth": "No change / PoC Available",
-    "gyro_developer_tools": "Consistency tooling candidate opened as Issue #2",
-    "gyro_hub": "Dashboard, Weekly, Roadmap, Artifacts, and Links updated"
+    "gyro_auth": "Applied Paper Published on Jxiv / PoC Available",
+    "gyro_developer_tools": "Consistency and DOI publication tooling candidates",
+    "gyro_hub": "Dashboard, Weekly, Publications, Roadmap, Artifacts, and Links updated"
   },
   "current_focus": [
-    "Gyro Logic v3.1",
-    "Core Definition Refinement",
-    "Boundary Integration",
-    "Boundary State Integration",
-    "Paper preparation",
-    "Jxiv preparation",
-    "Release v3.1 planning",
-    "Document consistency tooling"
+    "Gyro Logic v3.1 release planning",
+    "GyroAuth Trajectory-Based Vulnerability Response",
+    "English Jxiv DOI 10.51094/jxiv.5416",
+    "Japanese Jxiv DOI 10.51094/jxiv.5440",
+    "DOI resolution recheck",
+    "Publication synchronization tooling"
+  ],
+  "recent_publications": [
+    {
+      "project": "GyroAuth",
+      "language": "en",
+      "title": "Trajectory-Based Vulnerability Response: A GyroAuth Applied Model for Post-Login Security Monitoring",
+      "doi": "10.51094/jxiv.5416",
+      "status": "Published on Jxiv"
+    },
+    {
+      "project": "GyroAuth",
+      "language": "ja",
+      "title": "Trajectoryに基づく脆弱性対応：ログイン後セキュリティ監視のためのGyroAuth応用モデル",
+      "doi": "10.51094/jxiv.5440",
+      "status": "Published on Jxiv"
+    }
   ],
   "latest_weekly": {
-    "week": "2026-W28",
-    "path": "weekly/2026-W28.md",
+    "week": "2026-W29",
+    "path": "weekly/2026-W29.md",
     "status": "Created"
   },
   "document_relationship": [
@@ -50,12 +64,16 @@
     "Boundary",
     "Boundary State"
   ],
+  "applied_model_relationship": [
+    "Boundary / Negative Definition",
+    "Trajectory Detection",
+    "Stability Response"
+  ],
   "next_actions": [
-    "Continue Gyro Logic v3.1 paper work",
-    "Prepare Jxiv submission",
-    "Prepare X communication",
-    "Plan Gyro Logic v3.1 release",
-    "Evaluate Developer Toolkit Issue #2",
-    "Confirm final repository paths for v3.1 paper files"
+    "Recheck DOI resolution for 10.51094/jxiv.5416 and 10.51094/jxiv.5440",
+    "Continue Gyro Logic v3.1 release review",
+    "Record Japanese publication communication when posted",
+    "Evaluate real-world datasets for the GyroAuth applied model",
+    "Evaluate DOI and publication synchronization tooling"
   ]
 }
