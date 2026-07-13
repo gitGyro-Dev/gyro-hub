@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.2",
-  "generated_by": "manual",
-  "generated_at": "2026-07-10",
+  "schema_version": "0.3",
+  "generated_by": "manual_project_cycle_reflection",
+  "generated_at": "2026-07-13",
   "links": {
     "github": {
       "organization": "https://github.com/gitGyro-Dev",
@@ -14,7 +14,9 @@
     "publications": {
       "gyro_logic_jxiv_en": "https://doi.org/10.51094/jxiv.4159",
       "gyro_logic_jxiv_jp": "https://doi.org/10.51094/jxiv.4597",
-      "gyro_logic_zenodo_v2_4": "https://doi.org/10.5281/zenodo.19674375"
+      "gyro_logic_zenodo_v2_4": "https://doi.org/10.5281/zenodo.19674375",
+      "gyroauth_trajectory_vulnerability_response_jxiv_en": "https://doi.org/10.51094/jxiv.5416",
+      "gyroauth_trajectory_vulnerability_response_jxiv_jp": "https://doi.org/10.51094/jxiv.5440"
     },
     "operations": {
       "dashboard": "dashboard.md",
@@ -34,6 +36,20 @@
         "boundary": "https://github.com/gitGyro-Dev/gyrologic/blob/main/docs/15_Boundary_20260610.md",
         "boundary_state": "https://github.com/gitGyro-Dev/gyrologic/blob/main/docs/16_Boundary_State_20260610.md",
         "principle": "Core Definitions provides the base reference; Boundary refines Slice-relative distinction; Boundary State classifies the resulting relational state."
+      },
+      "gyroauth_trajectory_vulnerability_response": {
+        "repository": "https://github.com/gitGyro-Dev/gyroauth",
+        "artifact_path": "examples/trajectory_vulnerability_response/",
+        "publication_pair": [
+          "10.51094/jxiv.5416",
+          "10.51094/jxiv.5440"
+        ],
+        "model": [
+          "Boundary / Negative Definition",
+          "Trajectory Detection",
+          "Stability Response"
+        ],
+        "principle": "Valid individual events do not necessarily form a stable trajectory."
       }
     },
     "knowledge_storage": {
