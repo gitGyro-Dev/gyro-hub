@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.2",
+  "schema_version": "0.3",
   "generated_by": "manual_project_cycle_reflection",
   "generated_at": "2026-07-13",
   "publications": [
@@ -29,6 +29,32 @@
       "doi": "10.5281/zenodo.19674375",
       "url": "https://doi.org/10.5281/zenodo.19674375",
       "status": "Published"
+    },
+    {
+      "project": "GyroAuth",
+      "type": "primary-paper",
+      "language": "en",
+      "role": "primary-manuscript",
+      "title": "GyroAuth: Authentication as Stability-Based Selection over State Convergence",
+      "medium": "Jxiv English",
+      "doi": "10.51094/jxiv.4600",
+      "url": "https://doi.org/10.51094/jxiv.4600",
+      "status": "Published",
+      "translation_doi": "10.51094/jxiv.5341",
+      "repository": "https://github.com/gitGyro-Dev/gyroauth"
+    },
+    {
+      "project": "GyroAuth",
+      "type": "primary-paper-translation",
+      "language": "ja",
+      "role": "japanese-translation",
+      "title": "GyroAuth：状態収束に対する安定性に基づく認証",
+      "medium": "Jxiv Japanese",
+      "doi": "10.51094/jxiv.5341",
+      "url": "https://doi.org/10.51094/jxiv.5341",
+      "status": "Published",
+      "translation_of_doi": "10.51094/jxiv.4600",
+      "repository": "https://github.com/gitGyro-Dev/gyroauth"
     },
     {
       "project": "GyroAuth",
