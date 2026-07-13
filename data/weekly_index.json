@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.3",
-  "generated_by": "manual",
-  "generated_at": "2026-07-10",
+  "schema_version": "0.4",
+  "generated_by": "manual_project_cycle_reflection",
+  "generated_at": "2026-07-13",
   "template": "weekly/_template.md",
   "weekly_reports": [
     {
@@ -28,10 +28,23 @@
         "Paper preparation",
         "Document consistency tooling"
       ]
+    },
+    {
+      "week": "2026-W29",
+      "title": "Gyro Weekly 2026-W29",
+      "path": "weekly/2026-W29.md",
+      "status": "Created",
+      "focus": [
+        "GyroAuth applied publication",
+        "Trajectory-Based Vulnerability Response",
+        "Jxiv English and Japanese publication",
+        "Minimal PoC",
+        "DOI synchronization tooling"
+      ]
     }
   ],
   "next_week": {
-    "week": "2026-W29",
+    "week": "2026-W30",
     "status": "Planned",
     "template": "weekly/_template.md",
     "note": "Create this report when the next weekly cycle is ready. Do not pre-fill future results."
