@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.2",
-  "generated_by": "manual",
-  "generated_at": "2026-07-10",
+  "schema_version": "0.3",
+  "generated_by": "manual_project_cycle_reflection",
+  "generated_at": "2026-07-13",
   "projects": [
     {
       "name": "Gyro Logic",
@@ -37,10 +37,21 @@
     {
       "name": "GyroAuth",
       "layer": "Application",
-      "status": "PoC Available / Publication Track",
+      "status": "Applied Paper Published / PoC Available",
       "version": "v2.0",
       "repository": "https://github.com/gitGyro-Dev/gyroauth",
-      "next": "Paper and application refinement"
+      "current_focus": "Trajectory-Based Vulnerability Response publication and follow-up",
+      "completed": [
+        "Conceptual three-layer model",
+        "Minimal PoC",
+        "English Jxiv publication 10.51094/jxiv.5416",
+        "Japanese Jxiv publication 10.51094/jxiv.5440"
+      ],
+      "future_work": [
+        "Real-world dataset evaluation",
+        "Production integration"
+      ],
+      "next": "Recheck DOI resolution and connect the applied model to future GyroAuth research"
     },
     {
       "name": "Gyro Developer Tools",
@@ -48,7 +59,7 @@
       "status": "Active",
       "version": "In Development",
       "repository": "https://github.com/gitGyro-Dev/gyro-dev-tools",
-      "next": "Document consistency and synchronization tooling candidates"
+      "next": "Document consistency, DOI resolution, and publication synchronization tooling"
     },
     {
       "name": "Gyro Hub",
@@ -56,7 +67,7 @@
       "status": "Project Cycle Active",
       "version": "v0.1",
       "repository": "https://github.com/gitGyro-Dev/gyro-hub",
-      "next": "Reflect Gyro Logic v3.1 and continue weekly operations"
+      "next": "Reflect Gyro Logic v3.1 and GyroAuth publication milestones while continuing weekly operations"
     }
   ]
 }
