@@ -1,10 +1,12 @@
 {
-  "schema_version": "0.1",
-  "generated_by": "manual",
-  "generated_at": "2026-07-05",
+  "schema_version": "0.2",
+  "generated_by": "manual_project_cycle_reflection",
+  "generated_at": "2026-07-13",
   "publications": [
     {
       "project": "Gyro Logic",
+      "type": "theory-paper",
+      "language": "en",
       "medium": "Jxiv English",
       "doi": "10.51094/jxiv.4159",
       "url": "https://doi.org/10.51094/jxiv.4159",
@@ -12,6 +14,8 @@
     },
     {
       "project": "Gyro Logic",
+      "type": "theory-paper",
+      "language": "ja",
       "medium": "Jxiv Japanese",
       "doi": "10.51094/jxiv.4597",
       "url": "https://doi.org/10.51094/jxiv.4597",
@@ -19,10 +23,40 @@
     },
     {
       "project": "Gyro Logic",
+      "type": "archive",
+      "language": "en",
       "medium": "Zenodo v2.4",
       "doi": "10.5281/zenodo.19674375",
       "url": "https://doi.org/10.5281/zenodo.19674375",
       "status": "Published"
+    },
+    {
+      "project": "GyroAuth",
+      "type": "applied-paper",
+      "language": "en",
+      "title": "Trajectory-Based Vulnerability Response: A GyroAuth Applied Model for Post-Login Security Monitoring",
+      "medium": "Jxiv English",
+      "doi": "10.51094/jxiv.5416",
+      "url": "https://doi.org/10.51094/jxiv.5416",
+      "status": "Published",
+      "doi_resolution_status": "recheck_required",
+      "translation_doi": "10.51094/jxiv.5440",
+      "repository": "https://github.com/gitGyro-Dev/gyroauth",
+      "artifact_path": "examples/trajectory_vulnerability_response/"
+    },
+    {
+      "project": "GyroAuth",
+      "type": "applied-paper-translation",
+      "language": "ja",
+      "title": "Trajectoryに基づく脆弱性対応：ログイン後セキュリティ監視のためのGyroAuth応用モデル",
+      "medium": "Jxiv Japanese",
+      "doi": "10.51094/jxiv.5440",
+      "url": "https://doi.org/10.51094/jxiv.5440",
+      "status": "Published",
+      "doi_resolution_status": "recheck_required",
+      "translation_of_doi": "10.51094/jxiv.5416",
+      "repository": "https://github.com/gitGyro-Dev/gyroauth",
+      "artifact_path": "examples/trajectory_vulnerability_response/"
     }
   ]
 }
