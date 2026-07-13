@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.4",
   "generated_by": "manual_project_cycle_reflection",
   "generated_at": "2026-07-13",
   "artifacts": [
@@ -74,6 +74,24 @@
       "status": "Draft",
       "source": "gyrologic/paper/paper_final_jp_v3_1.md",
       "next": "Final review and release planning"
+    },
+    {
+      "name": "GyroAuth Primary Paper English",
+      "layer": "GyroAuth",
+      "stage": "Published Paper",
+      "status": "Published on Jxiv",
+      "source": "https://doi.org/10.51094/jxiv.4600",
+      "repository_source": "https://github.com/gitGyro-Dev/gyroauth",
+      "next": "Maintain publication metadata and translation linkage"
+    },
+    {
+      "name": "GyroAuth Primary Paper Japanese",
+      "layer": "GyroAuth",
+      "stage": "Published Translation",
+      "status": "Published on Jxiv",
+      "source": "https://doi.org/10.51094/jxiv.5341",
+      "repository_source": "https://github.com/gitGyro-Dev/gyroauth",
+      "next": "Maintain translation linkage to the English manuscript"
     },
     {
       "name": "Trajectory-Based Vulnerability Response English Paper",
