@@ -1,6 +1,6 @@
 {
   "generated_by": "manual_project_cycle_reflection",
-  "schema_version": "0.6",
+  "schema_version": "0.7",
   "generated_at": "2026-07-17",
   "role": "root_dashboard_summary",
   "description": "Root dashboard.json is the aggregated summary consumed by dashboard.md, GitHub Pages, future Web Dashboard, and GyroOS Dashboard. Detailed source data is stored under data/*.json.",
@@ -20,26 +20,46 @@
   "project": {
     "name": "Gyro Project",
     "hub": "gyro-hub",
-    "current_focus": "Gyro Logic v3.1 release review, mathematical formalization, and GyroAuth formal security model study",
+    "current_focus": "Gyro Logic paper preparation after Minimal Formal Model v1 and GyroAuth formal security model study",
     "status": "Project Cycle Active"
   },
   "current_status": {
-    "gyro_logic": "v3.1 In Progress / Release Candidate Draft / Mathematical Formalization Study Active",
+    "gyro_logic": "Mathematical Formalization Study Completed / Minimal Formal Model v1 / Paper Preparation Ready",
     "gyro_os": "v4.0 PoC active / additional runtime-positioning study deferred",
     "gyro_auth": "Primary and Applied Papers Published / Competitive Differentiation and Formal Security Model Study Active",
-    "gyro_developer_tools": "Consistency, publication synchronization, and future criterion-audit tooling candidates",
-    "gyro_hub": "Roadmap and Dashboard updated from Project Cycle Reflection"
+    "gyro_developer_tools": "Document, model-version, publication, and future criterion-audit tooling candidates",
+    "gyro_hub": "Roadmap, Projects, Artifacts, Links, Dashboard, and Weekly reflection in progress"
   },
   "current_focus": [
-    "Gyro Logic v3.1 release review",
-    "Gyro Logic Minimal Formal Model v0",
-    "GyroAuth Identity / Identity Trajectory distinction",
+    "Gyro Logic Paper Architecture",
+    "Gyro Logic Terminology Review",
+    "Gyro Logic Cross-document Consistency Review",
+    "Gyro Logic Validation Examples",
+    "Minimal Formal Model v1.1 consideration",
+    "Gyro Logic README, paper, and release candidate reflection",
     "GyroAuth Authentication Relation Continuity",
-    "GyroAuth Deviation Dynamics",
-    "GyroAuth Context-relative Authentication Viability Region",
-    "GyroAuth Criterion Integrity",
-    "GyroAuth Formal Security Model Study"
+    "GyroAuth Criterion Integrity and Formal Security Model Study"
   ],
+  "gyro_logic_formalization": {
+    "status": "Completed / Paper Reflection Active",
+    "canonical_core": "Structure → Slice → Stability",
+    "formal_model_version": "Minimal Formal Model v1",
+    "completed": [
+      "Core Definition Refinement",
+      "Grade S Mathematical Type Studies",
+      "Grade A Mathematical Type Studies",
+      "Minimal Formal Model v1",
+      "Mathematical Field Comparison",
+      "Documentation Index update"
+    ],
+    "key_artifacts": [
+      "docs/47_Minimal_Formal_Model_v1_20260717.md",
+      "docs/48_Mathematical_Field_Comparison_20260717.md",
+      "docs/49_Project_Cycle_Reflection_20260717.md",
+      "docs/docs_index.md"
+    ],
+    "boundary": "Minimal Formal Model v1 is provisional and integrated, not a final axiomatization. Canonical Core definitions remain unchanged and Gyro Logic is not identified with one existing mathematical field."
+  },
   "recent_publications": [
     {
       "project": "GyroAuth",
@@ -79,39 +99,25 @@
     "path": "weekly/2026-W29.md",
     "status": "Updated"
   },
-  "document_relationship": [
-    "Core Definitions",
-    "Boundary",
-    "Boundary State",
-    "Mathematical Object Candidate Table v0"
-  ],
   "layer_relationship": [
     "Gyro Logic",
     "GyroOS",
     "GyroAuth"
   ],
-  "gyroauth_formalization_relationship": [
-    "Identity / Identity Trajectory",
-    "Observed / Admissible Trajectory",
-    "Authentication Relation Continuity",
-    "Deviation Dynamics",
-    "Context-relative Authentication Viability Region",
-    "Criterion Integrity",
-    "Formal Security Model"
-  ],
   "research_boundaries": [
-    "New GyroAuth concepts and fields remain candidates until formal documents are approved",
-    "Do not add candidate fields to canonical schemas or runtime contracts",
-    "Project Cycle reviews and reflects accepted results but does not redefine GyroAuth",
-    "Gyro Logic Core and GyroOS Runtime definitions remain unchanged"
+    "Structure → Slice → Stability remains unchanged",
+    "Minimal Formal Model v1 remains provisional until separately adopted",
+    "Existing mathematical fields are partial modeling languages, not identities for Gyro Logic",
+    "GyroOS v4.0 PoC remains unchanged",
+    "GyroAuth candidate concepts remain outside canonical schemas until formal approval"
   ],
   "next_actions": [
-    "Continue Gyro Logic v3.1 release review independently from mathematical formalization",
-    "Develop Minimal Formal Model v0 in Gyro Logic",
-    "Design GyroAuth formal document structure",
-    "Define Authentication Relation Continuity and Criterion Integrity candidates",
-    "Design criterion poisoning and baseline contamination simulations",
-    "Decide whether Primary Paper and Applied Paper next versions should be updated separately",
-    "Keep candidate schemas and responses out of implementation until theoretical approval"
+    "Design Gyro Logic paper architecture",
+    "Review terminology and cross-document consistency",
+    "Add validation examples and limitations",
+    "Decide whether Minimal Formal Model v1.1 is required",
+    "Update README, English and Japanese papers, and release candidate after review",
+    "Continue GyroAuth formal document design without premature schema adoption",
+    "Evaluate docs_index, dependency, canonical-definition, paper-diff, artifact, and model-status tooling"
   ]
 }
