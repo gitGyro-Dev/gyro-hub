@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.5",
+  "schema_version": "0.6",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-07-13",
+  "generated_at": "2026-07-17",
   "artifacts": [
     {
       "name": "Gyro Project Cycle",
@@ -38,10 +38,10 @@
     {
       "name": "Gyro Logic Core Definitions",
       "layer": "Gyro Logic",
-      "stage": "Documentation",
+      "stage": "Canonical Documentation",
       "status": "Completed for v3.1",
       "source": "gyrologic/docs/01_Core_Definitions.md",
-      "next": "Maintain consistency with README, papers, Boundary, and Boundary State"
+      "next": "Maintain consistency with mathematical studies, README, papers, Boundary, and Boundary State"
     },
     {
       "name": "Gyro Logic Boundary Integration",
@@ -63,27 +63,97 @@
       "name": "Gyro Logic Mathematical Object Candidate Table v0",
       "layer": "Gyro Logic",
       "stage": "Research Artifact",
-      "status": "Active Study / Non-final",
+      "status": "Superseded as primary integration point by Minimal Formal Model v1",
       "source": "gyrologic/docs/17_Mathematical_Object_Candidate_Table_20260713.md",
       "depends_on": "gyrologic/docs/01_Core_Definitions.md",
-      "release_relationship": "Separate from Gyro Logic v3.1 Release Candidate unless explicitly adopted by Gyro Logic",
-      "next": "Develop Minimal Formal Model v0, examples, and failure cases; update docs_index after content stabilization"
+      "supports": "gyrologic/docs/47_Minimal_Formal_Model_v1_20260717.md",
+      "next": "Retain as the initial candidate comparison record"
+    },
+    {
+      "name": "Gyro Logic Grade S Mathematical Type Studies",
+      "layer": "Gyro Logic",
+      "stage": "Mathematical Study",
+      "status": "Completed",
+      "source_range": "gyrologic/docs/37-41",
+      "concepts": [
+        "Structure",
+        "Slice",
+        "Stability"
+      ],
+      "supports": "gyrologic/docs/47_Minimal_Formal_Model_v1_20260717.md",
+      "next": "Use in terminology and paper consistency review"
+    },
+    {
+      "name": "Gyro Logic Grade A Mathematical Type Studies",
+      "layer": "Gyro Logic",
+      "stage": "Mathematical Study",
+      "status": "Completed",
+      "source_range": "gyrologic/docs/42-46",
+      "concepts": [
+        "Incorporated Readability",
+        "Continuity Readability",
+        "Trajectory",
+        "Difference"
+      ],
+      "supports": "gyrologic/docs/47_Minimal_Formal_Model_v1_20260717.md",
+      "next": "Use in terminology and paper consistency review"
+    },
+    {
+      "name": "Gyro Logic Minimal Formal Model v1",
+      "layer": "Gyro Logic",
+      "stage": "Integrated Formal Model",
+      "status": "Completed / Provisional / Paper Reflection Ready",
+      "source": "gyrologic/docs/47_Minimal_Formal_Model_v1_20260717.md",
+      "depends_on": [
+        "gyrologic/docs/01_Core_Definitions.md",
+        "gyrologic/docs/37-41",
+        "gyrologic/docs/42-46"
+      ],
+      "canonical_status": "Integrated provisional model; canonical Core definitions unchanged",
+      "model_version": "v1",
+      "next": "Reconstruct into paper architecture, validate terminology and examples, and consider v1.1"
+    },
+    {
+      "name": "Gyro Logic Mathematical Field Comparison v0",
+      "layer": "Gyro Logic",
+      "stage": "Comparative Mathematical Study",
+      "status": "Completed",
+      "source": "gyrologic/docs/48_Mathematical_Field_Comparison_20260717.md",
+      "depends_on": "gyrologic/docs/47_Minimal_Formal_Model_v1_20260717.md",
+      "scope": "Compares limited modeling capabilities and losses across existing mathematical fields without identifying Gyro Logic with one discipline",
+      "next": "Reflect selected comparisons and limitations into papers"
+    },
+    {
+      "name": "Gyro Logic Project Cycle Reflection 2026-07-17",
+      "layer": "Gyro Logic",
+      "stage": "Project Cycle Reflection",
+      "status": "Accepted for Hub reflection",
+      "source": "gyrologic/docs/49_Project_Cycle_Reflection_20260717.md",
+      "next": "Manage paper architecture, cross-document review, and release candidate updates"
+    },
+    {
+      "name": "Gyro Logic Documentation Index",
+      "layer": "Gyro Logic",
+      "stage": "Documentation Index",
+      "status": "Updated through docs/48",
+      "source": "gyrologic/docs/docs_index.md",
+      "next": "Keep index synchronized with future model and paper documents"
     },
     {
       "name": "Gyro Logic v3.1 Paper English",
       "layer": "Gyro Logic",
       "stage": "Paper",
-      "status": "Draft",
+      "status": "Draft / Formal Model Reflection Pending",
       "source": "gyrologic/paper/paper_final_v3_1.md",
-      "next": "Final review and release planning"
+      "next": "Apply paper architecture, terminology review, and Minimal Formal Model v1 reflection"
     },
     {
       "name": "Gyro Logic v3.1 Paper Japanese",
       "layer": "Gyro Logic",
       "stage": "Paper",
-      "status": "Draft",
+      "status": "Draft / Formal Model Reflection Pending",
       "source": "gyrologic/paper/paper_final_jp_v3_1.md",
-      "next": "Final review and release planning"
+      "next": "Apply paper architecture, terminology review, and Minimal Formal Model v1 reflection"
     },
     {
       "name": "GyroAuth Primary Paper English",
@@ -110,7 +180,7 @@
       "status": "Published on Jxiv",
       "source": "https://doi.org/10.51094/jxiv.5416",
       "repository_source": "gyroauth/examples/trajectory_vulnerability_response/paper.md",
-      "next": "Recheck DOI resolution and maintain publication metadata"
+      "next": "Maintain publication metadata"
     },
     {
       "name": "Trajectory-Based Vulnerability Response Japanese Paper",
@@ -119,7 +189,7 @@
       "status": "Published on Jxiv",
       "source": "https://doi.org/10.51094/jxiv.5440",
       "repository_source": "gyroauth/examples/trajectory_vulnerability_response/paper_jp.md",
-      "next": "Recheck DOI resolution and maintain translation linkage"
+      "next": "Maintain translation linkage"
     },
     {
       "name": "Trajectory Vulnerability Response Minimal PoC",
@@ -127,24 +197,7 @@
       "stage": "PoC",
       "status": "Completed",
       "source": "gyroauth/examples/trajectory_vulnerability_response/demo.py",
-      "supporting_files": [
-        "gyroauth/examples/trajectory_vulnerability_response/sample_events.jsonl",
-        "gyroauth/examples/trajectory_vulnerability_response/README.md"
-      ],
       "next": "Evaluate with real-world datasets"
-    },
-    {
-      "name": "Trajectory Vulnerability Response Figures",
-      "layer": "GyroAuth",
-      "stage": "Figures",
-      "status": "Published Artifact",
-      "source": "gyroauth/examples/trajectory_vulnerability_response/figures/",
-      "files": [
-        "figure1_three_layer_model.svg",
-        "figure2_architecture.svg",
-        "figure3_poc_results.svg"
-      ],
-      "next": "Reuse in future applied research and presentations"
     }
   ]
 }
