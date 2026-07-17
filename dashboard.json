@@ -1,7 +1,7 @@
 {
   "generated_by": "manual_project_cycle_reflection",
-  "schema_version": "0.5",
-  "generated_at": "2026-07-13",
+  "schema_version": "0.6",
+  "generated_at": "2026-07-17",
   "role": "root_dashboard_summary",
   "description": "Root dashboard.json is the aggregated summary consumed by dashboard.md, GitHub Pages, future Web Dashboard, and GyroOS Dashboard. Detailed source data is stored under data/*.json.",
   "data_sources": {
@@ -20,23 +20,25 @@
   "project": {
     "name": "Gyro Project",
     "hub": "gyro-hub",
-    "current_focus": "Gyro Logic v3.1 release planning and GyroAuth publication consolidation",
+    "current_focus": "Gyro Logic v3.1 release review, mathematical formalization, and GyroAuth formal security model study",
     "status": "Project Cycle Active"
   },
   "current_status": {
-    "gyro_logic": "v3.1 In Progress / Release Candidate Draft",
-    "gyro_os": "No change / In Design",
-    "gyro_auth": "Primary and Applied Papers Published on Jxiv / PoC Available",
-    "gyro_developer_tools": "Consistency and publication synchronization tooling candidates",
-    "gyro_hub": "Dashboard, Weekly, Publications, Roadmap, Artifacts, and Links updated"
+    "gyro_logic": "v3.1 In Progress / Release Candidate Draft / Mathematical Formalization Study Active",
+    "gyro_os": "v4.0 PoC active / additional runtime-positioning study deferred",
+    "gyro_auth": "Primary and Applied Papers Published / Competitive Differentiation and Formal Security Model Study Active",
+    "gyro_developer_tools": "Consistency, publication synchronization, and future criterion-audit tooling candidates",
+    "gyro_hub": "Roadmap and Dashboard updated from Project Cycle Reflection"
   },
   "current_focus": [
-    "Gyro Logic v3.1 release planning",
-    "GyroAuth primary English and Japanese Jxiv publications",
-    "GyroAuth applied English and Japanese Jxiv publications",
-    "English/Japanese publication linkage",
-    "Publication duplicate and missing-DOI checks",
-    "Post-publication evaluation planning"
+    "Gyro Logic v3.1 release review",
+    "Gyro Logic Minimal Formal Model v0",
+    "GyroAuth Identity / Identity Trajectory distinction",
+    "GyroAuth Authentication Relation Continuity",
+    "GyroAuth Deviation Dynamics",
+    "GyroAuth Context-relative Authentication Viability Region",
+    "GyroAuth Criterion Integrity",
+    "GyroAuth Formal Security Model Study"
   ],
   "recent_publications": [
     {
@@ -80,23 +82,36 @@
   "document_relationship": [
     "Core Definitions",
     "Boundary",
-    "Boundary State"
+    "Boundary State",
+    "Mathematical Object Candidate Table v0"
   ],
   "layer_relationship": [
     "Gyro Logic",
     "GyroOS",
     "GyroAuth"
   ],
-  "applied_model_relationship": [
-    "Boundary / Negative Definition",
-    "Trajectory Detection",
-    "Stability Response"
+  "gyroauth_formalization_relationship": [
+    "Identity / Identity Trajectory",
+    "Observed / Admissible Trajectory",
+    "Authentication Relation Continuity",
+    "Deviation Dynamics",
+    "Context-relative Authentication Viability Region",
+    "Criterion Integrity",
+    "Formal Security Model"
+  ],
+  "research_boundaries": [
+    "New GyroAuth concepts and fields remain candidates until formal documents are approved",
+    "Do not add candidate fields to canonical schemas or runtime contracts",
+    "Project Cycle reviews and reflects accepted results but does not redefine GyroAuth",
+    "Gyro Logic Core and GyroOS Runtime definitions remain unchanged"
   ],
   "next_actions": [
-    "Continue Gyro Logic v3.1 release review",
-    "Maintain GyroAuth English/Japanese publication linkage",
-    "Record X publication communication when available",
-    "Evaluate real-world datasets and production integration boundaries",
-    "Evaluate DOI, duplicate, and missing-publication synchronization tooling"
+    "Continue Gyro Logic v3.1 release review independently from mathematical formalization",
+    "Develop Minimal Formal Model v0 in Gyro Logic",
+    "Design GyroAuth formal document structure",
+    "Define Authentication Relation Continuity and Criterion Integrity candidates",
+    "Design criterion poisoning and baseline contamination simulations",
+    "Decide whether Primary Paper and Applied Paper next versions should be updated separately",
+    "Keep candidate schemas and responses out of implementation until theoretical approval"
   ]
 }
