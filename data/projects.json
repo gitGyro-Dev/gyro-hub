@@ -1,46 +1,54 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.5",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-07-13",
+  "generated_at": "2026-07-17",
   "projects": [
     {
       "name": "Gyro Logic",
       "layer": "Theory",
-      "status": "v3.1 In Progress",
+      "status": "Mathematical Formalization Study Completed / Paper Preparation Ready",
       "version": "v3.1",
       "repository": "https://github.com/gitGyro-Dev/gyrologic",
-      "current_focus": "Core Definition Refinement",
+      "current_focus": "Paper Architecture and Cross-document Consistency Review",
+      "formal_model_version": "Minimal Formal Model v1",
       "completed": [
         "Core Definitions",
-        "README",
-        "README Japanese",
+        "README and README Japanese baseline",
         "Boundary Integration",
         "Boundary State Integration",
-        "Documentation Index"
+        "Core reconsideration studies docs/17-36",
+        "Grade S Mathematical Type Studies docs/37-41",
+        "Grade A Mathematical Type Studies docs/42-46",
+        "Minimal Formal Model v1",
+        "Mathematical Field Comparison",
+        "Documentation Index update through docs/48",
+        "Project Cycle Reflection docs/49"
       ],
       "in_progress": [
-        "Paper",
-        "Jxiv preparation",
-        "Figures",
-        "Release notes"
+        "Paper Architecture",
+        "Terminology Review",
+        "Cross-document Consistency Review",
+        "Validation Examples",
+        "English and Japanese paper reflection",
+        "Release Candidate update planning"
       ],
-      "next": "Complete v3.1 paper, figures, publication preparation, and release plan"
+      "next": "Reflect Minimal Formal Model v1 into the paper architecture after terminology and consistency review, then update README and the v3.1 release candidate"
     },
     {
       "name": "GyroOS",
       "layer": "Runtime",
-      "status": "In Design",
+      "status": "v4.0 PoC Active",
       "version": "v4.0",
       "repository": "https://github.com/gitGyro-Dev/gyroos",
-      "next": "Runtime architecture / Boundary-aware runtime"
+      "next": "Continue the bounded API and PoC track; defer additional runtime-positioning study"
     },
     {
       "name": "GyroAuth",
       "layer": "Application",
-      "status": "Primary and Applied Papers Published / PoC Available",
+      "status": "Papers Published / Formalization Study Active",
       "version": "v2.0",
       "repository": "https://github.com/gitGyro-Dev/gyroauth",
-      "current_focus": "Publication consolidation and post-publication research",
+      "current_focus": "Competitive Differentiation, Authentication Relation Continuity, and Criterion Integrity",
       "completed": [
         "Primary English Jxiv publication 10.51094/jxiv.4600",
         "Primary Japanese Jxiv publication 10.51094/jxiv.5341",
@@ -49,12 +57,15 @@
         "Applied English Jxiv publication 10.51094/jxiv.5416",
         "Applied Japanese Jxiv publication 10.51094/jxiv.5440"
       ],
-      "future_work": [
-        "Real-world dataset evaluation",
-        "Production integration",
-        "Next GyroAuth applied research"
+      "in_progress": [
+        "Identity and Identity Trajectory distinction",
+        "Authentication Relation Continuity",
+        "Deviation Dynamics",
+        "Context-relative Authentication Viability Region",
+        "Criterion Integrity",
+        "Formal Security Model Study"
       ],
-      "next": "Maintain publication links and move to post-publication evaluation and integration"
+      "next": "Create and review formal documents before changing canonical schemas, README, papers, PoC contracts, or release candidates"
     },
     {
       "name": "Gyro Developer Tools",
@@ -62,7 +73,7 @@
       "status": "Active",
       "version": "In Development",
       "repository": "https://github.com/gitGyro-Dev/gyro-dev-tools",
-      "next": "Document consistency, DOI resolution, publication synchronization, duplicate detection, and translation linkage tooling"
+      "next": "Evaluate docs_index checks, dependency generation, canonical-definition checks, artifact scanning, paper-diff detection, and model-version tracking"
     },
     {
       "name": "Gyro Hub",
@@ -70,7 +81,7 @@
       "status": "Project Cycle Active",
       "version": "v0.1",
       "repository": "https://github.com/gitGyro-Dev/gyro-hub",
-      "next": "Maintain Gyro Logic release review and GyroAuth publication records while continuing weekly operations"
+      "next": "Track Gyro Logic paper preparation and release review, GyroAuth formalization, and weekly operational continuity"
     }
   ]
 }
