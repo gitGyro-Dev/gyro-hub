@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.5",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-07-13",
+  "generated_at": "2026-07-17",
   "links": {
     "github": {
       "organization": "https://github.com/gitGyro-Dev",
@@ -32,12 +32,38 @@
         "order": [
           "Core Definitions",
           "Boundary",
-          "Boundary State"
+          "Boundary State",
+          "Grade S Mathematical Type Studies",
+          "Grade A Mathematical Type Studies",
+          "Minimal Formal Model v1",
+          "Mathematical Field Comparison",
+          "Paper Architecture and Cross-document Review"
         ],
         "core_definitions": "https://github.com/gitGyro-Dev/gyrologic/blob/main/docs/01_Core_Definitions.md",
         "boundary": "https://github.com/gitGyro-Dev/gyrologic/blob/main/docs/15_Boundary_20260610.md",
         "boundary_state": "https://github.com/gitGyro-Dev/gyrologic/blob/main/docs/16_Boundary_State_20260610.md",
-        "principle": "Core Definitions provides the base reference; Boundary refines Slice-relative distinction; Boundary State classifies the resulting relational state."
+        "docs_index": "https://github.com/gitGyro-Dev/gyrologic/blob/main/docs/docs_index.md",
+        "minimal_formal_model_v1": "https://github.com/gitGyro-Dev/gyrologic/blob/main/docs/47_Minimal_Formal_Model_v1_20260717.md",
+        "mathematical_field_comparison": "https://github.com/gitGyro-Dev/gyrologic/blob/main/docs/48_Mathematical_Field_Comparison_20260717.md",
+        "project_cycle_reflection": "https://github.com/gitGyro-Dev/gyrologic/blob/main/docs/49_Project_Cycle_Reflection_20260717.md",
+        "principle": "Canonical Core definitions remain unchanged. Grade S and Grade A studies support Minimal Formal Model v1, which is an integrated provisional model used for paper preparation rather than a final axiomatization."
+      },
+      "gyro_logic_formalization": {
+        "grade_s_range": "https://github.com/gitGyro-Dev/gyrologic/tree/main/docs",
+        "grade_s_files": "docs/37-41",
+        "grade_a_files": "docs/42-46",
+        "integrated_model": "docs/47_Minimal_Formal_Model_v1_20260717.md",
+        "field_comparison": "docs/48_Mathematical_Field_Comparison_20260717.md",
+        "reflection": "docs/49_Project_Cycle_Reflection_20260717.md",
+        "next": [
+          "Paper Architecture",
+          "Terminology Review",
+          "Cross-document Consistency Review",
+          "Validation Examples",
+          "Minimal Formal Model v1.1 consideration",
+          "README and paper reflection",
+          "Release Candidate update"
+        ]
       },
       "gyroauth_primary_publication": {
         "repository": "https://github.com/gitGyro-Dev/gyroauth",
