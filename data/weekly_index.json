@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.5",
+  "schema_version": "0.6",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-07-13",
+  "generated_at": "2026-07-17",
   "template": "weekly/_template.md",
   "weekly_reports": [
     {
@@ -35,11 +35,14 @@
       "path": "weekly/2026-W29.md",
       "status": "Updated",
       "focus": [
-        "GyroAuth primary Jxiv English and Japanese publications",
-        "GyroAuth applied Jxiv English and Japanese publications",
-        "Trajectory-Based Vulnerability Response",
-        "Minimal PoC",
-        "Publication and DOI synchronization tooling"
+        "GyroAuth primary and applied Jxiv English/Japanese publications",
+        "Trajectory-Based Vulnerability Response and Minimal PoC",
+        "GyroAuth Identity, Authentication Relation Continuity, Deviation Dynamics, and Criterion Integrity studies",
+        "Gyro Logic Grade S and Grade A Mathematical Type Studies",
+        "Gyro Logic Minimal Formal Model v1",
+        "Gyro Logic Mathematical Field Comparison",
+        "Gyro Logic paper architecture and cross-document review transition",
+        "Publication, DOI, document consistency, artifact, and model-version tooling candidates"
       ]
     }
   ],
