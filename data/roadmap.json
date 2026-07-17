@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.7",
+  "schema_version": "0.8",
   "generated_by": "manual_project_cycle_reflection",
   "generated_at": "2026-07-17",
   "roadmap": {
@@ -8,48 +8,60 @@
       {
         "phase": 1,
         "name": "Theory",
-        "status": "v3.1 Release Review / Mathematical Formalization Study Active",
+        "status": "Mathematical Formalization Study Completed / Paper Preparation Ready",
         "items": [
           "Gyro Logic",
-          "Core Definitions refinement",
-          "Boundary integration",
-          "Boundary State integration",
-          "Mathematical Object Candidate Table v0",
-          "Minimal Formal Model v0",
-          "Publications",
-          "DOI"
+          "Core Definition Refinement",
+          "Boundary and Boundary State integration",
+          "Grade S Mathematical Type Studies",
+          "Grade A Mathematical Type Studies",
+          "Minimal Formal Model v1",
+          "Mathematical Field Comparison",
+          "Paper Architecture",
+          "Cross-document Consistency Review"
         ],
         "completed": [
           "Core Definitions",
-          "README",
-          "README Japanese",
+          "README and README Japanese baseline",
           "Boundary",
           "Boundary State",
-          "Documentation Index",
-          "Mathematical Object Candidate Table v0"
+          "Core reconsideration studies docs/17-36",
+          "Grade S studies docs/37-41",
+          "Grade A studies docs/42-46",
+          "Minimal Formal Model v1 docs/47_Minimal_Formal_Model_v1_20260717.md",
+          "Mathematical Field Comparison docs/48_Mathematical_Field_Comparison_20260717.md",
+          "Project Cycle Reflection docs/49_Project_Cycle_Reflection_20260717.md",
+          "Documentation Index update through docs/48"
         ],
         "in_progress": [
-          "v3.1 release review",
-          "v3.1 Paper English final review",
-          "v3.1 Paper Japanese final review",
-          "Figures decision",
-          "Release notes",
-          "Mathematical Formalization Study",
-          "Minimal Formal Model v0 candidate selection"
+          "Paper Architecture",
+          "Terminology Review",
+          "Cross-document Consistency Review",
+          "Validation Examples",
+          "v3.1 English paper reflection",
+          "v3.1 Japanese paper reflection",
+          "Release Candidate update planning"
         ],
-        "next": "Keep v3.1 release review separate from the next mathematical formalization research track"
+        "future_work": [
+          "Minimal Formal Model v1.1 evaluation",
+          "README and README_jp update after terminology review",
+          "Paper validation and limitation examples",
+          "Release Candidate revision",
+          "Release and publication decision"
+        ],
+        "next": "Reconstruct Minimal Formal Model v1 into paper architecture, then review terminology and cross-document consistency before README, papers, and release candidate updates"
       },
       {
         "phase": 2,
         "name": "Runtime",
-        "status": "In Progress",
+        "status": "v4.0 PoC Active",
         "items": [
           "GyroOS architecture",
           "Context loop",
           "Boundary-aware runtime",
           "Dynamic equivalence runtime"
         ],
-        "next": "Runtime documentation and PoC refinement"
+        "next": "Continue the current v4.0 PoC without introducing the deferred runtime-positioning study"
       },
       {
         "phase": 3,
@@ -58,8 +70,6 @@
         "items": [
           "GyroAuth",
           "Stability-based authentication",
-          "API evolution",
-          "Authentication PoC",
           "Trajectory-Based Vulnerability Response",
           "Identity and Identity Trajectory distinction",
           "Authentication Relation Continuity",
@@ -119,75 +129,80 @@
         "status": "Started",
         "items": [
           "Gyro Developer Tools",
-          "Gyro Commands",
           "dashboard generation",
           "weekly report generation",
           "publication sync",
-          "document consistency checks",
+          "docs_index consistency checks",
+          "document dependency generation",
+          "Canonical Definition checks",
+          "Artifact Metadata generation",
+          "Paper difference detection",
+          "Model Version management",
           "Core invariant checks",
           "mathematical symbol and definition-state tracking",
-          "documentation index generation",
-          "release checklist generation",
-          "DOI resolution checks",
-          "translation DOI linkage",
-          "publication duplicate and missing-DOI checks",
-          "X publication status tracking",
-          "Trajectory schema consistency checks after adoption",
-          "Criterion update history validation after adoption",
-          "Baseline contamination checks",
-          "Criterion expansion and contraction monitoring",
-          "Rollback point validation",
-          "Evidence provenance checks",
+          "DOI and translation linkage checks",
           "Cross-document definition drift detection"
         ],
-        "next": "Keep GyroAuth candidate schemas unimplemented until formal adoption; then evaluate validation, audit, and rollback tooling"
+        "experimental_metadata_candidates": [
+          "theory_grade",
+          "concept_role",
+          "formalization_status",
+          "canonical_status",
+          "depends_on",
+          "supports",
+          "mathematical_candidate_types",
+          "model_version",
+          "validation_examples",
+          "paper_reflection_status"
+        ],
+        "experimental_cli_candidates": [
+          "gyro docs index-check",
+          "gyro docs dependency",
+          "gyro docs canonical-check",
+          "gyro docs paper-diff",
+          "gyro artifact scan",
+          "gyro model status"
+        ],
+        "next": "Evaluate document, model-version, artifact, and paper-reflection tooling without fixing exploratory theory into canonical schemas"
       }
     ],
     "future_research_themes": [
       {
         "id": "mathematical_foundations",
         "name": "Mathematical Foundations",
-        "status": "Active",
-        "objective": "Establish rigorous mathematical objects and relations for Gyro Logic concepts without changing the invariant Core.",
-        "current_artifact": "gyrologic/docs/17_Mathematical_Object_Candidate_Table_20260713.md",
+        "status": "Study Completed / Paper Reflection Active",
+        "objective": "Provide a minimal integrated formal schema for Gyro Logic while preserving the invariant Core and avoiding reduction to one existing mathematical field.",
+        "current_model": "Gyro Logic Minimal Formal Model v1",
+        "current_artifacts": [
+          "gyrologic/docs/47_Minimal_Formal_Model_v1_20260717.md",
+          "gyrologic/docs/48_Mathematical_Field_Comparison_20260717.md",
+          "gyrologic/docs/49_Project_Cycle_Reflection_20260717.md",
+          "gyrologic/docs/docs_index.md"
+        ],
         "completed_milestones": [
-          "Mathematical Object Candidate Table v0",
-          "Initial candidate families for Structure, Slice, Stability, Difference, and Trajectory",
-          "Immediate failure warnings and non-decisions recorded"
+          "Core Definition Refinement",
+          "Grade S Structure, Slice, and Stability studies",
+          "Grade A Incorporated Readability, Continuity Readability, Trajectory, and Difference studies",
+          "Minimal Formal Model v1",
+          "Mathematical Field Comparison",
+          "Documentation Index update"
         ],
         "next_milestones": [
-          "Minimal Formal Model v0",
-          "Concrete examples",
-          "Failure cases and counterexamples",
-          "Decision on docs_index registration after content stabilization"
+          "Paper Architecture",
+          "Terminology Review",
+          "Cross-document Consistency Review",
+          "Validation Examples",
+          "Minimal Formal Model v1.1 consideration",
+          "README and paper reflection",
+          "Release Candidate update"
         ],
-        "topics": [
-          "Mathematical definition of Structure",
-          "Mathematical definition of Slice",
-          "Mathematical representation of Stability",
-          "Relations among Structure, Slice, Stability, Difference, and Trajectory",
-          "Potential relationships with information geometry",
-          "Potential relationships with topology and topological data analysis",
-          "Potential relationships with category theory",
-          "Formal proof and falsification framework"
-        ],
-        "boundary": "This is a next-research-track artifact, not part of the v3.1 release candidate unless Gyro Logic explicitly decides otherwise. Candidate mathematical frameworks are not adopted foundations. Structure → Slice → Stability remains unchanged."
+        "boundary": "Minimal Formal Model v1 is an integrated provisional model, not a final axiomatization. It does not identify Gyro Logic with one mathematical discipline and does not change Structure → Slice → Stability or the canonical Core definitions."
       },
       {
         "id": "gyro_runtime_architecture",
         "name": "Gyro Runtime Architecture",
         "status": "Deferred while GyroOS v4.0 PoC is active",
-        "objective": "Clarify GyroOS as a runtime for executing and evaluating state-transition processes rather than as a replacement for a conventional operating-system kernel.",
-        "topics": [
-          "Runtime abstraction",
-          "Loop Runtime",
-          "Context Runtime",
-          "Boundary-aware Runtime",
-          "Execution and resource boundary model",
-          "Relationship with Linux, microkernels, workflow runtimes, and AI runtimes",
-          "Measurable safety, continuity, and operational advantages",
-          "Naming and positioning of GyroOS versus Gyro Runtime"
-        ],
+        "objective": "Clarify GyroOS runtime positioning after the current PoC phase.",
         "boundary": "Do not introduce this theme into the current GyroOS v4.0 PoC unless the GyroOS project explicitly reopens it."
       },
       {
@@ -198,53 +213,23 @@
         "current_definition": "Authentication = Stability-based Selection over State Convergence",
         "current_proposition": "valid events != stable trajectory",
         "candidate_concepts": [
-          "Access Subject",
-          "Identity",
-          "Identity Trajectory",
-          "Observed Access Trajectory",
-          "Admissible Identity Trajectory Set",
+          "Identity / Identity Trajectory",
+          "Observed / Admissible Trajectory",
           "Authentication Relation Continuity",
           "Deviation Dynamics",
           "Context-relative Authentication Viability Region",
-          "Criterion State",
           "Criterion Trajectory",
-          "Criterion Integrity",
-          "Subject Evaluation Loop",
-          "Criterion Integrity Loop"
+          "Criterion Integrity"
         ],
-        "candidate_responses": [
-          "ACCEPT",
-          "DEFER",
-          "FREEZE",
-          "ROLLBACK",
-          "REVIEW"
-        ],
-        "next_milestones": [
-          "Decide formal document structure",
-          "Create Formal Security Model candidate document",
-          "Define admissible trajectory and viability-region boundaries",
-          "Define Criterion Integrity evaluation and bounded update process",
-          "Design criterion poisoning and baseline contamination simulations",
-          "Decide separation of primary-paper and applied-paper next versions"
-        ],
-        "boundary": "All new concepts, fields, responses, and formulas remain candidates. GyroAuth must define and approve them before README, papers, canonical schemas, PoC contracts, or release candidates are changed. Gyro Logic Core and GyroOS Runtime definitions remain unchanged."
+        "boundary": "All new concepts, fields, responses, and formulas remain candidates until GyroAuth formally documents and approves them. Gyro Logic Core and GyroOS Runtime remain unchanged."
       },
       {
         "id": "theory_identity",
         "name": "Theory Identity",
-        "status": "Research",
-        "objective": "Clarify the primary object and explanatory scope of Gyro Logic.",
-        "research_question": "What is the primary mathematical and theoretical object of Gyro Logic?",
-        "candidate_viewpoints": [
-          "State",
-          "State transition",
-          "Trajectory",
-          "Structure",
-          "Difference",
-          "Stability",
-          "Establishment and continuation"
-        ],
-        "boundary": "Candidate viewpoints are not new Core elements. This theme must distinguish the invariant Core from interpretations, derived concepts, temporal descriptions, and implementation models."
+        "status": "Advanced through Minimal Formal Model v1",
+        "objective": "Clarify the primary object and explanatory scope of Gyro Logic without reducing the theory to one object type or mathematical field.",
+        "current_position": "Gyro Logic integrates local Structure realization, Slice process, Stability scene, incorporated readability, continuity readability, Trajectory tracing, and structured Difference while retaining the invariant Core.",
+        "boundary": "This position is an integrated interpretation and provisional model, not a new Core definition."
       }
     ]
   }
