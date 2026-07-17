@@ -16,7 +16,7 @@ Roadmap   = future direction
 |---|---|---|
 | 2026-W27 | [Gyro Weekly 2026-W27](weekly/2026-W27.md) | Gyro Hub, Project Cycle, data directory, first weekly log |
 | 2026-W28 | [Gyro Weekly 2026-W28](weekly/2026-W28.md) | Gyro Logic v3.1, Core Definitions, Boundary integration, paper preparation |
-| 2026-W29 | [Gyro Weekly 2026-W29](weekly/2026-W29.md) | GyroAuth applied paper, Trajectory-Based Vulnerability Response, Jxiv publication |
+| 2026-W29 | [Gyro Weekly 2026-W29](weekly/2026-W29.md) | GyroAuth Jxiv publications and formalization study; Gyro Logic Grade S/A studies, Minimal Formal Model v1, Mathematical Field Comparison, and paper-phase transition |
 
 ## Purpose
 
