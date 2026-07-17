@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.6",
+  "schema_version": "0.7",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-07-13",
+  "generated_at": "2026-07-17",
   "roadmap": {
     "vision": "Build the Gyro ecosystem from theory to runtime, application, project operations, and research platform.",
     "phases": [
@@ -54,13 +54,19 @@
       {
         "phase": 3,
         "name": "Application",
-        "status": "Primary and Applied Publication Milestones Completed / Future Evaluation",
+        "status": "Publication Milestones Completed / GyroAuth Formalization Study Active",
         "items": [
           "GyroAuth",
           "Stability-based authentication",
           "API evolution",
           "Authentication PoC",
-          "Trajectory-Based Vulnerability Response"
+          "Trajectory-Based Vulnerability Response",
+          "Identity and Identity Trajectory distinction",
+          "Authentication Relation Continuity",
+          "Deviation Dynamics",
+          "Context-relative Authentication Viability Region",
+          "Criterion Integrity",
+          "Formal Security Model Study"
         ],
         "completed": [
           "GyroAuth primary English Jxiv publication 10.51094/jxiv.4600",
@@ -68,14 +74,31 @@
           "Trajectory-Based Vulnerability Response conceptual model",
           "Trajectory-Based Vulnerability Response minimal PoC",
           "Applied English Jxiv publication 10.51094/jxiv.5416",
-          "Applied Japanese Jxiv publication 10.51094/jxiv.5440"
+          "Applied Japanese Jxiv publication 10.51094/jxiv.5440",
+          "Initial Identity / Identity Trajectory distinction",
+          "Initial Observed / Admissible Trajectory distinction",
+          "Authentication Relation Continuity candidate",
+          "Deviation Dynamics candidate",
+          "Context-relative Authentication Viability Region candidate",
+          "Criterion Integrity and Criterion Trajectory candidate structure"
+        ],
+        "in_progress": [
+          "Competitive Differentiation Study",
+          "Formal Security Model Study",
+          "Criterion Integrity Study",
+          "Definition and document structure review"
         ],
         "future_work": [
+          "Formalize the admissible trajectory set",
+          "Define measurable Deviation Dynamics",
+          "Criterion poisoning attack simulation",
+          "Criterion update audit and rollback model",
+          "PoC and dataset design",
           "Real-world dataset evaluation",
           "Production integration",
-          "Next GyroAuth applied research"
+          "Primary and applied paper next-version planning"
         ],
-        "next": "Maintain publication metadata and move GyroAuth into post-publication evaluation and integration"
+        "next": "Keep the new concepts as research candidates until GyroAuth creates and reviews formal documents; do not add candidate fields to canonical schemas yet"
       },
       {
         "phase": 4,
@@ -108,9 +131,16 @@
           "DOI resolution checks",
           "translation DOI linkage",
           "publication duplicate and missing-DOI checks",
-          "X publication status tracking"
+          "X publication status tracking",
+          "Trajectory schema consistency checks after adoption",
+          "Criterion update history validation after adoption",
+          "Baseline contamination checks",
+          "Criterion expansion and contraction monitoring",
+          "Rollback point validation",
+          "Evidence provenance checks",
+          "Cross-document definition drift detection"
         ],
-        "next": "Evaluate document consistency, Core invariant, and publication synchronization tooling"
+        "next": "Keep GyroAuth candidate schemas unimplemented until formal adoption; then evaluate validation, audit, and rollback tooling"
       }
     ],
     "future_research_themes": [
@@ -162,20 +192,42 @@
       },
       {
         "id": "trajectory_based_authentication",
-        "name": "Trajectory-Based Authentication",
-        "status": "Ongoing",
-        "objective": "Strengthen the formal and practical distinction between GyroAuth and existing location-based, continuous, adaptive, risk-based, and multi-factor authentication models.",
-        "topics": [
-          "Trajectory Authentication",
-          "Stability-based Selection over State Convergence",
-          "Continuous and post-login evaluation",
-          "Comparison with WebAuthn, MFA, Zero Trust, behavioral biometrics, and risk-based authentication",
-          "Security properties that cannot be reduced to individual context signals",
-          "Relay, drift, sequence, scope, and transition attack models",
-          "Formal security claims and measurable evaluation criteria",
-          "Real-world dataset and production-boundary evaluation"
+        "name": "Trajectory-Based Authentication and Criterion Integrity",
+        "status": "Active Study",
+        "objective": "Formalize what GyroAuth selects and how it evaluates both the authentication relation and the integrity of the changing criterion used for that selection.",
+        "current_definition": "Authentication = Stability-based Selection over State Convergence",
+        "current_proposition": "valid events != stable trajectory",
+        "candidate_concepts": [
+          "Access Subject",
+          "Identity",
+          "Identity Trajectory",
+          "Observed Access Trajectory",
+          "Admissible Identity Trajectory Set",
+          "Authentication Relation Continuity",
+          "Deviation Dynamics",
+          "Context-relative Authentication Viability Region",
+          "Criterion State",
+          "Criterion Trajectory",
+          "Criterion Integrity",
+          "Subject Evaluation Loop",
+          "Criterion Integrity Loop"
         ],
-        "boundary": "GyroAuth is not defined as GPS or Bluetooth authentication. Location and proximity may be input factors, but the core application evaluates convergence, deviation, stability, selection, and trajectory continuity."
+        "candidate_responses": [
+          "ACCEPT",
+          "DEFER",
+          "FREEZE",
+          "ROLLBACK",
+          "REVIEW"
+        ],
+        "next_milestones": [
+          "Decide formal document structure",
+          "Create Formal Security Model candidate document",
+          "Define admissible trajectory and viability-region boundaries",
+          "Define Criterion Integrity evaluation and bounded update process",
+          "Design criterion poisoning and baseline contamination simulations",
+          "Decide separation of primary-paper and applied-paper next versions"
+        ],
+        "boundary": "All new concepts, fields, responses, and formulas remain candidates. GyroAuth must define and approve them before README, papers, canonical schemas, PoC contracts, or release candidates are changed. Gyro Logic Core and GyroOS Runtime definitions remain unchanged."
       },
       {
         "id": "theory_identity",
