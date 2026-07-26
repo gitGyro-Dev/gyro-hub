@@ -18,6 +18,14 @@ Gyro asks:
 
 ---
 
+## Follow Gyro Project
+
+- X: https://x.com/gyro_logic_lab
+- GitHub Organization: https://github.com/gitGyro-Dev
+- Gyro Hub: https://github.com/gitGyro-Dev/gyro-hub
+
+---
+
 ## Gyro Project Cycle
 
 Gyro Hub is not only a dashboard or a repository index. It exists to connect and operate the full Gyro research cycle.
