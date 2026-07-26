@@ -1,7 +1,7 @@
 {
   "generated_by": "manual_project_cycle_reflection",
-  "schema_version": "0.7",
-  "generated_at": "2026-07-17",
+  "schema_version": "0.8",
+  "generated_at": "2026-07-26",
   "role": "root_dashboard_summary",
   "description": "Root dashboard.json is the aggregated summary consumed by dashboard.md, GitHub Pages, future Web Dashboard, and GyroOS Dashboard. Detailed source data is stored under data/*.json.",
   "data_sources": {
@@ -20,28 +20,25 @@
   "project": {
     "name": "Gyro Project",
     "hub": "gyro-hub",
-    "current_focus": "Gyro Logic paper preparation after Minimal Formal Model v1 and GyroAuth formal security model study",
+    "current_focus": "Gyro Logic publication visualization and GyroAuth public demo communication",
     "status": "Project Cycle Active"
   },
   "current_status": {
-    "gyro_logic": "Mathematical Formalization Study Completed / Minimal Formal Model v1 / Paper Preparation Ready",
+    "gyro_logic": "Mathematical Formalization Study Completed / Minimal Formal Model v1 / Publication Visualization Planning",
     "gyro_os": "v4.0 PoC active / additional runtime-positioning study deferred",
-    "gyro_auth": "Primary and Applied Papers Published / Competitive Differentiation and Formal Security Model Study Active",
-    "gyro_developer_tools": "Document, model-version, publication, and future criterion-audit tooling candidates",
-    "gyro_hub": "Roadmap, Projects, Artifacts, Links, Dashboard, and Weekly reflection in progress"
+    "gyro_auth": "Primary and Applied Papers Published / Interactive Research Demo Published on GitHub Pages",
+    "gyro_developer_tools": "Document, model-version, publication, demo-link, and future criterion-audit tooling candidates",
+    "gyro_hub": "GyroAuth live demo registered in Dashboard, Artifacts, and Links"
   },
   "current_focus": [
-    "Gyro Logic Paper Architecture",
-    "Gyro Logic Terminology Review",
-    "Gyro Logic Cross-document Consistency Review",
-    "Gyro Logic Validation Examples",
-    "Minimal Formal Model v1.1 consideration",
-    "Gyro Logic README, paper, and release candidate reflection",
-    "GyroAuth Authentication Relation Continuity",
-    "GyroAuth Criterion Integrity and Formal Security Model Study"
+    "GyroAuth live demo public communication",
+    "GyroAuth demo linkage from Hub and repository README",
+    "Gyro Logic conceptual visualization design",
+    "Gyro Logic paper and release visualization reuse",
+    "Cross-project demo and publication navigation"
   ],
   "gyro_logic_formalization": {
-    "status": "Completed / Paper Reflection Active",
+    "status": "Completed / Publication Visualization Planning",
     "canonical_core": "Structure → Slice → Stability",
     "formal_model_version": "Minimal Formal Model v1",
     "completed": [
@@ -58,7 +55,26 @@
       "docs/49_Project_Cycle_Reflection_20260717.md",
       "docs/docs_index.md"
     ],
+    "next": "Create one canonical conceptual image before considering an interactive Logic visualization",
     "boundary": "Minimal Formal Model v1 is provisional and integrated, not a final axiomatization. Canonical Core definitions remain unchanged and Gyro Logic is not identified with one existing mathematical field."
+  },
+  "gyroauth_demo": {
+    "status": "Published",
+    "platform": "GitHub Pages",
+    "url": "https://gitgyro-dev.github.io/gyroauth/",
+    "repository": "https://github.com/gitGyro-Dev/gyroauth",
+    "role": "Interactive research demonstration",
+    "key_propositions": [
+      "Auth Decision != Criterion Update Response",
+      "dynamic criterion != unconstrained self-update",
+      "valid events != stable trajectory"
+    ],
+    "next": [
+      "Maintain live-demo availability",
+      "Add or maintain README and Hub entry points",
+      "Use screenshots or GIFs for X and ResearchHub communication",
+      "Keep deterministic demonstration distinct from production security guarantees"
+    ]
   },
   "recent_publications": [
     {
@@ -109,15 +125,14 @@
     "Minimal Formal Model v1 remains provisional until separately adopted",
     "Existing mathematical fields are partial modeling languages, not identities for Gyro Logic",
     "GyroOS v4.0 PoC remains unchanged",
-    "GyroAuth candidate concepts remain outside canonical schemas until formal approval"
+    "GyroAuth public demo is a deterministic research visualization, not a production authentication service or security guarantee"
   ],
   "next_actions": [
-    "Design Gyro Logic paper architecture",
-    "Review terminology and cross-document consistency",
-    "Add validation examples and limitations",
-    "Decide whether Minimal Formal Model v1.1 is required",
-    "Update README, English and Japanese papers, and release candidate after review",
-    "Continue GyroAuth formal document design without premature schema adoption",
-    "Evaluate docs_index, dependency, canonical-definition, paper-diff, artifact, and model-status tooling"
+    "Maintain the GyroAuth live demo and public links",
+    "Prepare reusable screenshots or GIFs from the GyroAuth demo",
+    "Design one canonical Gyro Logic conceptual image",
+    "Reuse the Logic image in README, paper, release, Hub, X, and ResearchHub",
+    "Consider an interactive Logic visualization only after the canonical image is stable",
+    "Evaluate demo availability and broken-link checks in Gyro Developer Toolkit"
   ]
 }
