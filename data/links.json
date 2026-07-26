@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.5",
+  "schema_version": "0.6",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-07-17",
+  "generated_at": "2026-07-26",
   "links": {
     "github": {
       "organization": "https://github.com/gitGyro-Dev",
@@ -10,6 +10,9 @@
       "os": "https://github.com/gitGyro-Dev/gyroos",
       "auth": "https://github.com/gitGyro-Dev/gyroauth",
       "developer_tools": "https://github.com/gitGyro-Dev/gyro-dev-tools"
+    },
+    "demos": {
+      "gyroauth_live_demo": "https://gitgyro-dev.github.io/gyroauth/"
     },
     "publications": {
       "gyro_logic_jxiv_en": "https://doi.org/10.51094/jxiv.4159",
@@ -91,6 +94,16 @@
           "Stability Response"
         ],
         "principle": "Valid individual events do not necessarily form a stable trajectory."
+      },
+      "gyroauth_interactive_demo": {
+        "live_url": "https://gitgyro-dev.github.io/gyroauth/",
+        "repository": "https://github.com/gitGyro-Dev/gyroauth",
+        "role": "Public interactive research demonstration",
+        "focus": [
+          "Auth Decision != Criterion Update Response",
+          "dynamic criterion != unconstrained self-update",
+          "valid events != stable trajectory"
+        ]
       }
     },
     "knowledge_storage": {
@@ -98,7 +111,7 @@
       "notebooklm": "External knowledge hub"
     },
     "communication": {
-      "x": "External communication channel",
+      "x": "https://x.com/gyro_logic_lab",
       "github_issues": "Repository issues",
       "github_discussions": "Repository discussions"
     }
