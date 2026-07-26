@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.6",
+  "schema_version": "0.7",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-07-17",
+  "generated_at": "2026-07-26",
   "artifacts": [
     {
       "name": "Gyro Project Cycle",
@@ -75,11 +75,7 @@
       "stage": "Mathematical Study",
       "status": "Completed",
       "source_range": "gyrologic/docs/37-41",
-      "concepts": [
-        "Structure",
-        "Slice",
-        "Stability"
-      ],
+      "concepts": ["Structure", "Slice", "Stability"],
       "supports": "gyrologic/docs/47_Minimal_Formal_Model_v1_20260717.md",
       "next": "Use in terminology and paper consistency review"
     },
@@ -89,12 +85,7 @@
       "stage": "Mathematical Study",
       "status": "Completed",
       "source_range": "gyrologic/docs/42-46",
-      "concepts": [
-        "Incorporated Readability",
-        "Continuity Readability",
-        "Trajectory",
-        "Difference"
-      ],
+      "concepts": ["Incorporated Readability", "Continuity Readability", "Trajectory", "Difference"],
       "supports": "gyrologic/docs/47_Minimal_Formal_Model_v1_20260717.md",
       "next": "Use in terminology and paper consistency review"
     },
@@ -198,6 +189,21 @@
       "status": "Completed",
       "source": "gyroauth/examples/trajectory_vulnerability_response/demo.py",
       "next": "Evaluate with real-world datasets"
+    },
+    {
+      "name": "GyroAuth Interactive Research Demo",
+      "layer": "GyroAuth",
+      "stage": "Public Demo",
+      "status": "Published on GitHub Pages",
+      "source": "https://gitgyro-dev.github.io/gyroauth/",
+      "repository_source": "https://github.com/gitGyro-Dev/gyroauth",
+      "purpose": "Visualize the separation between Auth Decision and Criterion Update Response across deterministic GyroAuth scenarios",
+      "key_propositions": [
+        "Auth Decision != Criterion Update Response",
+        "dynamic criterion != unconstrained self-update",
+        "valid events != stable trajectory"
+      ],
+      "next": "Maintain the live demo, connect it from README and Hub, and reuse screenshots or GIFs for public communication"
     }
   ]
 }
