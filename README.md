@@ -31,24 +31,26 @@ Gyro asks:
 Gyro Hub is not only a dashboard or a repository index. It exists to connect and operate the full Gyro research cycle.
 
 ```text
-Brainstorm
-↓
-Hypothesis / Idea
-↓
-X / Communication
+Brainstorm / Hypothesis
 ↓
 GitHub Documentation
+↓
+Multi-AI Critical Review
 ↓
 PoC / Prototype
 ↓
 Paper / Release
 ↓
-Feedback
+External Feedback
 ↓
 Refinement
 ↓
-Brainstorm
+Brainstorm / Hypothesis
 ```
+
+The Multi-AI Critical Review stage uses independent critical passes before mature publication or release. ChatGPT develops and revises the working note; Claude and Gemini review independently. Claude may commit review artifacts under `reviews/`, but does not edit the reviewed note or publication material. Review agreement is not treated as proof, and disagreements are preserved for human judgment.
+
+See [Research Cycle](research_cycle.md) for the detailed operating model.
 
 This cycle is the operating model for growing Gyro from theory into runtime, application, publication, feedback, and further research.
 
