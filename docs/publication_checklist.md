@@ -35,7 +35,28 @@ Use one copy of this checklist for each paper, preprint, release, translation, o
 
 ---
 
-## 3. PDF and Artifact Validation
+## 3. Pre-publication Multi-AI Critical Review
+
+For major manuscripts, releases, or theory-bearing research artifacts, complete the Multi-AI Critical Review Gate before publication.
+
+- [ ] ChatGPT internal consistency and revision pass completed
+- [ ] Claude independent critical review completed
+- [ ] Gemini independent critical review completed
+- [ ] Claude and Gemini reviews were performed independently before synthesis where practical
+- [ ] Review artifacts recorded in `reviews/` or the project-equivalent review location
+- [ ] Claude/Gemini did not edit the reviewed source note or publication material directly
+- [ ] Review disagreements preserved rather than averaged away
+- [ ] Factual criticisms independently verified before acceptance
+- [ ] Each material criticism classified: accept / partial / reject / verify / defer
+- [ ] Accepted criticisms reflected in the revised source
+- [ ] Follow-up review completed when substantial issues remained open
+- [ ] Project owner reviewed the resulting criticism/revision record before publication
+
+Reference operating model: [`../research_cycle.md`](../research_cycle.md).
+
+---
+
+## 4. PDF and Artifact Validation
 
 - [ ] Publication PDF generated
 - [ ] PDF title, author, abstract, and references verified
@@ -48,7 +69,7 @@ Use one copy of this checklist for each paper, preprint, release, translation, o
 
 ---
 
-## 4. GitHub Release
+## 5. GitHub Release
 
 - [ ] Release scope confirmed
 - [ ] Release candidate review completed
@@ -61,7 +82,7 @@ Use one copy of this checklist for each paper, preprint, release, translation, o
 
 ---
 
-## 5. Zenodo
+## 6. Zenodo
 
 - [ ] GitHub–Zenodo integration confirmed
 - [ ] Zenodo deposition created from the intended release
@@ -77,7 +98,7 @@ Use one copy of this checklist for each paper, preprint, release, translation, o
 
 ---
 
-## 6. Jxiv
+## 7. Jxiv
 
 ### English edition
 
@@ -113,7 +134,7 @@ Use one copy of this checklist for each paper, preprint, release, translation, o
 
 ---
 
-## 7. ORCID
+## 8. ORCID
 
 - [ ] Work imported automatically or added manually
 - [ ] Correct DOI attached
@@ -128,7 +149,7 @@ Use one copy of this checklist for each paper, preprint, release, translation, o
 
 ---
 
-## 8. ResearchHub
+## 9. ResearchHub
 
 - [ ] ResearchHub profile is complete
 - [ ] ORCID is connected
@@ -154,7 +175,7 @@ Templates:
 
 ---
 
-## 9. Gyro Hub
+## 10. Gyro Hub
 
 - [ ] `papers.md` updated
 - [ ] `projects.md` updated where applicable
@@ -168,7 +189,7 @@ Templates:
 
 ---
 
-## 10. Communication
+## 11. Communication
 
 - [ ] X announcement prepared
 - [ ] English announcement published where appropriate
@@ -180,7 +201,7 @@ Templates:
 
 ---
 
-## 11. Feedback and Continuation
+## 12. Feedback and Continuation
 
 - [ ] ResearchHub feedback reviewed
 - [ ] GitHub issues or discussions created for actionable feedback
@@ -190,10 +211,11 @@ Templates:
 - [ ] Toolkit improvements identified
 - [ ] Roadmap implications identified
 - [ ] Next publication or revision candidate recorded
+- [ ] Significant external feedback routed back through the Multi-AI Critical Review process where appropriate
 
 ---
 
-## 12. Completion Record
+## 13. Completion Record
 
 - **Project:**
 - **Publication:**
@@ -218,7 +240,13 @@ Templates:
 ```text
 Research and implementation
         ↓
-GitHub source and release
+GitHub source and documentation
+        ↓
+Multi-AI Critical Review
+        ↓
+Revision and human judgment
+        ↓
+GitHub release
         ↓
 Zenodo archive and DOI
         ↓
