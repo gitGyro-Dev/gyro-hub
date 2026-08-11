@@ -53,14 +53,32 @@ For major manuscripts, releases, or theory-bearing research artifacts, complete 
   - [ ] `misunderstanding`
   - [ ] `needs verification`
   - [ ] `future work`
-- [ ] `needs verification` items independently checked before acceptance or rejection
+- [ ] Each material criticism also assigned publication-impact severity:
+  - [ ] `blocking`
+  - [ ] `recommended`
+  - [ ] `optional`
+- [ ] Severity kept conceptually separate from disposition: disposition = whether the criticism is accepted; severity = whether it blocks the current version
+- [ ] `needs verification + blocking` items independently checked before advancement
 - [ ] Review content was not adopted automatically merely because an AI reviewer proposed it
-- [ ] Disposition record committed before the corresponding source revision
-- [ ] Accepted current-scope criticisms reflected in the revised source
-- [ ] `future work` items preserved outside the current revision scope where appropriate
+- [ ] Disposition/severity record committed before the corresponding source revision
+- [ ] `valid + blocking` items resolved before advancement
+- [ ] `valid + recommended` and `partially valid + recommended` items either addressed or explicitly deferred with rationale
+- [ ] `optional` and `future work` items not allowed to create an artificial publication block
 - [ ] Follow-up review completed when substantial issues remained open
-- [ ] Operational sequence followed where applicable: `classification record → revised note → re-review`
-- [ ] Project owner reviewed the resulting criticism/revision record before publication
+- [ ] Operational sequence followed where applicable: `classification record → revised note → re-review → convergence check`
+
+### Convergence check
+
+The review loop does not need to continue until reviewers have no comments. Before publication or release, confirm:
+
+- [ ] No unresolved `blocking` item remains
+- [ ] The current version is internally coherent: definitions, assumptions, claims, and conclusions do not directly contradict one another
+- [ ] Blocking factual, mathematical, bibliographic, and implementation-dependent claims have been verified
+- [ ] Material reviewer disagreements are recorded rather than hidden
+- [ ] Remaining `recommended`, `optional`, and `future work` items are either handled or explicitly preserved for later work
+- [ ] The latest review round does not merely restate previously resolved criticisms without identifying a new blocking defect
+- [ ] The current version is treated as a coherent versioned research state, not as a claim of permanent finality
+- [ ] Project owner reviewed the resulting criticism/revision/convergence record before publication
 
 Reference operating model: [`../research_cycle.md`](../research_cycle.md).
 
@@ -254,11 +272,13 @@ GitHub source and documentation
         ↓
 Multi-AI Critical Review
         ↓
-Disposition classification and duplicate check
+Disposition + severity + duplicate check
         ↓
 Revision and human judgment
         ↓
 Independent re-review
+        ↓
+Convergence check
         ↓
 GitHub release
         ↓
