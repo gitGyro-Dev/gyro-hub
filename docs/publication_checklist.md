@@ -40,16 +40,26 @@ Use one copy of this checklist for each paper, preprint, release, translation, o
 For major manuscripts, releases, or theory-bearing research artifacts, complete the Multi-AI Critical Review Gate before publication.
 
 - [ ] ChatGPT internal consistency and revision pass completed
-- [ ] Claude independent critical review completed
+- [ ] Claude Code / Claude independent critical review completed
 - [ ] Gemini independent critical review completed
 - [ ] Claude and Gemini reviews were performed independently before synthesis where practical
 - [ ] Review artifacts recorded in `reviews/` or the project-equivalent review location
 - [ ] Claude/Gemini did not edit the reviewed source note or publication material directly
 - [ ] Review disagreements preserved rather than averaged away
-- [ ] Factual criticisms independently verified before acceptance
-- [ ] Each material criticism classified: accept / partial / reject / verify / defer
-- [ ] Accepted criticisms reflected in the revised source
+- [ ] Existing review records checked for duplicate or substantially overlapping criticisms
+- [ ] Each material criticism classified by ChatGPT before revision as one of:
+  - [ ] `valid`
+  - [ ] `partially valid`
+  - [ ] `misunderstanding`
+  - [ ] `needs verification`
+  - [ ] `future work`
+- [ ] `needs verification` items independently checked before acceptance or rejection
+- [ ] Review content was not adopted automatically merely because an AI reviewer proposed it
+- [ ] Disposition record committed before the corresponding source revision
+- [ ] Accepted current-scope criticisms reflected in the revised source
+- [ ] `future work` items preserved outside the current revision scope where appropriate
 - [ ] Follow-up review completed when substantial issues remained open
+- [ ] Operational sequence followed where applicable: `classification record → revised note → re-review`
 - [ ] Project owner reviewed the resulting criticism/revision record before publication
 
 Reference operating model: [`../research_cycle.md`](../research_cycle.md).
@@ -244,7 +254,11 @@ GitHub source and documentation
         ↓
 Multi-AI Critical Review
         ↓
+Disposition classification and duplicate check
+        ↓
 Revision and human judgment
+        ↓
+Independent re-review
         ↓
 GitHub release
         ↓
