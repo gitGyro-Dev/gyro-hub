@@ -25,24 +25,28 @@ Gyro Hub は、単なるREADMEやDashboardではありません。
 Gyro Project 全体を継続的に育てるための、次の研究サイクルを管理・可視化する入口です。
 
 ```text
-Brainstorm
-↓
-Hypothesis / Idea
-↓
-X / Communication
+Brainstorm / Hypothesis
 ↓
 GitHub Documentation
+↓
+Multi-AI Critical Review
 ↓
 PoC / Prototype
 ↓
 Paper / Release
 ↓
-Feedback
+External Feedback
 ↓
 Refinement
 ↓
-Brainstorm
+Brainstorm / Hypothesis
 ```
+
+Multi-AI Critical Review では、成熟した公開・リリースの前に複数AIによる独立した批判的レビューを行います。ChatGPT はアイデアの整理・言語化・改訂を担当し、Claude と Gemini は独立した視点からレビューします。Claude が直接コミットしてよいのは `reviews/` 配下のレビュー成果物であり、レビュー対象の本文や投稿原稿そのものは編集しません。
+
+また、複数AIの意見一致は妥当性の証明とはみなさず、意見の不一致も残したうえで人間が判断します。
+
+詳細な運用ルールは [Research Cycle](research_cycle.md) を参照します。
 
 この循環によって、初期アイデアを、ドキュメント、PoC、論文、リリース、フィードバック、次の研究へと発展させます。
 
