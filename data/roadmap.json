@@ -31,7 +31,9 @@
           "Minimal Formal Model v1 docs/47_Minimal_Formal_Model_v1_20260717.md",
           "Mathematical Field Comparison docs/48_Mathematical_Field_Comparison_20260717.md",
           "Project Cycle Reflection docs/49_Project_Cycle_Reflection_20260717.md",
-          "Documentation Index update through docs/48"
+          "Documentation Index update through docs/48",
+          "Jxiv v4.0 publication 10.51094/jxiv.5641",
+          "External critical review (Claude, Gemini) of Jxiv v4.0, 2026-08-10"
         ],
         "in_progress": [
           "Paper Architecture",
@@ -40,16 +42,24 @@
           "Validation Examples",
           "v3.1 English paper reflection",
           "v3.1 Japanese paper reflection",
-          "Release Candidate update planning"
+          "Release Candidate update planning",
+          "Formalization Gap Study (Readability Semantics, Proposition Layer)"
         ],
         "future_work": [
           "Minimal Formal Model v1.1 evaluation",
           "README and README_jp update after terminology review",
           "Paper validation and limitation examples",
           "Release Candidate revision",
-          "Release and publication decision"
+          "Release and publication decision",
+          "Formal Semantics of Readability (Gap A)",
+          "Proposition and Counterexample Layer (Gap B)",
+          "Admissibility / Traceability Semantics (Gap C)",
+          "Local Realization Composition Study (Gap D)",
+          "Executable Instantiation Study (Gap E)",
+          "Blind Concept Validation",
+          "Pre-publication Multi-AI Critical Review Gate"
         ],
-        "next": "Reconstruct Minimal Formal Model v1 into paper architecture, then review terminology and cross-document consistency before README, papers, and release candidate updates"
+        "next": "Resolve the Formalization Gap Study (Readability Semantics, Proposition Layer) opened by the 2026-08-10 external critical review, then continue paper architecture and cross-document consistency review before README, papers, and release candidate updates"
       },
       {
         "phase": 2,
@@ -170,14 +180,15 @@
       {
         "id": "mathematical_foundations",
         "name": "Mathematical Foundations",
-        "status": "Study Completed / Paper Reflection Active",
+        "status": "Jxiv v4.0 Published / External Critical Review Completed / Formalization Gap Study Started",
         "objective": "Provide a minimal integrated formal schema for Gyro Logic while preserving the invariant Core and avoiding reduction to one existing mathematical field.",
         "current_model": "Gyro Logic Minimal Formal Model v1",
         "current_artifacts": [
           "gyrologic/docs/47_Minimal_Formal_Model_v1_20260717.md",
           "gyrologic/docs/48_Mathematical_Field_Comparison_20260717.md",
           "gyrologic/docs/49_Project_Cycle_Reflection_20260717.md",
-          "gyrologic/docs/docs_index.md"
+          "gyrologic/docs/docs_index.md",
+          "gyrologic/project_cycle/2026-08-10_external_critical_review_followup.md"
         ],
         "completed_milestones": [
           "Core Definition Refinement",
@@ -185,7 +196,9 @@
           "Grade A Incorporated Readability, Continuity Readability, Trajectory, and Difference studies",
           "Minimal Formal Model v1",
           "Mathematical Field Comparison",
-          "Documentation Index update"
+          "Documentation Index update",
+          "Jxiv v4.0 publication 10.51094/jxiv.5641",
+          "External critical review (Claude, Gemini), 2026-08-10"
         ],
         "next_milestones": [
           "Paper Architecture",
@@ -194,9 +207,27 @@
           "Validation Examples",
           "Minimal Formal Model v1.1 consideration",
           "README and paper reflection",
-          "Release Candidate update"
+          "Release Candidate update",
+          "Formal Semantics of Readability (Gap A, highest priority)",
+          "Proposition and Counterexample Layer (Gap B, highest priority)",
+          "Admissibility / Traceability Semantics (Gap C)",
+          "Local Realization Composition Study (Gap D)",
+          "Executable Instantiation Study (Gap E)"
         ],
         "boundary": "Minimal Formal Model v1 is an integrated provisional model, not a final axiomatization. It does not identify Gyro Logic with one mathematical discipline and does not change Structure → Slice → Stability or the canonical Core definitions."
+      },
+      {
+        "id": "multi_ai_critical_review_gate",
+        "name": "Pre-publication Multi-AI Critical Review Gate",
+        "status": "Adopted 2026-08-10",
+        "objective": "Require structured internal-consistency, adversarial/skeptical, mathematical, literature, and blind-concept AI review before major public manuscripts are submitted, and maintain the existing idea-note-level Claude/Gemini review gate for gyrologic/ideas/*.md.",
+        "reference": [
+          "gyrologic/reviews/review_workflow.md",
+          "gyrologic/reviews/critical_review_prompt.md",
+          "gyrologic/reviews/review_record_template.md",
+          "gyrologic/project_cycle/2026-08-10_external_critical_review_followup.md"
+        ],
+        "boundary": "Review roles are process governance; agreement among reviewers does not establish truth, and disagreement must be preserved rather than averaged away. Human checkpoint: project owner confirms review content in chat, which may occur after the review is already committed to git history."
       },
       {
         "id": "gyro_runtime_architecture",

@@ -31,6 +31,20 @@
       "status": "Published"
     },
     {
+      "project": "Gyro Logic",
+      "type": "theory-paper",
+      "language": "en",
+      "role": "minimal-formal-model",
+      "title": "A Minimal Formal Model for Gyro Logic: Local Articulation, Stability Scenes, and Contextual Tracing",
+      "medium": "Jxiv English",
+      "doi": "10.51094/jxiv.5641",
+      "url": "https://doi.org/10.51094/jxiv.5641",
+      "status": "Published",
+      "repository": "https://github.com/gitGyro-Dev/gyrologic",
+      "external_review_status": "Completed 2026-08-10 (Claude, Gemini)",
+      "external_review_record": "gyrologic/project_cycle/2026-08-10_external_critical_review_followup.md"
+    },
+    {
       "project": "GyroAuth",
       "type": "primary-paper",
       "language": "en",

@@ -14,7 +14,7 @@ Roadmap   = future direction
 
 | Project | Version / Track | Status | Next |
 |---|---|---|---|
-| Gyro Logic | v3.1 / Mathematical Formalization | Minimal Formal Model v1 completed / Paper preparation ready | Paper architecture, terminology review, cross-document review, validation examples |
+| Gyro Logic | v4.0 / Jxiv Published ([10.51094/jxiv.5641](https://doi.org/10.51094/jxiv.5641)) | External Critical Review Completed / Formalization Gap Study Started | Readability Semantics (Gap A), Proposition Layer (Gap B), Admissibility/Traceability (Gap C) |
 | GyroOS | v4.0 | PoC active / additional runtime-positioning study deferred | Continue bounded API and PoC work |
 | GyroAuth | v2.0 / Formalization Study | Primary and applied Jxiv publications completed / Formal Security Model study active | Formal documents, Criterion Integrity, Deviation Dynamics, PoC and dataset planning |
 | Gyro Developer Tools | In Development | Document, publication, artifact, and model-management candidates identified | Index, dependency, canonical, paper-diff, artifact, and model-status tooling |
@@ -30,6 +30,9 @@ Roadmap   = future direction
 - Gyro Logic Validation Examples
 - Minimal Formal Model v1.1 consideration
 - README, English/Japanese papers, and Release Candidate reflection
+- Gyro Logic Readability Semantics study (Gap A, highest priority)
+- Gyro Logic Proposition and Counterexample layer (Gap B, highest priority)
+- Multi-AI Critical Review Gate adoption for future manuscripts
 - GyroAuth Authentication Relation Continuity
 - GyroAuth Deviation Dynamics and Criterion Integrity
 - GyroAuth Formal Security Model Study
@@ -82,6 +85,26 @@ Minimal Formal Model v1 is an integrated provisional model. It is not a final ax
 6. README and paper reflection
 7. Release Candidate update
 
+### External Critical Review and Formalization Gap Study (2026-08-10)
+
+The Jxiv v4.0 publication ([10.51094/jxiv.5641](https://doi.org/10.51094/jxiv.5641), "A Minimal Formal Model for Gyro Logic: Local Articulation, Stability Scenes, and Contextual Tracing") received a deliberately critical external AI review (Claude, Gemini). Full record: [`gyrologic/project_cycle/2026-08-10_external_critical_review_followup.md`](https://github.com/gitGyro-Dev/gyrologic/blob/main/project_cycle/2026-08-10_external_critical_review_followup.md).
+
+Accepted next-cycle research gaps, in priority order:
+
+| Gap | Question | Priority |
+|---|---|---|
+| A — Semantics of Readability | What mathematical object or judgment is `Readable(...)`? | Highest |
+| B — Positive formal consequences | Which explicit propositions follow from current preservation constraints? | Highest |
+| C — Admissibility / traceability criteria | What makes `Adm(...)` and `Traceable(...)` complete? | High |
+| D — Composition of local realizations | When and how do local realizations compose? | High |
+| E — Observable / executable instantiation | Can the model support a simulation-based instantiation? | Medium, after A-D |
+
+A factual bibliography criticism (earlier introductory paper allegedly missing) was checked against the published PDF and rejected — the citation is present.
+
+### Multi-AI Critical Review Gate
+
+Adopted as a methodology update: future major public manuscripts pass a structured multi-AI review (internal consistency, adversarial/skeptical, mathematical, literature, blind-concept roles) before submission. See [`research_cycle.md`](research_cycle.md#multi-ai-critical-review-gate) for the operating cycle and the idea-note-level Claude/Gemini review gate already in use for `gyrologic/ideas/*.md`.
+
 ---
 
 ## GyroAuth Position
@@ -128,6 +151,7 @@ These concepts remain research candidates. They are not yet canonical API fields
 | GyroAuth | Japanese / Translation | GyroAuth：状態収束に対する安定性に基づく認証 | [10.51094/jxiv.5341](https://doi.org/10.51094/jxiv.5341) |
 | GyroAuth | English / Applied | Trajectory-Based Vulnerability Response | [10.51094/jxiv.5416](https://doi.org/10.51094/jxiv.5416) |
 | GyroAuth | Japanese / Applied Translation | Trajectoryに基づく脆弱性対応 | [10.51094/jxiv.5440](https://doi.org/10.51094/jxiv.5440) |
+| Gyro Logic | English / Minimal Formal Model | A Minimal Formal Model for Gyro Logic: Local Articulation, Stability Scenes, and Contextual Tracing | [10.51094/jxiv.5641](https://doi.org/10.51094/jxiv.5641) |
 
 ---
 
@@ -178,6 +202,8 @@ Toolkit must validate accepted theory and documents; it must not define or freez
 5. Update README, English/Japanese papers, and the v3.1 Release Candidate after review.
 6. Continue GyroAuth formal-document design without premature schema adoption.
 7. Evaluate document-index, dependency, canonical, artifact, paper-diff, and model-status automation.
+8. Advance the Formalization Gap Study: Readability Semantics (Gap A) and Proposition/Counterexample Layer (Gap B) first.
+9. Adopt the Multi-AI Critical Review Gate before future public manuscript submissions.
 
 ---
 

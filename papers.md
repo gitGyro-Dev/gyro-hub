@@ -19,6 +19,16 @@ This page summarizes the publications of the Gyro project.
 - Version: v2.4
 - DOI: [10.5281/zenodo.19674375](https://doi.org/10.5281/zenodo.19674375)
 
+### Minimal Formal Model v1 — Jxiv (English)
+
+**A Minimal Formal Model for Gyro Logic: Local Articulation, Stability Scenes, and Contextual Tracing**
+
+- Platform: Jxiv
+- Status: Published
+- DOI: [10.51094/jxiv.5641](https://doi.org/10.51094/jxiv.5641)
+- Repository: https://github.com/gitGyro-Dev/gyrologic
+- External critical review: Completed 2026-08-10 (Claude, Gemini) — see `gyrologic/project_cycle/2026-08-10_external_critical_review_followup.md`
+
 ## GyroOS
 
 Status: Design and implementation in progress.

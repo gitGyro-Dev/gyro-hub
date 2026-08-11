@@ -24,7 +24,7 @@
     "status": "Project Cycle Active"
   },
   "current_status": {
-    "gyro_logic": "Mathematical Formalization Study Completed / Minimal Formal Model v1 / Publication Visualization Planning",
+    "gyro_logic": "Jxiv v4.0 Published (10.51094/jxiv.5641) / External Critical Review Completed / Formalization Gap Study Started",
     "gyro_os": "v4.0 PoC active / additional runtime-positioning study deferred",
     "gyro_auth": "Primary and Applied Papers Published / Interactive Research Demo Published on GitHub Pages",
     "gyro_developer_tools": "Document, model-version, publication, demo-link, and future criterion-audit tooling candidates",
@@ -35,10 +35,13 @@
     "GyroAuth demo linkage from Hub and repository README",
     "Gyro Logic conceptual visualization design",
     "Gyro Logic paper and release visualization reuse",
-    "Cross-project demo and publication navigation"
+    "Cross-project demo and publication navigation",
+    "Gyro Logic Readability Semantics study (Gap A, highest priority)",
+    "Gyro Logic Proposition and Counterexample layer (Gap B, highest priority)",
+    "Multi-AI Critical Review Gate adoption for future manuscripts"
   ],
   "gyro_logic_formalization": {
-    "status": "Completed / Publication Visualization Planning",
+    "status": "Jxiv v4.0 Published / External Critical Review Completed / Formalization Gap Study Started",
     "canonical_core": "Structure → Slice → Stability",
     "formal_model_version": "Minimal Formal Model v1",
     "completed": [
@@ -47,16 +50,41 @@
       "Grade A Mathematical Type Studies",
       "Minimal Formal Model v1",
       "Mathematical Field Comparison",
-      "Documentation Index update"
+      "Documentation Index update",
+      "Jxiv v4.0 publication (10.51094/jxiv.5641)",
+      "External critical review (Claude, Gemini) of Jxiv v4.0"
     ],
     "key_artifacts": [
       "docs/47_Minimal_Formal_Model_v1_20260717.md",
       "docs/48_Mathematical_Field_Comparison_20260717.md",
       "docs/49_Project_Cycle_Reflection_20260717.md",
-      "docs/docs_index.md"
+      "docs/docs_index.md",
+      "project_cycle/2026-08-10_external_critical_review_followup.md"
     ],
-    "next": "Create one canonical conceptual image before considering an interactive Logic visualization",
+    "external_critical_review": {
+      "status": "Completed",
+      "date": "2026-08-10",
+      "reviewers": ["Claude", "Gemini"],
+      "record": "gyrologic/project_cycle/2026-08-10_external_critical_review_followup.md"
+    },
+    "formalization_gap_study": {
+      "status": "Started",
+      "priority_items": [
+        "Gap A — Semantics of Readability (highest priority)",
+        "Gap B — Positive formal consequences / proposition layer (highest priority)",
+        "Gap C — Admissibility and traceability criteria",
+        "Gap D — Composition of local realizations",
+        "Gap E — Observable / executable instantiation (medium, after A-D)"
+      ]
+    },
+    "next": "Resolve Formalization Gap Study (Readability Semantics, Proposition Layer) opened by the 2026-08-10 external critical review before further paper visualization work",
     "boundary": "Minimal Formal Model v1 is provisional and integrated, not a final axiomatization. Canonical Core definitions remain unchanged and Gyro Logic is not identified with one existing mathematical field."
+  },
+  "multi_ai_critical_review_gate": {
+    "status": "Adopted 2026-08-10",
+    "scope": "Idea-note review cycle (Claude + Gemini, per-note) and Pre-publication review gate for major manuscripts (internal consistency, adversarial/skeptical, mathematical, literature, blind-concept roles)",
+    "reference": "gyrologic/reviews/review_workflow.md",
+    "human_checkpoint": "Project owner reviews and confirms in chat; confirmation may occur after a review is already committed to git history"
   },
   "gyroauth_demo": {
     "status": "Published",
@@ -108,6 +136,14 @@
       "title": "Trajectoryに基づく脆弱性対応：ログイン後セキュリティ監視のためのGyroAuth応用モデル",
       "doi": "10.51094/jxiv.5440",
       "status": "Published on Jxiv"
+    },
+    {
+      "project": "Gyro Logic",
+      "language": "en",
+      "role": "minimal-formal-model",
+      "title": "A Minimal Formal Model for Gyro Logic: Local Articulation, Stability Scenes, and Contextual Tracing",
+      "doi": "10.51094/jxiv.5641",
+      "status": "Published on Jxiv / External Critical Review Completed"
     }
   ],
   "latest_weekly": {
@@ -133,6 +169,8 @@
     "Design one canonical Gyro Logic conceptual image",
     "Reuse the Logic image in README, paper, release, Hub, X, and ResearchHub",
     "Consider an interactive Logic visualization only after the canonical image is stable",
-    "Evaluate demo availability and broken-link checks in Gyro Developer Toolkit"
+    "Evaluate demo availability and broken-link checks in Gyro Developer Toolkit",
+    "Advance the Formalization Gap Study: Readability Semantics (Gap A) and Proposition/Counterexample Layer (Gap B) first",
+    "Adopt the Multi-AI Critical Review Gate (internal consistency, adversarial, mathematical, literature, blind-concept roles) before future public manuscript submissions"
   ]
 }
