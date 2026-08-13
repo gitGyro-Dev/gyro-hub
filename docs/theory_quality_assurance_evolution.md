@@ -43,11 +43,17 @@ The target is not:
 
 > AI says the result is correct.
 
-The target is:
+Nor is the target:
 
-> The result has passed several sufficiently different forms of verification appropriate to its maturity level.
+> This process proves that the theory is ultimately true.
 
-Multiple AI reviews should therefore be treated as **diverse criticism sources**, not as a majority vote and not as fully independent validators.
+The practical target is closer to:
+
+> At the current stage, no blocking contradiction or decisive counterevidence is known within the stated scope, and the artifact has enough supporting verification to be worth using, testing, or advancing further.
+
+The result should therefore be treated as **provisionally usable**, not as finally proven.
+
+Multiple AI reviews should be treated as **diverse criticism sources**, not as a majority vote and not as fully independent validators.
 
 Even when different vendors or model families are used, AI systems may share:
 
@@ -67,6 +73,82 @@ The more important question is whether different review methods can expose:
 - conflicts with known work
 - unverifiable claims
 - implementation failures
+
+---
+
+## What "Correct" Means in This Process
+
+Theory quality should not be reduced to a single binary notion of correctness.
+
+At least four different senses should be distinguished.
+
+### 1. Logical / Internal Correctness
+
+Questions include:
+
+- Are the definitions mutually consistent?
+- Do conclusions follow from stated assumptions?
+- Are hidden assumptions or circular arguments present?
+- Does terminology remain stable?
+
+This is comparatively close to a closed verification problem.
+
+### 2. Mathematical / Formal Correctness
+
+Questions include:
+
+- Are equations and transformations valid?
+- Are symbols, domains, and assumptions defined?
+- Can a formal claim be checked mechanically?
+- Does the mathematics still represent the intended theory?
+
+Formal verification can strengthen confidence here when the claim is actually formalizable.
+
+### 3. Empirical / External Validity
+
+Questions include:
+
+- Does the theory correspond to observed phenomena?
+- Does it survive relevant counterexamples?
+- Does a PoC or experiment behave as predicted?
+- Does external evidence support or contradict it?
+
+This usually cannot be settled by AI review alone.
+
+A successful review or experiment should be interpreted as evidence that the theory has **not yet been decisively refuted within the tested scope**, not as proof of universal truth.
+
+### 4. Practical / Operational Usefulness
+
+Questions include:
+
+- Does the theory help explain or organize the target problem?
+- Does it lead to useful predictions, designs, or implementations?
+- Does applying it repeatedly produce meaningful results?
+- Is it more useful than available alternatives for the intended scope?
+
+This is not identical to truth, but it matters strongly for whether further development is justified.
+
+These dimensions should not be collapsed into one status.
+
+---
+
+## Provisional Usability Principle
+
+For practical operation, the project does not need to claim ultimate correctness.
+
+A theory, formulation, or design may be considered **worth using or advancing** when:
+
+- no unresolved critical contradiction is known within the current scope
+- no decisive counterexample or contradictory evidence is known within the current scope
+- important assumptions and limitations are explicit
+- relevant criticism has been attempted from multiple directions
+- available mathematical, empirical, or implementation evidence is consistent with the current claims
+- unresolved issues are recorded rather than hidden
+- the human operator judges that further use, testing, or development is justified
+
+This status is provisional and may change when new evidence, criticism, or implementation behavior appears.
+
+The process therefore aims to maintain an evolving evidence state rather than to issue a permanent declaration of truth.
 
 ---
 
@@ -135,15 +217,24 @@ Prototype
 Engineering Review
       ↓
 External Review / Publication / Real-world Evaluation
+      ↓
+Updated evidence / limitations / new questions
+      ↺
 ```
 
 This should initially be understood as a **direction**, not as a rigid lifecycle.
 
-Projects may move backward, skip stages temporarily, or remain at a conceptual stage for long periods.
+Projects may move backward, skip stages temporarily, remain at a conceptual stage for long periods, or re-enter an earlier stage after new evidence appears.
 
 ---
 
 ## Candidate Gates
+
+The purpose of a Gate is **not to certify truth**.
+
+A Gate answers a narrower operational question:
+
+> Is the artifact sufficiently coherent, checked, and evidenced for the next intended use at its current maturity level?
 
 ### Gate 1 — Theory
 
@@ -313,6 +404,7 @@ The human operator should retain responsibility for:
 - judging whether a criticism requires modification
 - determining when further review has diminishing value
 - deciding when an artifact is mature enough for the next stage
+- deciding whether the current evidence is sufficient to justify continued use or development
 
 This is particularly important in theory development because repeated AI review can otherwise create endless correction loops or gradually replace the original idea with a more conventional one.
 
@@ -338,20 +430,44 @@ Not every valid observation must block progression.
 A review cycle may close when all of the following are true:
 
 1. No unresolved **critical contradiction** remains within the current scope.
-2. Material local issues are either fixed or explicitly documented with a reason for deferral.
-3. At least one adversarial / counterexample-oriented review has been performed for important claims.
-4. Remaining items are classified as interpretation differences, needs verification, future work, or stylistic preferences.
-5. The human operator confirms that additional review is unlikely to materially change the artifact at the current maturity level.
+2. No known decisive counterexample or contradictory evidence blocks the current intended use.
+3. Material local issues are either fixed or explicitly documented with a reason for deferral.
+4. At least one adversarial / counterexample-oriented review has been performed for important claims.
+5. Remaining items are classified as interpretation differences, needs verification, future work, or stylistic preferences.
+6. The human operator confirms that additional review is unlikely to materially change the artifact at the current maturity level.
 
 Do **not** use arbitrary numeric rules such as "N failed counterexample searches means the theory is correct." Repeated failure to find a counterexample may increase practical confidence, but it is not proof unless the search space and verification method justify that conclusion.
 
 Gate outcomes can later be standardized as:
 
-- **PASS** — no blocking issue remains for the current scope
-- **PASS WITH NOTES** — progression is allowed, but unresolved non-blocking items are recorded
-- **HOLD** — at least one blocking issue remains
+- **PASS** — no blocking issue remains for the current intended use and scope
+- **PASS WITH NOTES** — progression or use is allowed, but unresolved non-blocking items are recorded
+- **HOLD** — at least one blocking contradiction, counterexample, or evidence gap remains
+
+These labels indicate operational readiness, not permanent truth status.
 
 This is important to prevent quality assurance from becoming an endless optimization process.
+
+---
+
+## Evidence-oriented Status Language
+
+Where possible, avoid labels such as:
+
+- proven theory
+- completely correct
+- validated once and for all
+
+Prefer statements such as:
+
+- no critical contradiction is currently known within the stated scope
+- no decisive counterexample has been identified in the checks performed so far
+- current PoC results are consistent with the stated mechanism
+- the current formulation has passed the listed mathematical checks
+- the prototype behaves consistently with the current theory under the tested conditions
+- unresolved limitations and future verification items remain
+
+This language records **what has actually been checked**, making later reassessment easier.
 
 ---
 
@@ -380,6 +496,7 @@ A practical evolution path is:
 - distinguish blocking issues from future work
 - separate internal consistency status from external validity status
 - allow explicit Gate PASS / PASS WITH NOTES / HOLD
+- treat Gate status as provisional usability, not truth certification
 
 ### Stage 3 — Formal Verification Links
 
@@ -402,6 +519,7 @@ A practical evolution path is:
 - public criticism
 - independent reproduction
 - real-world usage feedback
+- update the theory, evidence status, or scope when new findings appear
 
 These stages describe increasing maturity, not mandatory project phases.
 
@@ -425,6 +543,7 @@ Useful observations to record include:
 - cases where a gate blocked progress unnecessarily
 - cases where a missing gate allowed a defect to propagate
 - cases where an internally consistent result later failed external validation
+- cases where a previously usable theory required revision after new evidence appeared
 
 The quality assurance process should therefore be treated as an evolving engineering artifact.
 
@@ -442,8 +561,10 @@ For now:
 6. Record unresolved items instead of forcing every issue to be solved immediately.
 7. Introduce mathematical, PoC, and prototype gates gradually as those artifacts mature.
 8. Introduce non-AI formal or symbolic checks only where they genuinely fit the claim being tested.
-9. Close a review cycle once no blocking contradiction remains and the remaining items are explicitly classified.
-10. Treat future Gate definitions as quality aids, not as rigid bureaucracy.
+9. Close a review cycle once no blocking contradiction or decisive counterevidence remains and the remaining items are explicitly classified.
+10. Treat Gate outcomes as provisional readiness for the next use, not as certification of ultimate truth.
+11. Update theory, scope, and evidence status when new criticism, experiments, implementations, or external reviews produce materially new information.
+12. Treat future Gate definitions as quality aids, not as rigid bureaucracy.
 
 ---
 
@@ -460,6 +581,7 @@ Potential additions:
 - review convergence / stopping criteria
 - formal verification candidates by artifact type
 - external-review integration
+- evidence-history / theory-revision log
 - automation in gyro-dev-tools / GitHub Actions
 
 These should be added only when operational experience justifies them.
