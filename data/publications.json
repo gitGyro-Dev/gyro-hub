@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.4",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-07-13",
+  "generated_at": "2026-08-16",
   "publications": [
     {
       "project": "Gyro Logic",
@@ -43,6 +43,21 @@
       "repository": "https://github.com/gitGyro-Dev/gyrologic",
       "external_review_status": "Completed 2026-08-10 (Claude, Gemini)",
       "external_review_record": "gyrologic/project_cycle/2026-08-10_external_critical_review_followup.md"
+    },
+    {
+      "project": "GyroOS",
+      "type": "runtime-paper",
+      "language": "en",
+      "role": "v4.0-manuscript",
+      "medium": "Jxiv English",
+      "doi": "10.51094/jxiv.5842",
+      "url": "https://doi.org/10.51094/jxiv.5842",
+      "status": "Published",
+      "repository": "https://github.com/gitGyro-Dev/gyroos",
+      "release": "v4.0.0",
+      "zenodo_doi": "10.5281/zenodo.21641266",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.21641266",
+      "translation_status": "Japanese translation preparation pending after reconciliation with public English version"
     },
     {
       "project": "GyroAuth",
