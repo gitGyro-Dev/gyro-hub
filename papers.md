@@ -31,7 +31,15 @@ This page summarizes the publications of the Gyro project.
 
 ## GyroOS
 
-Status: Design and implementation in progress.
+### GyroOS v4.0 — Jxiv (English)
+
+- Platform: Jxiv
+- Status: Published
+- DOI: [10.51094/jxiv.5842](https://doi.org/10.51094/jxiv.5842)
+- Repository: https://github.com/gitGyro-Dev/gyroos
+- GitHub Release: v4.0.0
+- Zenodo DOI: [10.5281/zenodo.21641266](https://doi.org/10.5281/zenodo.21641266)
+- Japanese translation: Pending preparation after reconciliation with the public English version
 
 ## GyroAuth
 
