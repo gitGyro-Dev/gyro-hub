@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.4",
+  "schema_version": "0.5",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-08-16",
+  "generated_at": "2026-08-23",
   "publications": [
     {
       "project": "Gyro Logic",
@@ -112,6 +112,20 @@
       "translation_of_doi": "10.51094/jxiv.5416",
       "repository": "https://github.com/gitGyro-Dev/gyroauth",
       "artifact_path": "examples/trajectory_vulnerability_response/"
+    },
+    {
+      "project": "GyroAuth",
+      "type": "adaptive-authentication-paper",
+      "language": "en",
+      "role": "guarded-criterion-trajectories",
+      "title": "Guarded Criterion Trajectories for Adaptive Authentication",
+      "medium": "Jxiv English",
+      "doi": "10.51094/jxiv.5671",
+      "url": "https://doi.org/10.51094/jxiv.5671",
+      "status": "Published",
+      "repository": "https://github.com/gitGyro-Dev/gyroauth",
+      "release": "v2.1.0",
+      "review_status": "Handled separately from publication-status synchronization"
     }
   ]
 }
