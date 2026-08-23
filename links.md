@@ -26,6 +26,7 @@ This page collects the main entry points of the Gyro ecosystem.
 | GyroAuth | Jxiv Japanese Primary | https://doi.org/10.51094/jxiv.5341 |
 | GyroAuth | Jxiv English Applied | https://doi.org/10.51094/jxiv.5416 |
 | GyroAuth | Jxiv Japanese Applied | https://doi.org/10.51094/jxiv.5440 |
+| GyroAuth | Jxiv Guarded Criterion Trajectories | https://doi.org/10.51094/jxiv.5671 |
 
 ## Communication
 
