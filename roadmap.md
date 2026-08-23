@@ -28,8 +28,12 @@ Status: v4.0 runtime release and English publication completed / Japanese transl
 - GyroAuth
 - Authentication PoC
 - API evolution
+- GitHub Release v2.1.0 — completed
+- Guarded Criterion Trajectories for Adaptive Authentication — Jxiv English published: 10.51094/jxiv.5671
+- Publication metadata synchronization — active/completing
+- Content review and improvement — separate review cycle
 
-Status: In Progress
+Status: v2.1.0 and Guarded Criterion Trajectories English publication completed / review-improvement work separated from publication-state synchronization / application evolution continues
 
 ## Phase 4 – Ecosystem
 - Gyro Hub
