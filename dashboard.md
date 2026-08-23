@@ -16,7 +16,7 @@ Roadmap   = future direction
 |---|---|---|---|
 | Gyro Logic | v4.0 / Jxiv Published ([10.51094/jxiv.5641](https://doi.org/10.51094/jxiv.5641)) | External Critical Review Completed / Formalization Gap Study Started | Readability Semantics (Gap A), Proposition Layer (Gap B), Admissibility/Traceability (Gap C) |
 | GyroOS | v4.0 / Jxiv Published ([10.51094/jxiv.5842](https://doi.org/10.51094/jxiv.5842)) | GitHub Release + Zenodo + English Jxiv publication completed | Reconcile Japanese translation against public English version and prepare Japanese submission |
-| GyroAuth | v2.0 / Formalization Study | Primary and applied Jxiv publications completed / Formal Security Model study active | Formal documents, Criterion Integrity, Deviation Dynamics, PoC and dataset planning |
+| GyroAuth | v2.1.0 / Guarded Criterion Trajectories | Guarded Criterion Trajectories Jxiv publication completed ([10.51094/jxiv.5671](https://doi.org/10.51094/jxiv.5671)); prior primary and applied papers also published | Publication metadata synchronization; separate review/improvement cycle; Japanese translation planning as applicable |
 | Gyro Developer Tools | In Development | Document, publication, artifact, and model-management candidates identified | Index, dependency, canonical, paper-diff, artifact, and model-status tooling |
 | Gyro Hub | v0.1 | Project Cycle Active | Continue Weekly, Dashboard, Roadmap, Artifact, and release-review operations |
 
@@ -29,6 +29,8 @@ Roadmap   = future direction
 - Multi-AI Critical Review Gate adoption for future manuscripts
 - GyroOS Japanese translation preparation after English Jxiv publication
 - GyroOS publication metadata synchronization across repository and Hub
+- GyroAuth Guarded Criterion Trajectories publication synchronization
+- GyroAuth review and improvement handled in a separate cycle
 - GyroAuth Authentication Relation Continuity
 - GyroAuth Deviation Dynamics and Criterion Integrity
 - GyroAuth Formal Security Model Study
@@ -136,6 +138,17 @@ Primary formulation:
 Authentication = Stability-based Selection over State Convergence
 ```
 
+Latest publication:
+
+```text
+Guarded Criterion Trajectories for Adaptive Authentication
+Jxiv DOI: 10.51094/jxiv.5671
+Status: Published
+Related release: v2.1.0
+```
+
+Publication-state synchronization is complete for the repository README and Hub publication index. Content review and improvement remain outside this update and are handled in a separate review cycle.
+
 Central applied proposition:
 
 ```text
@@ -160,7 +173,7 @@ Criterion Integrity
 Formal Security Model
 ```
 
-These concepts remain research candidates. They are not yet canonical API fields, Runtime contracts, or Release Candidate content.
+These concepts remain research candidates. They are not yet canonical API fields, Runtime contracts, or Release Candidate content unless separately adopted.
 
 ---
 
@@ -168,6 +181,7 @@ These concepts remain research candidates. They are not yet canonical API fields
 
 | Project | Language / Role | Publication | DOI |
 |---|---|---|---|
+| GyroAuth | English / Guarded Criterion Trajectories | Guarded Criterion Trajectories for Adaptive Authentication | [10.51094/jxiv.5671](https://doi.org/10.51094/jxiv.5671) |
 | GyroOS | English / v4.0 Runtime | GyroOS v4.0 preprint | [10.51094/jxiv.5842](https://doi.org/10.51094/jxiv.5842) |
 | Gyro Logic | English / Minimal Formal Model | A Minimal Formal Model for Gyro Logic: Local Articulation, Stability Scenes, and Contextual Tracing | [10.51094/jxiv.5641](https://doi.org/10.51094/jxiv.5641) |
 | GyroAuth | English / Primary | GyroAuth: Authentication as Stability-Based Selection over State Convergence | [10.51094/jxiv.4600](https://doi.org/10.51094/jxiv.4600) |
@@ -210,12 +224,13 @@ Toolkit must validate accepted theory and documents; it must not define or freez
 
 ## Next Actions
 
-1. Prepare the GyroOS Japanese translation from the public English Jxiv version.
-2. Synchronize GyroOS DOI metadata across Hub structured data and publication pages.
-3. Continue the Gyro Logic Formalization Gap Study with Readability Semantics and Proposition Layer first.
-4. Continue GyroAuth formal-document design without premature schema adoption.
-5. Evaluate publication and release-validation automation in Gyro Developer Toolkit.
-6. Maintain the Multi-AI Critical Review Gate before future public manuscript submissions.
+1. Keep GyroAuth publication metadata synchronized across Hub data and public entry points.
+2. Handle review and improvement of `Guarded Criterion Trajectories for Adaptive Authentication` in the separate review thread/cycle.
+3. Prepare GyroOS Japanese translation from the public English Jxiv version.
+4. Continue the Gyro Logic Formalization Gap Study with Readability Semantics and Proposition Layer first.
+5. Continue GyroAuth formal-document design without premature schema adoption.
+6. Evaluate publication and release-validation automation in Gyro Developer Toolkit.
+7. Maintain the Multi-AI Critical Review Gate before future public manuscript submissions.
 
 ---
 
