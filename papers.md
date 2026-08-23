@@ -81,6 +81,17 @@ Repository: https://github.com/gitGyro-Dev/gyroauth
 - DOI: [10.51094/jxiv.5440](https://doi.org/10.51094/jxiv.5440)
 - Artifact path: `examples/trajectory_vulnerability_response/`
 
+### Guarded Criterion Trajectories — Jxiv (English)
+
+**Guarded Criterion Trajectories for Adaptive Authentication**
+
+- Platform: Jxiv
+- Status: Published
+- DOI: [10.51094/jxiv.5671](https://doi.org/10.51094/jxiv.5671)
+- Repository: https://github.com/gitGyro-Dev/gyroauth
+- Related release: v2.1.0 — Guarded Criterion Trajectories and Research Demo
+- Review / improvement work: handled separately from this publication-status update
+
 ## Citation
 
 Please cite the corresponding DOI when referring to each publication.
