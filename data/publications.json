@@ -1,7 +1,7 @@
 {
   "schema_version": "0.5",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-08-23",
+  "generated_at": "2026-11-04",
   "publications": [
     {
       "project": "Gyro Logic",
@@ -42,7 +42,20 @@
       "status": "Published",
       "repository": "https://github.com/gitGyro-Dev/gyrologic",
       "external_review_status": "Completed 2026-08-10 (Claude, Gemini)",
-      "external_review_record": "gyrologic/project_cycle/2026-08-10_external_critical_review_followup.md"
+      "external_review_record": "gyrologic/project_cycle/2026-08-10_external_critical_review_followup.md",
+      "translation_doi": "10.51094/jxiv.6894"
+    },
+    {
+      "project": "Gyro Logic",
+      "type": "theory-paper-translation",
+      "language": "ja",
+      "role": "minimal-formal-model-japanese-translation",
+      "medium": "Jxiv Japanese",
+      "doi": "10.51094/jxiv.6894",
+      "url": "https://doi.org/10.51094/jxiv.6894",
+      "status": "Published",
+      "translation_of_doi": "10.51094/jxiv.5641",
+      "repository": "https://github.com/gitGyro-Dev/gyrologic"
     },
     {
       "project": "GyroOS",
