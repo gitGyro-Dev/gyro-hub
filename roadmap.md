@@ -9,8 +9,10 @@ Build the Gyro ecosystem from theory to practical applications.
 - DOI
 - Formalization Gap Study (Readability Semantics, Proposition Layer) — opened 2026-08-10 by external critical review of Jxiv v4.0 (10.51094/jxiv.5641)
 - Pre-publication Multi-AI Critical Review Gate — adopted 2026-08-10
+- Gyro Logic Minimal Formal Model English DOI 10.51094/jxiv.5641 — published
+- Gyro Logic Minimal Formal Model Japanese translation DOI 10.51094/jxiv.6894 — published (2026-11-04)
 
-Status: Publications and DOI completed / Formalization Gap Study active
+Status: Minimal Formal Model EN/JP Jxiv publications completed / Formalization Gap Study active; maintain publication metadata links
 
 ## Phase 2 – Runtime
 - GyroOS architecture
