@@ -24,7 +24,7 @@
     "status": "Project Cycle Active"
   },
   "current_status": {
-    "gyro_logic": "Jxiv v4.0 Published (10.51094/jxiv.5641) / External Critical Review Completed / Formalization Gap Study Started",
+    "gyro_logic": "Jxiv Minimal Formal Model English (10.51094/jxiv.5641) and Japanese translation (10.51094/jxiv.6894) Published / Formalization Gap Study Active",
     "gyro_os": "v4.0 PoC active / additional runtime-positioning study deferred",
     "gyro_auth": "Primary and Applied Papers Published / Interactive Research Demo Published on GitHub Pages",
     "gyro_developer_tools": "Document, model-version, publication, demo-link, and future criterion-audit tooling candidates",
@@ -41,7 +41,7 @@
     "Multi-AI Critical Review Gate adoption for future manuscripts"
   ],
   "gyro_logic_formalization": {
-    "status": "Jxiv v4.0 Published / External Critical Review Completed / Formalization Gap Study Started",
+    "status": "Minimal Formal Model English and Japanese Jxiv Published / Formalization Gap Study Started",
     "canonical_core": "Structure → Slice → Stability",
     "formal_model_version": "Minimal Formal Model v1",
     "completed": [
@@ -52,7 +52,8 @@
       "Mathematical Field Comparison",
       "Documentation Index update",
       "Jxiv v4.0 publication (10.51094/jxiv.5641)",
-      "External critical review (Claude, Gemini) of Jxiv v4.0"
+      "External critical review (Claude, Gemini) of Jxiv v4.0",
+      "Jxiv Japanese translation published (10.51094/jxiv.6894)"
     ],
     "key_artifacts": [
       "docs/47_Minimal_Formal_Model_v1_20260717.md",
@@ -64,7 +65,10 @@
     "external_critical_review": {
       "status": "Completed",
       "date": "2026-08-10",
-      "reviewers": ["Claude", "Gemini"],
+      "reviewers": [
+        "Claude",
+        "Gemini"
+      ],
       "record": "gyrologic/project_cycle/2026-08-10_external_critical_review_followup.md"
     },
     "formalization_gap_study": {
@@ -78,7 +82,13 @@
       ]
     },
     "next": "Resolve Formalization Gap Study (Readability Semantics, Proposition Layer) opened by the 2026-08-10 external critical review before further paper visualization work",
-    "boundary": "Minimal Formal Model v1 is provisional and integrated, not a final axiomatization. Canonical Core definitions remain unchanged and Gyro Logic is not identified with one existing mathematical field."
+    "boundary": "Minimal Formal Model v1 is provisional and integrated, not a final axiomatization. Canonical Core definitions remain unchanged and Gyro Logic is not identified with one existing mathematical field.",
+    "japanese_translation": {
+      "status": "Published",
+      "doi": "10.51094/jxiv.6894",
+      "url": "https://doi.org/10.51094/jxiv.6894",
+      "translation_of_doi": "10.51094/jxiv.5641"
+    }
   },
   "multi_ai_critical_review_gate": {
     "status": "Adopted 2026-08-10",
@@ -143,7 +153,16 @@
       "role": "minimal-formal-model",
       "title": "A Minimal Formal Model for Gyro Logic: Local Articulation, Stability Scenes, and Contextual Tracing",
       "doi": "10.51094/jxiv.5641",
-      "status": "Published on Jxiv / External Critical Review Completed"
+      "status": "Published on Jxiv / External Critical Review Completed",
+      "translation_doi": "10.51094/jxiv.6894"
+    },
+    {
+      "project": "Gyro Logic",
+      "language": "ja",
+      "role": "minimal-formal-model-translation",
+      "doi": "10.51094/jxiv.6894",
+      "status": "Published on Jxiv",
+      "translation_of_doi": "10.51094/jxiv.5641"
     }
   ],
   "latest_weekly": {
@@ -164,6 +183,7 @@
     "GyroAuth public demo is a deterministic research visualization, not a production authentication service or security guarantee"
   ],
   "next_actions": [
+    "Maintain Gyro Logic Minimal Formal Model English/Japanese Jxiv DOI linkage: 10.51094/jxiv.5641 ↔ 10.51094/jxiv.6894",
     "Maintain the GyroAuth live demo and public links",
     "Prepare reusable screenshots or GIFs from the GyroAuth demo",
     "Design one canonical Gyro Logic conceptual image",
@@ -172,5 +192,6 @@
     "Evaluate demo availability and broken-link checks in Gyro Developer Toolkit",
     "Advance the Formalization Gap Study: Readability Semantics (Gap A) and Proposition/Counterexample Layer (Gap B) first",
     "Adopt the Multi-AI Critical Review Gate (internal consistency, adversarial, mathematical, literature, blind-concept roles) before future public manuscript submissions"
-  ]
+  ],
+  "last_publication_update": "2026-11-04"
 }
