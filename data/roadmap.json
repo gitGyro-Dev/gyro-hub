@@ -1,14 +1,14 @@
 {
   "schema_version": "0.8",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-07-17",
+  "generated_at": "2026-11-04",
   "roadmap": {
     "vision": "Build the Gyro ecosystem from theory to runtime, application, project operations, and research platform.",
     "phases": [
       {
         "phase": 1,
         "name": "Theory",
-        "status": "Mathematical Formalization Study Completed / Paper Preparation Ready",
+        "status": "Minimal Formal Model English and Japanese Jxiv Published / Formalization Gap Study Active",
         "items": [
           "Gyro Logic",
           "Core Definition Refinement",
@@ -33,7 +33,8 @@
           "Project Cycle Reflection docs/49_Project_Cycle_Reflection_20260717.md",
           "Documentation Index update through docs/48",
           "Jxiv v4.0 publication 10.51094/jxiv.5641",
-          "External critical review (Claude, Gemini) of Jxiv v4.0, 2026-08-10"
+          "External critical review (Claude, Gemini) of Jxiv v4.0, 2026-08-10",
+          "Minimal Formal Model Japanese translation Jxiv published 10.51094/jxiv.6894"
         ],
         "in_progress": [
           "Paper Architecture",
@@ -59,7 +60,7 @@
           "Blind Concept Validation",
           "Pre-publication Multi-AI Critical Review Gate"
         ],
-        "next": "Resolve the Formalization Gap Study (Readability Semantics, Proposition Layer) opened by the 2026-08-10 external critical review, then continue paper architecture and cross-document consistency review before README, papers, and release candidate updates"
+        "next": "Maintain English/Japanese Minimal Formal Model publication linkage; separately continue Formalization Gap Study (Readability Semantics, Proposition Layer)."
       },
       {
         "phase": 2,
@@ -180,7 +181,7 @@
       {
         "id": "mathematical_foundations",
         "name": "Mathematical Foundations",
-        "status": "Jxiv v4.0 Published / External Critical Review Completed / Formalization Gap Study Started",
+        "status": "Minimal Formal Model English/Japanese Jxiv Published / Formalization Gap Study Active",
         "objective": "Provide a minimal integrated formal schema for Gyro Logic while preserving the invariant Core and avoiding reduction to one existing mathematical field.",
         "current_model": "Gyro Logic Minimal Formal Model v1",
         "current_artifacts": [
@@ -198,7 +199,8 @@
           "Mathematical Field Comparison",
           "Documentation Index update",
           "Jxiv v4.0 publication 10.51094/jxiv.5641",
-          "External critical review (Claude, Gemini), 2026-08-10"
+          "External critical review (Claude, Gemini), 2026-08-10",
+          "Minimal Formal Model Japanese translation Jxiv published 10.51094/jxiv.6894"
         ],
         "next_milestones": [
           "Paper Architecture",
