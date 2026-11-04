@@ -29,6 +29,15 @@ This page summarizes the publications of the Gyro project.
 - Repository: https://github.com/gitGyro-Dev/gyrologic
 - External critical review: Completed 2026-08-10 (Claude, Gemini) — see `gyrologic/project_cycle/2026-08-10_external_critical_review_followup.md`
 
+### Minimal Formal Model v1 — Jxiv (Japanese translation)
+
+- Platform: Jxiv
+- Status: Published
+- DOI: [10.51094/jxiv.6894](https://doi.org/10.51094/jxiv.6894)
+- Language: Japanese
+- Role: Translation of the English Minimal Formal Model paper ([10.51094/jxiv.5641](https://doi.org/10.51094/jxiv.5641))
+- Repository: https://github.com/gitGyro-Dev/gyrologic
+
 ## GyroOS
 
 ### GyroOS v4.0 — Jxiv (English)
