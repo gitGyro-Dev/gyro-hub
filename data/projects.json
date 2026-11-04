@@ -1,12 +1,12 @@
 {
   "schema_version": "0.5",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-07-17",
+  "generated_at": "2026-11-04",
   "projects": [
     {
       "name": "Gyro Logic",
       "layer": "Theory",
-      "status": "Mathematical Formalization Study Completed / Paper Preparation Ready",
+      "status": "Minimal Formal Model English/Japanese Jxiv Published / Formalization Gap Study Active",
       "version": "v3.1",
       "repository": "https://github.com/gitGyro-Dev/gyrologic",
       "current_focus": "Paper Architecture and Cross-document Consistency Review",
@@ -22,7 +22,9 @@
         "Minimal Formal Model v1",
         "Mathematical Field Comparison",
         "Documentation Index update through docs/48",
-        "Project Cycle Reflection docs/49"
+        "Project Cycle Reflection docs/49",
+        "Minimal Formal Model English Jxiv publication 10.51094/jxiv.5641",
+        "Minimal Formal Model Japanese translation Jxiv publication 10.51094/jxiv.6894"
       ],
       "in_progress": [
         "Paper Architecture",
@@ -32,7 +34,12 @@
         "English and Japanese paper reflection",
         "Release Candidate update planning"
       ],
-      "next": "Reflect Minimal Formal Model v1 into the paper architecture after terminology and consistency review, then update README and the v3.1 release candidate"
+      "next": "Maintain the English/Japanese Minimal Formal Model DOI linkage; continue the separately tracked Formalization Gap Study.",
+      "jxiv_minimal_formal_model": {
+        "english_doi": "10.51094/jxiv.5641",
+        "japanese_translation_doi": "10.51094/jxiv.6894",
+        "status": "Published EN/JP"
+      }
     },
     {
       "name": "GyroOS",
