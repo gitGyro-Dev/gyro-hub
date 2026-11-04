@@ -18,6 +18,15 @@ Gyro asks:
 
 ---
 
+## Recent Gyro Logic Publication
+
+The Japanese translation of the Gyro Logic Minimal Formal Model preprint is published on Jxiv.
+
+- English original: https://doi.org/10.51094/jxiv.5641
+- Japanese translation: https://doi.org/10.51094/jxiv.6894
+
+---
+
 ## Follow Gyro Project
 
 - X: https://x.com/gyro_logic_lab
