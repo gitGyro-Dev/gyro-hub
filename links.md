@@ -19,7 +19,8 @@ This page collects the main entry points of the Gyro ecosystem.
 | Gyro Logic | Jxiv English | https://doi.org/10.51094/jxiv.4159 |
 | Gyro Logic | Jxiv Japanese | https://doi.org/10.51094/jxiv.4597 |
 | Gyro Logic | Zenodo v2.4 | https://doi.org/10.5281/zenodo.19674375 |
-| Gyro Logic | Jxiv Minimal Formal Model | https://doi.org/10.51094/jxiv.5641 |
+| Gyro Logic | Jxiv Minimal Formal Model English | https://doi.org/10.51094/jxiv.5641 |
+| Gyro Logic | Jxiv Minimal Formal Model Japanese translation | https://doi.org/10.51094/jxiv.6894 |
 | GyroOS | Jxiv English v4.0 | https://doi.org/10.51094/jxiv.5842 |
 | GyroOS | Zenodo v4.0.0 | https://doi.org/10.5281/zenodo.21641266 |
 | GyroAuth | Jxiv English Primary | https://doi.org/10.51094/jxiv.4600 |
