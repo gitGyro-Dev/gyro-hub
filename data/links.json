@@ -1,7 +1,7 @@
 {
   "schema_version": "0.6",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-07-26",
+  "generated_at": "2026-11-04",
   "links": {
     "github": {
       "organization": "https://github.com/gitGyro-Dev",
@@ -21,7 +21,9 @@
       "gyroauth_primary_jxiv_en": "https://doi.org/10.51094/jxiv.4600",
       "gyroauth_primary_jxiv_jp": "https://doi.org/10.51094/jxiv.5341",
       "gyroauth_trajectory_vulnerability_response_jxiv_en": "https://doi.org/10.51094/jxiv.5416",
-      "gyroauth_trajectory_vulnerability_response_jxiv_jp": "https://doi.org/10.51094/jxiv.5440"
+      "gyroauth_trajectory_vulnerability_response_jxiv_jp": "https://doi.org/10.51094/jxiv.5440",
+      "gyro_logic_minimal_formal_model_jxiv_en": "https://doi.org/10.51094/jxiv.5641",
+      "gyro_logic_minimal_formal_model_jxiv_jp": "https://doi.org/10.51094/jxiv.6894"
     },
     "operations": {
       "dashboard": "dashboard.md",
@@ -104,6 +106,16 @@
           "dynamic criterion != unconstrained self-update",
           "valid events != stable trajectory"
         ]
+      },
+      "gyro_logic_minimal_formal_model_publication": {
+        "repository": "https://github.com/gitGyro-Dev/gyrologic",
+        "english_original": "https://doi.org/10.51094/jxiv.5641",
+        "japanese_translation": "https://doi.org/10.51094/jxiv.6894",
+        "publication_pair": [
+          "10.51094/jxiv.5641",
+          "10.51094/jxiv.6894"
+        ],
+        "status": "Both published"
       }
     },
     "knowledge_storage": {
