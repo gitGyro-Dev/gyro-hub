@@ -18,6 +18,17 @@ Gyro が問うのは、
 
 ---
 
+## Gyro Logic 最新公開情報
+
+Gyro Logic Minimal Formal Model の日本語翻訳版が Jxiv で公開されました。
+
+- 英語原版: https://doi.org/10.51094/jxiv.5641
+- 日本語翻訳版: https://doi.org/10.51094/jxiv.6894
+
+旧版の Gyro Logic 日本語論文（10.51094/jxiv.4597）とは別の公開成果です。
+
+---
+
 ## Gyro Project Cycle
 
 Gyro Hub は、単なるREADMEやDashboardではありません。
