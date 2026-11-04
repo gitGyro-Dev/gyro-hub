@@ -1,7 +1,7 @@
 {
   "schema_version": "0.7",
   "generated_by": "manual_project_cycle_reflection",
-  "generated_at": "2026-07-26",
+  "generated_at": "2026-11-04",
   "artifacts": [
     {
       "name": "Gyro Project Cycle",
@@ -75,7 +75,11 @@
       "stage": "Mathematical Study",
       "status": "Completed",
       "source_range": "gyrologic/docs/37-41",
-      "concepts": ["Structure", "Slice", "Stability"],
+      "concepts": [
+        "Structure",
+        "Slice",
+        "Stability"
+      ],
       "supports": "gyrologic/docs/47_Minimal_Formal_Model_v1_20260717.md",
       "next": "Use in terminology and paper consistency review"
     },
@@ -85,7 +89,12 @@
       "stage": "Mathematical Study",
       "status": "Completed",
       "source_range": "gyrologic/docs/42-46",
-      "concepts": ["Incorporated Readability", "Continuity Readability", "Trajectory", "Difference"],
+      "concepts": [
+        "Incorporated Readability",
+        "Continuity Readability",
+        "Trajectory",
+        "Difference"
+      ],
       "supports": "gyrologic/docs/47_Minimal_Formal_Model_v1_20260717.md",
       "next": "Use in terminology and paper consistency review"
     },
@@ -204,6 +213,16 @@
         "valid events != stable trajectory"
       ],
       "next": "Maintain the live demo, connect it from README and Hub, and reuse screenshots or GIFs for public communication"
+    },
+    {
+      "name": "Gyro Logic Minimal Formal Model Japanese Translation (Jxiv)",
+      "layer": "Gyro Logic",
+      "stage": "Published Translation",
+      "status": "Published on Jxiv",
+      "source": "https://doi.org/10.51094/jxiv.6894",
+      "repository_source": "https://github.com/gitGyro-Dev/gyrologic",
+      "translation_of_doi": "10.51094/jxiv.5641",
+      "next": "Maintain translation linkage and publication metadata"
     }
   ]
 }
