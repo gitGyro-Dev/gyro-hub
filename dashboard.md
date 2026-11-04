@@ -14,7 +14,7 @@ Roadmap   = future direction
 
 | Project | Version / Track | Status | Next |
 |---|---|---|---|
-| Gyro Logic | v4.0 / Jxiv Published ([10.51094/jxiv.5641](https://doi.org/10.51094/jxiv.5641)) | External Critical Review Completed / Formalization Gap Study Started | Readability Semantics (Gap A), Proposition Layer (Gap B), Admissibility/Traceability (Gap C) |
+| Gyro Logic | v4.0 / Jxiv English ([10.51094/jxiv.5641](https://doi.org/10.51094/jxiv.5641)) and Japanese translation ([10.51094/jxiv.6894](https://doi.org/10.51094/jxiv.6894)) published | Bilingual Minimal Formal Model publication completed / Formalization Gap Study remains active | Maintain EN/JP DOI linkage; continue Readability Semantics (Gap A), Proposition Layer (Gap B), Admissibility/Traceability (Gap C) |
 | GyroOS | v4.0 / Jxiv Published ([10.51094/jxiv.5842](https://doi.org/10.51094/jxiv.5842)) | GitHub Release + Zenodo + English Jxiv publication completed | Reconcile Japanese translation against public English version and prepare Japanese submission |
 | GyroAuth | v2.1.0 / Guarded Criterion Trajectories | Guarded Criterion Trajectories Jxiv publication completed ([10.51094/jxiv.5671](https://doi.org/10.51094/jxiv.5671)); prior primary and applied papers also published | Publication metadata synchronization; separate review/improvement cycle; Japanese translation planning as applicable |
 | Gyro Developer Tools | In Development | Document, publication, artifact, and model-management candidates identified | Index, dependency, canonical, paper-diff, artifact, and model-status tooling |
@@ -23,6 +23,8 @@ Roadmap   = future direction
 ---
 
 ## Current Focus
+
+- Gyro Logic Minimal Formal Model Japanese translation published on Jxiv (10.51094/jxiv.6894); maintain linkage with English DOI 10.51094/jxiv.5641
 
 - Gyro Logic Readability Semantics study (Gap A, highest priority)
 - Gyro Logic Proposition and Counterexample layer (Gap B, highest priority)
@@ -90,6 +92,16 @@ Accepted next-cycle research gaps, in priority order:
 ### Multi-AI Critical Review Gate
 
 Adopted as a methodology update: future major public manuscripts pass a structured multi-AI review (internal consistency, adversarial/skeptical, mathematical, literature, blind-concept roles) before submission. See [`research_cycle.md`](research_cycle.md#multi-ai-critical-review-gate) for the operating cycle.
+
+---
+
+## Gyro Logic Japanese Publication Update (2026-11-04)
+
+- Minimal Formal Model English DOI: https://doi.org/10.51094/jxiv.5641
+- Japanese translation DOI: https://doi.org/10.51094/jxiv.6894
+- Status: Published (both English and Japanese)
+- Next publication action: maintain metadata and original/translation linkage; no additional Japanese submission is pending for this paper.
+- The formalization gap research track remains separate and unchanged.
 
 ---
 
@@ -184,6 +196,7 @@ These concepts remain research candidates. They are not yet canonical API fields
 | GyroAuth | English / Guarded Criterion Trajectories | Guarded Criterion Trajectories for Adaptive Authentication | [10.51094/jxiv.5671](https://doi.org/10.51094/jxiv.5671) |
 | GyroOS | English / v4.0 Runtime | GyroOS v4.0 preprint | [10.51094/jxiv.5842](https://doi.org/10.51094/jxiv.5842) |
 | Gyro Logic | English / Minimal Formal Model | A Minimal Formal Model for Gyro Logic: Local Articulation, Stability Scenes, and Contextual Tracing | [10.51094/jxiv.5641](https://doi.org/10.51094/jxiv.5641) |
+| Gyro Logic | Japanese / Minimal Formal Model translation | Japanese translation of the Minimal Formal Model paper | [10.51094/jxiv.6894](https://doi.org/10.51094/jxiv.6894) |
 | GyroAuth | English / Primary | GyroAuth: Authentication as Stability-Based Selection over State Convergence | [10.51094/jxiv.4600](https://doi.org/10.51094/jxiv.4600) |
 | GyroAuth | Japanese / Translation | GyroAuth：状態収束に対する安定性に基づく認証 | [10.51094/jxiv.5341](https://doi.org/10.51094/jxiv.5341) |
 | GyroAuth | English / Applied | Trajectory-Based Vulnerability Response | [10.51094/jxiv.5416](https://doi.org/10.51094/jxiv.5416) |
@@ -223,6 +236,8 @@ Toolkit must validate accepted theory and documents; it must not define or freez
 ---
 
 ## Next Actions
+
+- Keep Gyro Logic English/Japanese Minimal Formal Model publication metadata and DOI cross-links synchronized; the Japanese translation is published.
 
 1. Keep GyroAuth publication metadata synchronized across Hub data and public entry points.
 2. Handle review and improvement of `Guarded Criterion Trajectories for Adaptive Authentication` in the separate review thread/cycle.
