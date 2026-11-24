@@ -1,0 +1,2 @@
+# Round 2 共通レビュー依頼（要約）
+4件応募を前提に、v0.1からの改善、7項目35点評価、技術的正確性、訴求力、図解・デモ、企業連携、50字タイトル/600字概要修正、社会展開を独立評価する。Blocking/Recommended/Optional と Ready/Minor Revision/Major Revision/Not Ready を区別。未確認資料は明記し、未実証の効果を追加しない。Canonical Coreを変更せず、GitHub編集は行わない。原文ではなく依頼内容の要約。
