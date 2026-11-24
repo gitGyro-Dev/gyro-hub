@@ -26,3 +26,6 @@ This is a **cross-project outreach and application-management initiative**, not 
 
 ## Evidence discipline
 Separate: verified rules / official-listed organizations / our hypotheses / open questions. Preserve original public sources and verification dates. Do not imply partnerships, endorsements, or guaranteed outcomes.
+
+## Candidate selection update (2026-11-24)
+Four candidate themes and provisional titles approved for preparation; final submission remains pending. See [selection record](application_selection.md).
