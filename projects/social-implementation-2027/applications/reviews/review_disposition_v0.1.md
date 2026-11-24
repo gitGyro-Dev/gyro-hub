@@ -1,0 +1,3 @@
+# Integrated disposition (provisional)
+INT-01 differentiation valid/blocking; INT-02 overlap valid/major; INT-03 fewer entries partially valid; INT-04 A/B merger partially valid; INT-05 defer/reslice valid as messaging; INT-06 AI agent valid as candidate; INT-07 runtime framing valid; INT-08 concrete PoC valid; INT-09 diagrams valid; INT-10 performance needs verification/blocking; INT-11 D withdrawal partially valid; INT-12 disclosure valid; INT-13 binary-only computer framing misunderstanding; INT-14 publication facts needs verification/blocking.
+Gemini scores A23 B25 C24 D24. Claude recommends A/B and conditional C; Gemini B/C. No final decision.
