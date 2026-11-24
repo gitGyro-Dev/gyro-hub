@@ -1,0 +1,2 @@
+# Positioning v0.2 (proposed)
+A: identity and criterion update separation. B: response before cause identification. C: runtime response selection, AI agent as prospective use case. D: formation of information, exploratory application. Preserve canonical core; no final submission decision. No unverified superiority claims.
