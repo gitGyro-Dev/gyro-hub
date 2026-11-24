@@ -30,3 +30,6 @@ Status: planning / evidence collection (2026-11-24). This roadmap is separate fr
 
 ## Candidate boundaries
 Gyro Logic is not assumed to be independently implemented by GyroOS; GyroOS runtime does not imply the whole theoretical vision is realized. GyroAuth PoCs do not establish real-world authentication efficacy without comparative testing.
+
+## Candidate selection update (2026-11-24)
+Four candidate themes and provisional titles approved for preparation; final submission remains pending. See [selection record](application_selection.md).
