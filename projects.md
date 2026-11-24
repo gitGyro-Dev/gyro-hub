@@ -21,3 +21,9 @@ Repository: https://github.com/gitGyro-Dev/gyro-dev-tools
 ## Gyro Hub
 Portal.
 Repository: https://github.com/gitGyro-Dev/gyro-hub
+
+## Social Implementation & Outreach 2027
+Cross-project external awards, partner research, licensing and collaboration strategy.
+- [Overview (日本語)](projects/social-implementation-2027/README_jp.md)
+- [Overview (English)](projects/social-implementation-2027/README.md)
+- [Outreach roadmap](projects/social-implementation-2027/roadmap.md)
