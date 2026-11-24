@@ -1,0 +1,2 @@
+# Claim verification
+Status: pending source inspection. Separate proposal, implemented behavior, differences in design, and unverified hypotheses. Do not claim performance, low data requirements, privacy, or guaranteed safety without evidence.
