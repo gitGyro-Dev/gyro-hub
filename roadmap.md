@@ -52,3 +52,9 @@ Status: Started
 - Research expansion
 - Community and collaboration
 - Production-ready ecosystem
+
+## Cross-project Outreach / Social Implementation (2026–2027)
+
+Research and technical milestones above remain independently managed. For external awards, cooperative partner research, candidate proposals, and MITOU Advanced preparation, see [Social Implementation & Outreach Roadmap 2027](projects/social-implementation-2027/roadmap.md).
+
+Status (2026-11-24): INNO-vation 2026 partner list checked; company-fit assessment provisional; multiple proposals permitted by official FAQ; final topic selection pending.
