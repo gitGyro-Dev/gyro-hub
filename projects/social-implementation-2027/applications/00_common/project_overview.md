@@ -1,0 +1,2 @@
+# Gyro Project
+Structure → Slice → Stability. Logic: theory; OS: runtime; Auth: identity evaluation; Security: response to state deviations. Outreach aims at recognition, joint research, licensing and implementation. Inno-vation 2026 and MITOU Advanced are targets.
