@@ -1,0 +1,2 @@
+# Independent review brief (reconstructed summary)
+Evaluate strategy, award fit, differentiation, independence, title and 600-character summary, company matching, improvements and alternative angles. Distinguish theory, implementation, business and award fit. Cite checked sources; do not invent evidence. Output review IDs, severity, rationale, recommendations. Claude: technical critique; Gemini: external positioning. No repository edits.
