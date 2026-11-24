@@ -1,0 +1,2 @@
+# Applications
+2026-11-24: four candidates retained; A/B/C main candidates, D exploratory. Final submission undecided. Original reviews and dispositions are separate. See strategy/claim_verification.md for evidence status.
